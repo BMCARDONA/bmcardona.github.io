@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reading List
-permalink: /reading-list/
+permalink: /reading_list/
 ---
 
 ## Reading List
