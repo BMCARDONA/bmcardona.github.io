@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Today I created this website. I will update it whenever I have any news about current (or upcoming) projects.  
+This website was created today. Updates will be made for any current (or upcoming) projects.  
