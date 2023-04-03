@@ -11,9 +11,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: B.S.
+    - title: B.S. Mathematics
       institution: Allegheny College
-      year: 2000
+      year: 2019-2023
       description:
         # - Description 1.
         # - Description 2.
@@ -102,4 +102,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Reading, Writing, Biking, Listening to [great](https://open.spotify.com/track/3eaJHhtNsKOumLQYU7bnas?si=b5b89a8162f243c3) music and [great](https://open.spotify.com/show/6GSnbFz5qzNuKnLmGzQbPc?si=1f5836c6998f421f) podcasts.
+    - <u>Hobbies:</u> Reading, Writing, Biking.
