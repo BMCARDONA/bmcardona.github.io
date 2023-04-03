@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Created this website! I am unsure in the coming days how much I will be updating this site, but I plan to update whenever I have any finished with (and have any upcoming) projects.  
+Today I created this website. In the coming days I am unsure how much I will be updating this site, but I will be sure to update it whenever I have news about any current (or future) projects.  
