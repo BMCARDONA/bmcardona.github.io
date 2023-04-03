@@ -9,5 +9,5 @@ permalink: /reading-list/
 
 Here are some books I've read recently, sorted by publication date:
 
-{% bibliography --query @*[type=book] --sort-by=issued:date --reverse --csl=chicago-fullnote-bibliography.csl %}
-{% endraw %}
+<!-- {% bibliography --query @*[type=book] --sort-by=issued:date --reverse --csl=chicago-fullnote-bibliography.csl %}
+{% endraw %} -->
