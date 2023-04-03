@@ -34,8 +34,8 @@
     - title: Undergraduate mathematics researcher
       institution: Allegheny College
       year: 2022
-      description:
-        - Studied algebraic geometry under the supervision of [Professor Caryn Werner](https://sites.allegheny.edu/math/faculty/.caryn-werner/)).
+      # description:
+        # - Studied algebraic geometry under the supervision of [Professor Caryn Werner](https://sites.allegheny.edu/math/faculty/.caryn-werner/)).
         # - Description 2.
         # - title: Description 3.
         #   contents:
@@ -44,8 +44,8 @@
     - title: Undergraduate biology researcher
       institution: Allegheny College
       year: 2021
-      description:
-        - Studied algebraic geometry under the supervision of [Professor Bradley Hersh](https://sites.allegheny.edu/bio/faculty/bradley-m-hersh/).
+      # description:
+      #   - Studied algebraic geometry under the supervision of [Professor Bradley Hersh](https://sites.allegheny.edu/bio/faculty/bradley-m-hersh/).
         # - Description 2.
 
     # - title: Director
