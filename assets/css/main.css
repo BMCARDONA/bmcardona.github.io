@@ -35,12 +35,12 @@
 }
 
 html[data-theme=dark] {
-  --global-bg-color: #152238;
+  --global-bg-color: #1C1C1D;
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
   --global-text-color-light: #e8e8e8;
-  --global-theme-color: #efcc00;
-  --global-hover-color: #efcc00;
+  --global-theme-color: #F29105;
+  --global-hover-color: #F29105;
   --global-footer-bg-color: #e8e8e8;
   --global-footer-text-color: #1C1C1D;
   --global-footer-link-color: #000000;
@@ -88,8 +88,7 @@ body.sticky-bottom-footer {
 }
 
 .profile img {
-  width: 70%;
-  border-radius: 10px;
+  width: 50%;
 }
 
 /******************************************************************************
