@@ -35,7 +35,7 @@
 }
 
 html[data-theme=dark] {
-  --global-bg-color: #1C1C1D;
+  --global-bg-color: #152238;
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
   --global-text-color-light: #e8e8e8;
@@ -88,7 +88,8 @@ body.sticky-bottom-footer {
 }
 
 .profile img {
-  width: 80%;
+  width: 70%;
+  border-radius: 10px;
 }
 
 /******************************************************************************
