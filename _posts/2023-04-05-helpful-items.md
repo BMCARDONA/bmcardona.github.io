@@ -44,5 +44,5 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
 #### Nightly routine
 - Brush teeth after dinner to avoid late-night eating.
 - Use a [time-blocking journal](https://www.amazon.com/Time-Block-Planner-Daily-Method-Distracted/dp/0593192052) to plan for tomorrow. (This journal has been *extremely* to me.)
-- When time blocking ends, schedule the rest of the day. (The latter portion should used for shallow work, as opposed to [deep work](https://calnewport.com/some-notes-on-deep-working/).) 
+- When time blocking ends, schedule rest of day. (The latter portion should used for shallow work, as opposed to [deep work](https://calnewport.com/some-notes-on-deep-working/).) 
 - Prepare tomorrow's clothes.
