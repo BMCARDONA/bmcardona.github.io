@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Bradley. I am an undergraduate mathematics student at [Allegheny College](https://allegheny.edu/). 
+Hi, I'm Bradley. An undergraduate mathematics student at [Allegheny College](https://allegheny.edu/). 
 
 **Interests**: Mathematics, Artificial Intelligence, Moral Philosophy, Machine Learning. *Interested in collaborating? [Contact me](mailto:bcardona300@gmail.com).*
 
