@@ -25,7 +25,7 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
 - Laptop
 
 #### Advice
-- Use a fan to drown out white noise. Alternatively, play [white noise](https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00) on a streaming service. (If you choose the latter, make sure to enable an unending loop.)
+- Use a fan to drown out surrounding noise. Alternatively, play [white noise](https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00) on the streaming service of your choice. (If the latter, be sure to enable an unending loop.)
 - Place alarm clock out of arms reach.
 - Don't use social media (that includes YouTube and Reddit). See [The Social Dilemma](https://www.netflix.com/title/81254224).
 

@@ -42,7 +42,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: false
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -119,7 +119,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Bradley's writing # blog_name will be displayed in your blog page
 blog_nav_title: Writing # your blog must have a title for it to be displayed in the nav bar
-blog_description: A collection of my latest writings. 
+blog_description: A collection of my latest writing. 
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -249,7 +249,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: [] # this tags will be dispalyed on the front page of your blog
+display_tags: [category, category, category category, category, category, category] # this tags will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

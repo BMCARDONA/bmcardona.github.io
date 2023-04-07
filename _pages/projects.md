@@ -5,7 +5,7 @@ permalink: /projects/
 description: A portfolio of my latest projects.
 nav: true
 nav_order: 1
-display_categories: [work, fun, category, category, category, category, work, fun, category, category, category, category, category]
+display_categories: [work, fun]
 horizontal: false
 ---
 
