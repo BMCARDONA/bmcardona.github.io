@@ -195,7 +195,7 @@ blockquote {
 .profile .address {
   margin-bottom: 5px;
   margin-top: 5px;
-  font-family: monospace;
+  font-family: Georgia;
 }
 .profile .address p {
   display: inline-block;
@@ -891,9 +891,6 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   d-article d-contents nav {
     grid-column: none;
   }
-}
-body {
-  font-family: Georgia, sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
