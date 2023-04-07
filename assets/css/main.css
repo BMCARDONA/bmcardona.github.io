@@ -892,5 +892,8 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     grid-column: none;
   }
 }
+body {
+  font-family: Georgia, sans-serif;
+}
 
 /*# sourceMappingURL=main.css.map */
