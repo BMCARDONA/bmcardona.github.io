@@ -1,40 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-08T03:05:48+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-08T20:49:11+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Reading List</title><link href="https://bmcardona.github.io/blog/2023/reading-list/" rel="alternate" type="text/html" title="Reading List" /><published>2023-04-07T12:44:16+00:00</published><updated>2023-04-07T12:44:16+00:00</updated><id>https://bmcardona.github.io/blog/2023/reading-list</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/reading-list/"><![CDATA[<h4 id="reading">Reading:</h4>
 <ul>
-  <li><a href="https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758">Alexander Hamilton</a> by Ron Chernow.</li>
-  <li><a href="https://www.amazon.com/Artificial-Intelligence-A-Modern-Approach/dp/0134610997/ref=sr_1_1?crid=3TC0H4YT3TE25&amp;keywords=artificial+intelligence+a+modern+approach+4th+edition&amp;qid=1680920114&amp;s=books&amp;sprefix=Artific%2Cstripbooks%2C101&amp;sr=1-1&amp;ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0">Artificial Intelligence</a> by Stuart Russell and Peter Norvig.</li>
+  <li><a href="https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758"><em>Alexander Hamilton</em></a> by Ron Chernow.</li>
+  <li><a href="https://www.amazon.com/Artificial-Intelligence-A-Modern-Approach/dp/0134610997/ref=sr_1_1?crid=3TC0H4YT3TE25&amp;keywords=artificial+intelligence+a+modern+approach+4th+edition&amp;qid=1680920114&amp;s=books&amp;sprefix=Artific%2Cstripbooks%2C101&amp;sr=1-1&amp;ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0"><em>Artificial Intelligence</em></a> by Stuart Russell and Peter Norvig.</li>
 </ul>
 
 <h4 id="read">Read:</h4>
 <ul>
-  <li><a href="https://www.amazon.com/American-Prometheus-Triumph-Tragedy-Oppenheimer/dp/0375726268">American Prometheus</a> by Kai Bird and Martin J. Sherwin.</li>
-  <li><a href="https://www.amazon.com/Aquariums-Pyongyang-Years-North-Korean/dp/0465011047">The Aquariums of Pyongyang</a> by Chol-hwan Kang and Pierre Rigoulot.</li>
-  <li><a href="https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X/ref=sr_1_1?crid=3LAT4J9JB7C3Q&amp;keywords=Benjamin+Franklin+an+american+life&amp;qid=1680920166&amp;s=books&amp;sprefix=benjamin+franklin+an+american+lif%2Cstripbooks%2C163&amp;sr=1-1">Benjamin Franklin: An American Life</a> by Walter Isaacson.</li>
-  <li><a href="https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523">Brave New World</a> by Aldous Huxley.</li>
-  <li><a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692">Deep Work</a> by Cal Newport.</li>
-  <li><a href="https://www.amazon.com/Free-Will-Deckle-Edge-Harris/dp/1451683405/ref=pd_lpo_1?pd_rd_w=ipq4i&amp;content-id=amzn1.sym.116f529c-aa4d-4763-b2b6-4d614ec7dc00&amp;pf_rd_p=116f529c-aa4d-4763-b2b6-4d614ec7dc00&amp;pf_rd_r=1SM2W5FQGEDX4QPT9PA6&amp;pd_rd_wg=uXanv&amp;pd_rd_r=1b6e771a-623a-4744-9ba8-cbb49874d9bc&amp;pd_rd_i=1451683405&amp;psc=1">Free Will</a> by Sam Harris.</li>
-  <li><a href="https://www.amazon.com/Hitchhikers-Guide-Galaxy-Douglas-Adams/dp/0345391802">The Hitchhiker’s Guide to the Galaxy</a> by Douglas Adams.</li>
-  <li><a href="https://www.amazon.com/History-Western-Philosophy-Bertrand-Russell/dp/0671201581">A History of Western Philosophy</a> by Bertrand Russell.</li>
-  <li><a href="https://www.amazon.com/Lying-Sam-Harris/dp/1940051002">Lying</a> by Sam Harris.</li>
-  <li><a href="https://www.amazon.com/Making-Sense-Conversations-Consciousness-Morality/dp/B081ZHC3HX/ref=sr_1_1?crid=XA5M07707J09&amp;keywords=sam+harris+conversations&amp;qid=1680921108&amp;s=books&amp;sprefix=sam+harris+conversatio%2Cstripbooks%2C114&amp;sr=1-1">Making Sense: Conversations on Consciousness, Morality, and the Future of Humanity</a> by Sam Harris.</li>
-  <li><a href="https://www.amazon.com/Moral-Landscape-Science-Determine-Values/dp/143917122X">The Moral Landscape</a> by Sam Harris.</li>
-  <li><a href="https://www.amazon.com/Paper-Menagerie-Other-Stories/dp/148142436X/ref=sr_1_1?crid=2BXN2BQAUTYU&amp;keywords=The+Paper+Menagerie&amp;qid=1680920415&amp;s=books&amp;sprefix=the+paper+menagerie%2Cstripbooks%2C80&amp;sr=1-1">The Paper Menagerie</a> by Ken Liu.</li>
-  <li><a href="https://www.amazon.com/Primates-Memoir-Neuroscientists-Unconventional-Baboons/dp/0743202414">A Primate’s Memoir</a> by Robert Sapolsky.</li>
-  <li><a href="https://www.amazon.com/Three-Body-Problem-Boxed-Set-Remembrance/dp/1250254493/ref=sr_1_1?crid=ULZ8K8FJQ4KI&amp;keywords=three+body+problem+trilogy&amp;qid=1680920393&amp;s=books&amp;sprefix=three+body+problem+trilogy%2Cstripbooks%2C114&amp;sr=1-1">The Three Body Problem trilogy</a> by Cixin Liu.</li>
-  <li><a href="https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303">Titan: The Life of John D. Rockefeller, Sr.</a> by Ron Chernow.</li>
-  <li><a href="https://www.amazon.com/Waking-Up-Sam-Harris-audiobook/dp/B00M9KEFY6/ref=sr_1_1?crid=3RT3TWRQLHK66&amp;keywords=waking+up&amp;qid=1680919942&amp;sprefix=waking+u%2Caps%2C118&amp;sr=8-1">Waking Up: A Guide to Spirituality Without Religion</a> by Sam Harris.</li>
-  <li><a href="https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265431">10% Happier</a> by Dan Harris.</li>
-</ul>]]></content><author><name></name></author><category term="books" /><summary type="html"><![CDATA[Books by which I have personally been inspired.]]></summary></entry><entry><title type="html">A productivity cheatsheet</title><link href="https://bmcardona.github.io/blog/2023/helpful-items/" rel="alternate" type="text/html" title="A productivity cheatsheet" /><published>2023-04-05T12:44:16+00:00</published><updated>2023-04-05T12:44:16+00:00</updated><id>https://bmcardona.github.io/blog/2023/helpful-items</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/helpful-items/"><![CDATA[<p>This post was inspired by Stephen Wolfram’s 2019 <a href="https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/">post</a>.</p>
+  <li><a href="https://www.amazon.com/American-Prometheus-Triumph-Tragedy-Oppenheimer/dp/0375726268"><em>American Prometheus</em></a> by Kai Bird and Martin J. Sherwin.</li>
+  <li><a href="https://www.amazon.com/Aquariums-Pyongyang-Years-North-Korean/dp/0465011047"><em>The Aquariums of Pyongyang</em></a> by Chol-hwan Kang and Pierre Rigoulot.</li>
+  <li><a href="https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X/ref=sr_1_1?crid=3LAT4J9JB7C3Q&amp;keywords=Benjamin+Franklin+an+american+life&amp;qid=1680920166&amp;s=books&amp;sprefix=benjamin+franklin+an+american+lif%2Cstripbooks%2C163&amp;sr=1-1"><em>Benjamin Franklin: An American Life</em></a> by Walter Isaacson.</li>
+  <li><a href="https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523"><em>Brave New World</em></a> by Aldous Huxley.</li>
+  <li><a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692"><em>Deep Work</em></a> by Cal Newport.</li>
+  <li><a href="https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122"><em>Four Thousand Weeks: Time Management for Mortals</em></a> by Oliver Burkeman.</li>
+  <li><a href="https://www.amazon.com/Free-Will-Deckle-Edge-Harris/dp/1451683405/ref=pd_lpo_1?pd_rd_w=ipq4i&amp;content-id=amzn1.sym.116f529c-aa4d-4763-b2b6-4d614ec7dc00&amp;pf_rd_p=116f529c-aa4d-4763-b2b6-4d614ec7dc00&amp;pf_rd_r=1SM2W5FQGEDX4QPT9PA6&amp;pd_rd_wg=uXanv&amp;pd_rd_r=1b6e771a-623a-4744-9ba8-cbb49874d9bc&amp;pd_rd_i=1451683405&amp;psc=1"><em>Free Will</em></a> by Sam Harris.</li>
+  <li><a href="https://www.amazon.com/Hitchhikers-Guide-Galaxy-Douglas-Adams/dp/0345391802"><em>The Hitchhiker’s Guide to the Galaxy</em></a> by Douglas Adams.</li>
+  <li><a href="https://www.amazon.com/History-Western-Philosophy-Bertrand-Russell/dp/0671201581"><em>A History of Western Philosophy</em></a> by Bertrand Russell.</li>
+  <li><a href="https://www.amazon.com/Lying-Sam-Harris/dp/1940051002"><em>Lying</em></a> by Sam Harris.</li>
+  <li><a href="https://www.amazon.com/Making-Sense-Conversations-Consciousness-Morality/dp/B081ZHC3HX/ref=sr_1_1?crid=XA5M07707J09&amp;keywords=sam+harris+conversations&amp;qid=1680921108&amp;s=books&amp;sprefix=sam+harris+conversatio%2Cstripbooks%2C114&amp;sr=1-1"><em>Making Sense: Conversations on Consciousness, Morality, and the Future of Humanity</em></a> by Sam Harris.</li>
+  <li><a href="https://www.amazon.com/Moral-Landscape-Science-Determine-Values/dp/143917122X"><em>The Moral Landscape</em></a> by Sam Harris.</li>
+  <li><a href="https://www.amazon.com/Paper-Menagerie-Other-Stories/dp/148142436X/ref=sr_1_1?crid=2BXN2BQAUTYU&amp;keywords=The+Paper+Menagerie&amp;qid=1680920415&amp;s=books&amp;sprefix=the+paper+menagerie%2Cstripbooks%2C80&amp;sr=1-1"><em>The Paper Menagerie</em></a> by Ken Liu.</li>
+  <li><a href="https://www.amazon.com/Primates-Memoir-Neuroscientists-Unconventional-Baboons/dp/0743202414"><em>A Primate’s Memoir</em></a> by Robert Sapolsky.</li>
+  <li><a href="https://www.amazon.com/Three-Body-Problem-Boxed-Set-Remembrance/dp/1250254493/ref=sr_1_1?crid=ULZ8K8FJQ4KI&amp;keywords=three+body+problem+trilogy&amp;qid=1680920393&amp;s=books&amp;sprefix=three+body+problem+trilogy%2Cstripbooks%2C114&amp;sr=1-1"><em>The Three Body Problem trilogy</em></a> by Cixin Liu.</li>
+  <li><a href="https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303"><em>Titan: The Life of John D. Rockefeller, Sr.</em></a> by Ron Chernow.</li>
+  <li><a href="https://www.amazon.com/Waking-Up-Sam-Harris-audiobook/dp/B00M9KEFY6/ref=sr_1_1?crid=3RT3TWRQLHK66&amp;keywords=waking+up&amp;qid=1680919942&amp;sprefix=waking+u%2Caps%2C118&amp;sr=8-1"><em>Waking Up: A Guide to Spirituality Without Religion</em></a> by Sam Harris.</li>
+  <li><a href="https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265431"><em>10% Happier</em></a> by Dan Harris.</li>
+</ul>]]></content><author><name></name></author><category term="books" /><summary type="html"><![CDATA[Books by which I have personally been inspired.]]></summary></entry><entry><title type="html">An Infrastructure Cheatsheet</title><link href="https://bmcardona.github.io/blog/2023/infrastructure-cheatsheet/" rel="alternate" type="text/html" title="An Infrastructure Cheatsheet" /><published>2023-04-05T12:44:16+00:00</published><updated>2023-04-05T12:44:16+00:00</updated><id>https://bmcardona.github.io/blog/2023/infrastructure-cheatsheet</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/infrastructure-cheatsheet/"><![CDATA[<p>This post was inspired by Stephen Wolfram’s 2019 <a href="https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/">post</a>.</p>
 
-<h4 id="booksitems">Books/Items</h4>
+<blockquote>
+  <p>“Productivity is a trap. Becoming more efficient just makes you more rushed, and trying to clear the decks simply makes them fill up again faster. Nobody in the history of humanity has ever achieved “work-life balance,” whatever that might be, and you certainly won’t get there by copying the “six things successful people do before 7:00 a.m.” The day will never arrive when you finally have everything under control—when the flood of emails has been contained; when your to-do lists have stopped getting longer; when you’re meeting all your obligations at work and in your home life; when nobody’s angry with you for missing a deadline or dropping the ball; and when the fully optimized person you’ve become can turn, at long last, to the things life is really supposed to be about. Let’s start by admitting defeat: none of this is ever going to happen. But you know what? That’s excellent news.” —Oliver Burkeman, <em>Four Thousand Weeks: Time Management for Mortals</em></p>
+</blockquote>
+
+<h4 id="advice">Advice</h4>
 <ul>
-  <li><a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692">Deep Work</a> by Cal Newport.</li>
-  <li><a href="https://www.amazon.com/Waking-Up-Spirituality-Without-Religion/dp/1451636024">Waking Up</a> by Sam Harris.</li>
-  <li>Sam Harris’s <a href="https://www.wakingup.com">Waking Up App</a>.</li>
-  <li><em>This</em> <a href="https://www.amazon.com/Contoured-Sleeping-Blindfold-Concave-Meditation/dp/B07KC5DWCC/ref=zg_bs_3764231_sccl_1/132-0947972-7044716?th=1">sleep mask</a>.</li>
+  <li>Use a fan to drown out noise. Alternatively, play <a href="https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00">white noise</a> on loop.)</li>
+  <li>Place alarm clock out of arms reach.</li>
+  <li>Don’t use social media (that includes YouTube and Reddit). See <a href="https://www.netflix.com/title/81254224">The Social Dilemma</a>.</li>
 </ul>
 
-<h4 id="on-desk">On desk</h4>
+<h4 id="desk">Desk</h4>
 <ul>
   <li>Water</li>
   <li>Candle</li>
@@ -45,14 +49,7 @@
   <li>Laptop</li>
 </ul>
 
-<h4 id="advice">Advice</h4>
-<ul>
-  <li>Use a fan to drown out surrounding noise. Alternatively, play <a href="https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00">white noise</a> on the streaming service of your choice. (If the latter, be sure to enable an unending loop.)</li>
-  <li>Place alarm clock out of arms reach.</li>
-  <li>Don’t use social media (that includes YouTube and Reddit). See <a href="https://www.netflix.com/title/81254224">The Social Dilemma</a>.</li>
-</ul>
-
-<h4 id="educational">Educational</h4>
+<h4 id="helpful-resources">Helpful resources</h4>
 <ul>
   <li><a href="https://ocw.mit.edu">MIT OpenCourseWare</a> is a web based publication of virtually all MIT course content.</li>
   <li><a href="https://www.wolframalpha.com">Wolfram Alpha</a> is an answer engine developed by Wolfram Research.</li>
@@ -62,16 +59,28 @@
 
 <h4 id="leisure">Leisure</h4>
 <ul>
-  <li>Contact family and friends.</li>
-  <li>Read NYT, books. (But never more than two books at once!)</li>
-  <li>Listen to Sam Harris’ <a href="https://open.spotify.com/show/5rgumWEx4FsqIY8e1wJNAk?si=0597ac75f6b14d5d">Making Sense</a> podcast.</li>
-  <li>Listen to audio books. (I use a card from my local library to access thousands of audiobooks.)</li>
+  <li>Call family and friends.</li>
+  <li>Read. (Avoid reading more than two books at once.)</li>
+  <li>Listen to audio books. (Use a card from local library to access thousands of audiobooks.)</li>
 </ul>
 
-<h4 id="nightly-routine">Nightly routine</h4>
+<h1 id="podcasts">Podcasts</h1>
 <ul>
+  <li><a href="https://open.spotify.com/show/5rgumWEx4FsqIY8e1wJNAk?si=0597ac75f6b14d5d">Making Sense</a> with Sam Harris.</li>
+  <li><a href="https://open.spotify.com/show/0e9lFr3AdJByoBpM6tAbxD?si=74930b088d064971">Deep Questions</a> with Cal Newport.</li>
+  <li><a href="https://open.spotify.com/show/3qv8BS1HzrgKpDnXSlYWWL?si=28f6f91461434b95">The Portal</a> with Eric Weinstein</li>
+</ul>
+
+<h4 id="meditation">Meditation</h4>
+<ul>
+  <li>Sam Harris’s <a href="https://www.wakingup.com">Waking Up App</a>.</li>
+</ul>
+
+<h4 id="nightly-routine">Nightly Routine</h4>
+<ul>
+  <li>Use a time-blocking journal to plan for tomorrow. (<a href="https://www.amazon.com/Time-Block-Planner-Daily-Method-Distracted/dp/0593192052">This</a> journal has been helpful to me.)</li>
   <li>Brush teeth after dinner to avoid late-night eating.</li>
-  <li>Use a time-blocking journal to plan for tomorrow. (<a href="https://www.amazon.com/Time-Block-Planner-Daily-Method-Distracted/dp/0593192052">This</a> journal has been <em>extremely</em> to me.)</li>
-  <li>When time blocking ends, schedule rest of day. (The latter portion should used for shallow work, as opposed to <a href="https://calnewport.com/some-notes-on-deep-working/">deep work</a>.)</li>
+  <li>After time blocking ends, schedule rest of day. (The latter portion should used for shallow work, as opposed to <a href="https://calnewport.com/some-notes-on-deep-working/">deep work</a>.)</li>
   <li>Prepare tomorrow’s clothes.</li>
+  <li>Wear a <a href="https://www.amazon.com/Contoured-Sleeping-Blindfold-Concave-Meditation/dp/B07KC5DWCC/ref=zg_bs_3764231_sccl_1/132-0947972-7044716?th=1">sleep mask</a>.</li>
 </ul>]]></content><author><name></name></author><category term="productivity" /><summary type="html"><![CDATA[A no-frills list of my personal infrastructure.]]></summary></entry></feed>
