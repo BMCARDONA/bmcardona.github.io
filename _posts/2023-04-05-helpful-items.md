@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  On using time wisely
+title:  A productivity cheatsheet
 date:   2023-04-05 12:44:16
-description: A no-frills post about my personal infrastructure. 
-# tags: hash tag
-categories: blog, productivity
+description: A no-frills list of my personal infrastructure. 
+categories: productivity
 ---
 
 This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/).
