@@ -17,6 +17,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: "Georgia", sans-serif;
 }
 
 hr {
@@ -117,7 +118,6 @@ blockquote {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    // font-family: monospace;
     font-family: "Georgia", sans-serif;
 
     p {
