@@ -89,7 +89,6 @@ body.sticky-bottom-footer {
 
 .profile img {
   width: 50%;
-  border-radius: 100%;
 }
 
 /******************************************************************************
@@ -146,6 +145,7 @@ table.table a:hover:after :not(.nav-item.dropdown) {
 figure,
 img {
   max-width: 90vw;
+  border-radius: 100%;
 }
 
 blockquote {
