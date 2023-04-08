@@ -3,7 +3,8 @@
  ******************************************************************************/
  
 :root {
-  --global-bg-color: rgb(251, 235, 198);
+  --global-bg-color: #{$white-color};
+  --global-wolfram-nav-bar-color: rgb(251, 235, 198);
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
@@ -35,6 +36,7 @@
 
 html[data-theme='dark'] {
   --global-bg-color: #{$dark-mode-color};
+  --global-wolfram-nav-bar-color: #{$dark-mode-color};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};
