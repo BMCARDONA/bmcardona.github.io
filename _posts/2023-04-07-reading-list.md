@@ -1,3 +1,4 @@
+---
 layout: post
 title:  Reading List
 date:   2023-04-07 12:44:16
@@ -26,4 +27,4 @@ categories: books
 - [The Three Body Problem trilogy](https://www.amazon.com/Three-Body-Problem-Boxed-Set-Remembrance/dp/1250254493/ref=sr_1_1?crid=ULZ8K8FJQ4KI&keywords=three+body+problem+trilogy&qid=1680920393&s=books&sprefix=three+body+problem+trilogy%2Cstripbooks%2C114&sr=1-1) by Cixin Liu.
 - [Titan: The Life of John D. Rockefeller, Sr.](https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303) by Ron Chernow.
 - [Waking Up: A Guide to Spirituality Without Religion](https://www.amazon.com/Waking-Up-Sam-Harris-audiobook/dp/B00M9KEFY6/ref=sr_1_1?crid=3RT3TWRQLHK66&keywords=waking+up&qid=1680919942&sprefix=waking+u%2Caps%2C118&sr=8-1) by Sam Harris.
-- [10% Happier][https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265431] by Dan Harris.
+- [10% Happier](https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265431) by Dan Harris.
