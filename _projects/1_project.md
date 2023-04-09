@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Pathfinding Visualizer
-description: A visualizer for several pathfinding algorithms, including DFS, BFS, and A* Search.
-img: assets/img/pathfinding-visualizer.png
-redirect: https://bmcardona.github.io/pathfinding-visualizer/
+title: Sorting Visualizer
+description: A visualizer for several sorting algorithms, including Heap sort, Insertion sort, and Quick sort.
+img: assets/img/sorting-visualizer.png
+redirect: https://bmcardona.github.io/sorting-visualizer/
 importance: 2
 category: Visualizers
 ---
