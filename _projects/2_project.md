@@ -1,8 +1,9 @@
----
+--
 layout: page
 title: project 2
-description: a project with a background image
+description: a project that redirects to another website
 img: assets/img/sorting-visualizer.png
+redirect: https://bmcardona.github.io/sorting-visualizer/
 importance: 2
 category: work
 ---
