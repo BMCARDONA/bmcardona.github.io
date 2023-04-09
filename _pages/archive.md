@@ -4,14 +4,12 @@ permalink: /archive/
 title: Archive
 description: An archive of my writings.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
-<div>
-    <h2>Categories</h2>
-    <ul>
-        {% for category in site.categories %}
-            <li><a href="/categories/{{ category | slugify }}/">{{ category | capitalize }}</a></li>
-        {% endfor %}
-    </ul>
-</div>
+# By Category
+    - [Books](https://bmcardona.github.io/blog/category/books/)
+    - [Productivity](https://bmcardona.github.io/blog/category/productivity/)
+
+# By Year
+    - [2023](https://bmcardona.github.io/blog/2023/)
