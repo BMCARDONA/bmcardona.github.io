@@ -15,6 +15,7 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
 - Use a fan to drown out surrounding noise. Alternatively, play [white noise](https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00) on loop.
 - Place alarm clock out of arms reach. (This will force you to get out of bed to turn it off.)
 - Don't use social media (that includes YouTube and Reddit). See [The Social Dilemma](https://www.netflix.com/title/81254224).
+<!-- - If you have a website, schedule a block of time during which you update it. (This block should be no more than an hour.) -->
 
 
 ## Desk
@@ -40,8 +41,15 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
 
 ## Podcasts
 - [Making Sense](https://open.spotify.com/show/5rgumWEx4FsqIY8e1wJNAk?si=0597ac75f6b14d5d) with Sam Harris. 
+    - [Transcript](https://steno.ai/making-sense-with-sam-harris-14)
 - [Deep Questions](https://open.spotify.com/show/0e9lFr3AdJByoBpM6tAbxD?si=74930b088d064971) with Cal Newport.
-- [The Portal](https://open.spotify.com/show/3qv8BS1HzrgKpDnXSlYWWL?si=28f6f91461434b95) with Eric Weinstein
+    - [Transcript](https://steno.ai/deep-questions-with-cal-newport)
+<!-- - [Huberman Lab](https://open.spotify.com/show/79CkJF3UJTHFV8Dse3Oy0P?si=bb0a1dc3509c4ea7) with Andrew Huberman.
+    - [Transcript](https://steno.ai/huberman-lab)
+- [Lex Fridman Podcast](https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL?si=598f50755ab047df) with Lex Fridman
+    - [Transcript](https://steno.ai/lex-fridman-podcast-10) -->
+<!-- - [Ted Talks Daily](https://open.spotify.com/show/1VXcH8QHkjRcTCEd88U3ti?si=d0d65b04c5bf474a) with Elise Hu. 
+    - [Transcript](https://steno.ai/ted-talks-daily) -->
 
 
 ## Meditation
@@ -49,7 +57,7 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
 
 
 ## Nightly Routine
-- Use a time-blocking journal to plan for tomorrow. ([This](https://www.amazon.com/Time-Block-Planner-Daily-Method-Distracted/dp/0593192052) journal has been helpful to me.)
+- Use a time-blocking planner to plan for tomorrow. ([This](https://www.timeblockplanner.com) planner has been helpful to me.)
 - Brush teeth after dinner to avoid late-night eating.
 - After time blocking ends, schedule rest of day. (The latter portion should used for shallow work, as opposed to [deep work](https://calnewport.com/some-notes-on-deep-working/).) 
 - Prepare tomorrow's clothes.
