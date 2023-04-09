@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project that redirects to another website
+title: Sorting Visualizer
+description: A user-friendly visualizer for several sorting algorithms, including Heap sort, Insertion sort, and Quick sort.
 img: assets/img/sorting-visualizer.png
 redirect: https://bmcardona.github.io/sorting-visualizer/
 importance: 2
