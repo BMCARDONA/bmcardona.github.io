@@ -3,7 +3,7 @@ layout: post
 title:  Reading List
 date:   2023-04-07 12:44:16
 description: Books by which I have personally been inspired. 
-categories: books
+categories: Books
 ---
 
 #### Reading:
