@@ -7,33 +7,11 @@ nav: true
 nav_order: 4
 ---
 
-<div class="post">
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-
-    {% if post.external_source == blank %}
-      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-    {% else %}
-      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-    {% endif %}
-    {% assign year = post.date | date: "%Y" %}
-    {% assign tags = post.tags | join: "" %}
-    {% assign categories = post.categories | join: "" %}
-
-    <li>
-      <p class="post-tags">
-          {% if categories != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
-      </p>
-    </li>
-
-    {% endfor %}
-  </ul>
-  {% include pagination.html %}
-
+<div>
+    <h2>Categories</h2>
+    <ul>
+        {% for category in site.categories %}
+            <li><a href="/categories/{{ category | slugify }}/">{{ category | capitalize }}</a></li>
+        {% endfor %}
+    </ul>
 </div>
