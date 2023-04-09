@@ -14,7 +14,7 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
 ## General Advice
 - Use a fan to drown out surrounding noise. Alternatively, play [white noise](https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00) on loop.
 - Place alarm clock out of arms reach. (This will force you to get out of bed to turn off your alarm.)
-- Don't use social media (that includes YouTube and Reddit). See [The Social Dilemma](https://www.netflix.com/title/81254224).
+- Don't use social media (this includes YouTube and Reddit). See [The Social Dilemma](https://www.netflix.com/title/81254224).
 
 
 ## Desk
@@ -28,7 +28,7 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
 
 
 ## Educational resources
-- [MIT OpenCourseWare](https://ocw.mit.edu) is a web based publication of virtually all MIT course content.
+- [MIT OpenCourseWare](https://ocw.mit.edu) is a web-based publication of virtually all MIT course content.
 - [Khan Academy](https://www.khanacademy.org) provides free, online educational content in a wide range of subjects, including math, science, history, economics, and computer science.
 - [Coursera](https://www.google.com/search?client=safari&rls=en&q=coursera&ie=UTF-8&oe=UTF-8) partners with top universities and organizations from around the world to provide high-quality educational content to learners of all backgrounds.
 
