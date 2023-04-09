@@ -1,0 +1,32 @@
+---
+layout: page
+permalink: /archive/
+title: Archive
+description: An archive of my writings.
+nav: true
+nav_order: 4
+---
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"> <i class="fas fa-calendar fa-sm"></i> {{ page.date | date: "%Y" }} </h1>
+    <p class="post-description"> An archive of posts from this year. </p>
+  </header>
+
+  <article>
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% for post in page.posts %}
+        <tr>
+          <th scope="row">{{ post.date | date: "%b %-d, %Y" }}</th>
+          <td>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </td>
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
+  </article>
+
+</div>
