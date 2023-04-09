@@ -8,25 +8,32 @@ nav_order: 4
 ---
 
 <div class="post">
+  <ul class="post-list">
+    {% for post in paginator.posts %}
 
-  <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-calendar fa-sm"></i> {{ page.date | date: "%Y" }} </h1>
-    <p class="post-description"> An archive of posts from this year. </p>
-  </header>
+    {% if post.external_source == blank %}
+      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+    {% else %}
+      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+    {% endif %}
+    {% assign year = post.date | date: "%Y" %}
+    {% assign tags = post.tags | join: "" %}
+    {% assign categories = post.categories | join: "" %}
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        {% for post in page.posts %}
-        <tr>
-          <th scope="row">{{ post.date | date: "%b %-d, %Y" }}</th>
-          <td>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </td>
-        </tr>
-      {% endfor %}
-      </table>
-    </div>
-  </article>
+    <li>
+      <p class="post-tags">
+          {% if categories != "" %}
+          &nbsp; &middot; &nbsp;
+            {% for category in post.categories %}
+            <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
+              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+              {% endfor %}
+          {% endif %}
+      </p>
+    </li>
+
+    {% endfor %}
+  </ul>
+  {% include pagination.html %}
 
 </div>
