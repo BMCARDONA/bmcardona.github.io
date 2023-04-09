@@ -13,3 +13,20 @@ nav_order: 3
 
 ## By Year
 - [2023](https://bmcardona.github.io/blog/2023/)
+
+<div class="my-class">
+    <p>This is some HTML code.</p>
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+    {% for post in page.posts %}
+    <tr>
+        <th scope="row">{{ post.date | date: "%b %-d, %Y" }}</th>
+        <td>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </td>
+    </tr>
+    {% endfor %}
+</div>
