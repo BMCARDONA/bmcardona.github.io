@@ -4,7 +4,7 @@
     - name: Full Name
       value: Bradley Cardona
     - name: Date of Birth
-      value: 15th January 2000
+      value: January 15, 2000
     - name: Languages
       value: English
 
@@ -31,7 +31,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Undergraduate mathematics researcher
+    - title: Undergraduate Mathematics Researcher
       institution: Allegheny College
       year: 2022
       # description:
@@ -41,7 +41,7 @@
         #   contents:
         #     - Sub-description 1.
         #     - Sub-description 2.
-    - title: Undergraduate biology researcher
+    - title: Undergraduate Biology Researcher
       institution: Allegheny College
       year: 2021
       # description:
