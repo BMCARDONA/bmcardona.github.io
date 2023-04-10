@@ -31,21 +31,21 @@ nav_order: 3
     {% endfor %}
 </div> -->
 
-<ul>
+<!-- <ul>
 {% for category in site.categories %}
   <li><a href="/categories/{{ category | first | slugify }}/">{{ category | first }}</a></li>
 {% endfor %}
-</ul>
+</ul> -->
 
 <ul>
 {% for category in site.categories %}
-  <li><a href="{{ site.baseurl }}/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+  <li><a href="{{ site.baseurl }}/archives/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-  <li><a href="/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+  <li><a href="/archives/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
 {% endfor %}
 </ul>
 
