@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blog/archives/
+permalink: /archives/
 title: Archives
 description: An archive of all my writings.
 nav: true
