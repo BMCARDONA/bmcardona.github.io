@@ -7,12 +7,12 @@
  ******************************************************************************/
 :root {
   --global-bg-color: #ffffff;
-  --global-wolfram-nav-bar-color: rgb(254, 254, 254);
+  --global-wolfram-nav-bar-color: rgb(255, 255, 232);
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #212529;
   --global-text-color-light: #828282;
-  --global-theme-color: rgb(180, 58, 43);
-  --global-hover-color: rgb(180, 58, 43);
+  --global-theme-color: #643b95;
+  --global-hover-color: #643b95;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
@@ -41,8 +41,8 @@ html[data-theme=dark] {
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
   --global-text-color-light: #e8e8e8;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
+  --global-theme-color: #643b95;
+  --global-hover-color: #643b95;
   --global-footer-bg-color: #e8e8e8;
   --global-footer-text-color: #1C1C1D;
   --global-footer-link-color: #000000;
