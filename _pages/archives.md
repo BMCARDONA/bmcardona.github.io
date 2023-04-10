@@ -14,7 +14,7 @@ nav_order: 3
 ## By Year
 - [2023](https://bmcardona.github.io/blog/2023/)
 
-<div class="my-class">
+<!-- <div class="my-class">
     <p>This is some HTML code.</p>
     <ul>
         <li>List item 1</li>
@@ -29,10 +29,24 @@ nav_order: 3
         </td>
     </tr>
     {% endfor %}
-</div>
+</div> -->
 
 <ul>
 {% for category in site.categories %}
   <li><a href="/categories/{{ category | first | slugify }}/">{{ category | first }}</a></li>
 {% endfor %}
 </ul>
+
+<ul>
+{% for category in site.categories %}
+  <li><a href="{{ site.baseurl }}/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+  <li><a href="/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+{% endfor %}
+</ul>
+
+
