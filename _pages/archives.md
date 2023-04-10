@@ -17,13 +17,12 @@ nav_order: 3
 
 
 ### Writings by Year
-
+<ul>
 {% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% assign sorted_posts_by_year = posts_by_year | sort: 'name' | reverse %}
-
 {% for year in sorted_posts_by_year %}
   <li><a href="{{ site.baseurl }}/blog/{{ year.name }}/">{{ year.name }}</a></li>
 {% endfor %}
-
+</ul>
 
 
