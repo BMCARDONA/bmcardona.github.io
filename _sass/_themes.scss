@@ -4,12 +4,12 @@
  
 :root {
   --global-bg-color: #{$white-color};
-  --global-wolfram-nav-bar-color: rgb(254, 254, 254);
+  --global-wolfram-nav-bar-color: rgb(255, 255, 232);
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$grey-900};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$wolfram-color};
-  --global-hover-color: #{$wolfram-color};
+  --global-theme-color: #{$soft-purple-color};
+  --global-hover-color: #{$soft-purple-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
@@ -40,8 +40,8 @@ html[data-theme='dark'] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #{$soft-purple-color};
+  --global-hover-color: #{$soft-purple-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
