@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /archives/
+permalink: /blog/archives/
 title: Archives
 description: An archive of my writings.
 nav: true
@@ -30,3 +30,9 @@ nav_order: 3
     </tr>
     {% endfor %}
 </div>
+
+<ul>
+{% for category in site.categories %}
+  <li><a href="/categories/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+{% endfor %}
+</ul>

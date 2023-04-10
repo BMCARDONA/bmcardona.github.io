@@ -15,6 +15,7 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
 - Use a fan to drown out surrounding noise. Alternatively, play [white noise](https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00) on loop.
 - Place alarm clock out of arms reach. (This will force you to get out of bed to turn off your alarm.)
 - Don't use social media (this includes YouTube and Reddit). See [The Social Dilemma](https://www.netflix.com/title/81254224).
+- Instead of trying to learn something abstractly, pick a specific project you'd like to work on and learn as you go. This will make it much more clearer how certain information can be applied. 
 
 
 ## Desk
