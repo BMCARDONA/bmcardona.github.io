@@ -41,9 +41,11 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
 
 ## Podcasts
 - [Making Sense](https://open.spotify.com/show/5rgumWEx4FsqIY8e1wJNAk?si=0597ac75f6b14d5d) with Sam Harris. 
-    - [Episode Transcripts](https://steno.ai/making-sense-with-sam-harris-14)
+    - [Episode transcripts](https://steno.ai/making-sense-with-sam-harris-14)
 - [Deep Questions](https://open.spotify.com/show/0e9lFr3AdJByoBpM6tAbxD?si=74930b088d064971) with Cal Newport.
-    - [Episode Transcripts](https://steno.ai/deep-questions-with-cal-newport)
+    - [Episode transcripts](https://steno.ai/deep-questions-with-cal-newport)
+- [The Stephen Wolfram Podcast][https://open.spotify.com/show/0DAMKPOlWsIFDw5uKOopir?si=46646345af1c4eac] with Stephen Wolfram.
+    - 
 
 
 ## Meditation
