@@ -8,12 +8,6 @@ nav_order: 3
 ---
 
 ### Writings by Category
-<!-- <ul>
-{% for category in site.categories %}
-  <li><a href="{{ site.baseurl }}/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
-{% endfor %}
-</ul> -->
-
 <ul>
 {% assign sorted_categories = site.categories | sort %}
 {% for category in sorted_categories %}
@@ -22,28 +16,21 @@ nav_order: 3
 </ul>
 
 
-<!-- <ul>
-{% for category in site.categories %}
-  <li><a href="{{ site.baseurl }}/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
-{% endfor %}
-</ul> -->
-
-<!-- <ul>
-{% for category in site.categories %}
-  <li><a href="/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
-{% endfor %}
-</ul> -->
-
 ### Writings by Year
-<ul>
-{% assign sorted_years = site.posts | sort: 'date' | reverse | map: 'date' | map: '%Y' | uniq %}
-{% for year in sorted_years %}
-  <li><a href="/{{ year }}/">{{ year }}</a></li>
+
+- [2023](https://bmcardona.github.io/blog/2023/)
+
+{% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign sorted_posts_by_year = posts_by_year | sort: 'name' | reverse %}
+
+{% for year in sorted_posts_by_year %}
+  <li><a href="#">{{ year.name }}</a></li>
+  <ul>
+    {% for post in year.items %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 {% endfor %}
-</ul>
-
-
-<!-- - [2023](https://bmcardona.github.io/blog/2023/) -->
 
 
 
