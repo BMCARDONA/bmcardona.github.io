@@ -32,5 +32,9 @@ nav_order: 3
   </ul>
 {% endfor %}
 
+{% for year in sorted_posts_by_year %}
+  <li><a href="{{ site.baseurl }}/blog/{{ year.name }}/">{{ year.name }}</a></li>
+{% endfor %}
+
 
 
