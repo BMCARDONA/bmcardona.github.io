@@ -39,13 +39,13 @@ nav_order: 3
 
 <ul>
 {% for category in site.categories %}
-  <li><a href="{{ site.baseurl }}/archives/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+  <li><a href="{{ site.baseurl }}/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-  <li><a href="/archives/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+  <li><a href="/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
 {% endfor %}
 </ul>
 
