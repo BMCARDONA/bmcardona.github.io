@@ -35,7 +35,14 @@ nav_order: 3
 </ul> -->
 
 ### Writings by Year
-- [2023](https://bmcardona.github.io/blog/2023/)
+<ul>
+{% assign sorted_years = site.posts | sort: 'date' | reverse | map: 'date' | map: '%Y' | uniq %}
+{% for year in sorted_years %}
+  <li><a href="/blog/{{ year }}/">{{ year }}</a></li>
+{% endfor %}
+</ul>
+
+<!-- - [2023](https://bmcardona.github.io/blog/2023/) -->
 
 
 
