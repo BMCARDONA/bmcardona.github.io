@@ -17,7 +17,7 @@ nav_order: 3
 <ul>
 {% assign sorted_categories = site.categories | sort %}
 {% for category in sorted_categories %}
-  <li><a href="{{ site.baseurl }}/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+  <li><a href="{{ site.baseurl }}/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
 {% endfor %}
 </ul>
 
