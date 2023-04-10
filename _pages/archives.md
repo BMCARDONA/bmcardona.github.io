@@ -2,12 +2,12 @@
 layout: page
 permalink: /blog/archives/
 title: Archives
-description: An archive of my writings.
+description: An archive of all my writings.
 nav: true
 nav_order: 3
 ---
 
-## By Category
+### Writings by Category
 <ul>
 {% for category in site.categories %}
   <li><a href="{{ site.baseurl }}/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
@@ -26,7 +26,7 @@ nav_order: 3
 {% endfor %}
 </ul> -->
 
-## By Year
+### Writings by Year
 - [2023](https://bmcardona.github.io/blog/2023/)
 
 
