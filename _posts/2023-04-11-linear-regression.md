@@ -13,7 +13,7 @@ To create such a function, we need a training set composed of (say) two columns:
 
 Let's suppose that in our training set our input feature is ''house size'' and our output variable is ''house price.'' (Hence, each row or ''training instance'' of our training set corresponds to a single house). Our goal then is to create a mathematical function that describes the relationship between house sizes and house prices. 
 
-If we were to plot each training instance on a graph in coordinate form, i.e., in the form (house size, house price), then there should exist a best-fit line which minimizes the distance between itself and each point. Such a line can be derived from a ''cost function'', which provides a cumulative measure of how well each ''prediction'' matches each ''target.'' (In this example, a ''prediction'' is the output variable that results from our function when we ''feed it'' an input feature. The ''target'' is the output variable in our training set associated with that given input feature.) This measure is called the ''cost''. The lower the cost, the better the fit of our line.
+If we were to plot each training instance on a graph in coordinate form, i.e., in the form (house size, house price), then there should exist a best-fit line which minimizes the distance between itself and each point. Such a line can be derived from a ''cost function'', which provides a cumulative measure of the difference between each ''prediction'' and its respective ''target.'' (In this example, a prediction is the output variable that results from our function when we ''feed it'' an input feature. Its respective target is the output variable in our training set associated with that given input feature.) This measure is called the ''cost''. The lower the cost, the better the fit of our line.
 
 Since we want to use linear regression to create this function, we can use the following cost function J:
 
@@ -22,7 +22,7 @@ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2}
 $$,
 
 where 
-- $$w$$ and $$b$$ are ''weights' (coefficients whose values can be freely manipulated);
+- $$w$$ and $$b$$ are ''weights'' (coefficients whose values can be freely manipulated);
 - $$m$$ is the ''number of training instances'';
 - $$x^{(i)}$$ is the ''$$i^{th}$$ training instance'';
 - $$\hat{y}^{(i)}$$ (sometimes written as $$f_{w, b}(x^{(i)})$$ or $$w\cdot x^{(i)} + b$$) is the ''prediction'';
