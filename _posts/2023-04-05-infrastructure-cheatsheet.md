@@ -13,8 +13,6 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 
 
 ## General Advice
-- Use a fan to drown out surrounding noise. Alternatively, play [white noise](https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00) on loop.
-- Don't use social media (this includes YouTube and Reddit). See [The Social Dilemma](https://www.netflix.com/title/81254224).
 - Instead of trying to learn something abstractly, pick a specific project you'd like to work on and learn as you go. This will make it much more clearer how certain information can be applied. 
 
 
@@ -38,6 +36,8 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 - Place no-snooze alarm clock out of arms reach. (This will push you to get out of bed.)
 - Avoid late-night eating by brushing teeth after last meal. 
 - Put away phone while reading; if unfamiliar with certain words, keep on hand a [physical dictionary](https://www.amazon.com/Paperback-Oxford-English-Dictionary-Dictionaries/dp/0199640947/ref=sr_1_1?crid=179MX4LD71LPV&keywords=oxford+dictionary&qid=1681314435&s=audible&sprefix=oxford+dictio%2Caudible%2C188&sr=1-1-catcorr). 
+- Use a fan to drown out surrounding noise. Alternatively, play [white noise](https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00) on loop.
+- Don't use social media (this includes YouTube and Reddit). See [The Social Dilemma](https://www.netflix.com/title/81254224).
 
 ## Leisure
 - Spend time with family and friends.
