@@ -25,7 +25,7 @@ where
 - $$w$$ and $$b$$ are __weights__ (coefficients whose values can be freely manipulated);
 - $$m$$ is the __number of training instances__;
 - $$x^{(i)}$$ is the __$$i^{th}$$ training instance__;
-- $$\hat{y}^{(i)}$$ (sometimes written as $$f_{w, b}(x^{(i)})$$ or $$w \cdot x^{(i)}$$) is the __prediction__;
+- $$\hat{y}^{(i)}$$ (sometimes written as $$f_{w, b}(x^{(i)})$$ or $$w\cdot x^{(i)} + b$$) is the __prediction__;
 - and $$y^{(i)}$$ is the __target__.  
 
 The difference $$\hat{y}^{(i)} - y^{(i)}$$ is sometimes referred to as the __loss__. The fact that the cost function squares the loss ensures that the ''error surface'' is convex like a bowl. It will always have a minimum that can be reached by following the gradient in all dimensions.
