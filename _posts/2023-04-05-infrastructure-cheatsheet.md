@@ -32,6 +32,7 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 - [Coursera](https://www.google.com/search?client=safari&rls=en&q=coursera&ie=UTF-8&oe=UTF-8) partners with top universities and organizations from around the world to provide high-quality educational content to learners of all backgrounds.
 - [Wolfram U](https://www.wolfram.com/wolfram-u/) offers free open interactive courses, learning events and other educational resources for professional and technical development.
 
+
 ## Hacks
 - Place no-snooze alarm clock out of arms reach. (This will push you to get out of bed.)
 - Avoid late-night eating by brushing teeth after last meal. 
@@ -39,10 +40,12 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 - Use a fan to drown out surrounding noise. Alternatively, play [white noise](https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00) on loop.
 - Don't use social media (this includes YouTube and Reddit). See [The Social Dilemma](https://www.netflix.com/title/81254224).
 
+
 ## Leisure
 - Spend time with family and friends.
 - Read. 
 - Listen to audiobooks. (Use a library card to [get access to thousands of audiobooks](https://help.libbyapp.com/en-us/6144.htm).)
+
 
 ## Podcasts
 - [Making Sense](https://open.spotify.com/show/5rgumWEx4FsqIY8e1wJNAk?si=0597ac75f6b14d5d) with Sam Harris. 
