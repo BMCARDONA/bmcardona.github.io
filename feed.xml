@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-12T15:39:35+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-12T15:51:38+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Linear Regression</title><link href="https://bmcardona.github.io/blog/2023/linear-regression/" rel="alternate" type="text/html" title="Linear Regression" /><published>2023-04-11T15:12:00+00:00</published><updated>2023-04-11T15:12:00+00:00</updated><id>https://bmcardona.github.io/blog/2023/linear-regression</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/linear-regression/"><![CDATA[<p>Linear Regression can be used in supervised machine learning to find a mathematical function that describes the relationship between the input features and the output variables in a training set.</p>
 
 <p>To create such a function, we need a training set composed of (say) two columns: one for the input features and one for the output variables. (We actually would have several columns if we had several input features; for simplicity, though, we will assume in this article that we are dealing with just one input feature.)</p>
@@ -69,7 +69,6 @@ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2},
 <h2 id="general-advice">General Advice</h2>
 <ul>
   <li>Use a fan to drown out surrounding noise. Alternatively, play <a href="https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00">white noise</a> on loop.</li>
-  <li>Place alarm clock out of arms reach. (This will force you to get out of bed to turn off your alarm.)</li>
   <li>Don’t use social media (this includes YouTube and Reddit). See <a href="https://www.netflix.com/title/81254224">The Social Dilemma</a>.</li>
   <li>Instead of trying to learn something abstractly, pick a specific project you’d like to work on and learn as you go. This will make it much more clearer how certain information can be applied.</li>
 </ul>
@@ -93,10 +92,17 @@ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2},
   <li><a href="https://www.wolfram.com/wolfram-u/">Wolfram U</a> offers free open interactive courses, learning events and other educational resources for professional and technical development.</li>
 </ul>
 
+<h2 id="hacks">Hacks</h2>
+<ul>
+  <li>Place no-snooze alarm clock out of arms reach. (This will force you to get out of bed to turn off your alarm.)</li>
+  <li>To avoid late-night eating, brush teeth after last meal.</li>
+  <li>Put phone away while reading; if unfamiliar with certain words, keep on hand a <a href="https://www.amazon.com/Paperback-Oxford-English-Dictionary-Dictionaries/dp/0199640947/ref=sr_1_1?crid=179MX4LD71LPV&amp;keywords=oxford+dictionary&amp;qid=1681314435&amp;s=audible&amp;sprefix=oxford+dictio%2Caudible%2C188&amp;sr=1-1-catcorr">physical dictionary</a>.</li>
+</ul>
+
 <h2 id="leisure">Leisure</h2>
 <ul>
   <li>Message or call family and friends.</li>
-  <li>Read. (Never read more than two books at once.)</li>
+  <li>Read.</li>
   <li>Listen to audiobooks. (Use a library card to <a href="https://help.libbyapp.com/en-us/6144.htm">get access to thousands of audiobooks</a>.)</li>
 </ul>
 
@@ -126,9 +132,7 @@ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2},
 
 <h2 id="nightly-routine">Nightly Routine</h2>
 <ul>
-  <li>Use a time-blocking planner to plan for tomorrow. (<a href="https://www.timeblockplanner.com">This</a> planner has been helpful to me.)</li>
-  <li>Brush teeth after dinner to avoid late-night eating.</li>
-  <li>After time blocking ends, schedule rest of day. (The latter portion should used for shallow work, as opposed to <a href="https://calnewport.com/some-notes-on-deep-working/">deep work</a>.)</li>
+  <li>Fill out a time-blocking planner. (I use <a href="https://www.timeblockplanner.com">this</a> one.)</li>
   <li>Prepare tomorrow’s clothes.</li>
   <li>Wear a <a href="https://www.amazon.com/Contoured-Sleeping-Blindfold-Concave-Meditation/dp/B07KC5DWCC/ref=zg_bs_3764231_sccl_1/132-0947972-7044716?th=1">sleep mask</a>.</li>
 </ul>
