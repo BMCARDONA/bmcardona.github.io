@@ -9,9 +9,9 @@ related_posts: true
 
 __Linear Regression__ is used in supervised machine learning to build a mathematical model that describes the relationship between the input features and the output variables in a training set. 
 
-To create such a model, we would need a training set composed of (say) two columns: one for the input feature and one for the output variable. (We can actually have as many input features as we want; for simplicity, however, I will I will stick with just one input feature.) Let's suppose that our input feature is ''house size'' and our output variable is ''house price.'' (Hence, each row or ''training instances'' corresponds to a given house). If we were to plot each training instance on a graph in the coordinate form (house size, house price), then there must exist a best-fit line which, by definition, minimizes the distance between itself and each point. Such a line can be derived from a __cost function__ which provides a measure of how well our ''prediction'' matches our ''target.'' Such a measure is called the __cost__. (The lower the cost, the better the fit of our line.)  
+To create such a model, we need a training set composed of (say) two columns: one for the input feature and one for the output variable. (We can actually have as many input features as we want; for simplicity, however, I will use just one input feature.) Let's suppose that our input feature is ''house size'' and our output variable is ''house price.'' (Hence, each row or ''training instance'' corresponds to one given house). If we were to plot each training instance on a graph in the coordinate form (house size, house price), then there must exist a best-fit line which, by definition, minimizes the distance between itself and each point. Such a line can be derived from a __cost function__ which provides a measure of how well our ''prediction'' matches our ''target.'' Such a measure is called the __cost__. (The lower the cost, the better the fit of our line.)  
 
-Since we want to use linear regression, we can use the following cost function J:
+Since we want to use linear regression to create this model, we can use the following cost function J:
 
 $$
 J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2}
