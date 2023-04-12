@@ -131,15 +131,15 @@
   </header>
 
   <article class="post-content">
-    <p><strong>Linear Regression</strong> is used in supervised machine learning to build a mathematical model that describes the relationship between the input features and the output variables in a training set.</p>
+    <p><strong>Linear Regression</strong> is used in supervised machine learning to build a mathematical function that describes the relationship between the input features and the output variables in a training set.</p>
 
-<p>To create such a model, we need a training set composed of (say) two columns: one for the input features and one for the output variables. (We will actually have several columns if we have several input features; for simplicity, though, we will assume in this article that we are dealing with just one input feature.)</p>
+<p>To create such a function, we need a training set composed of (say) two columns: one for the input features and one for the output variables. (We will actually have several columns if we have several input features; for simplicity, though, we will assume in this article that we are dealing with just one input feature.)</p>
 
-<p>Let’s suppose that in our training set our input feature is ‘‘house size’’ and our output variable is ‘‘house price.’’ (Hence, each row or ‘‘training instance’’ of our training set corresponds to a single house). Our goal then is to create a mathematical model that describes the relationship between house sizes and house prices.</p>
+<p>Let’s suppose that in our training set our input feature is ‘‘house size’’ and our output variable is ‘‘house price.’’ (Hence, each row or ‘‘training instance’’ of our training set corresponds to a single house). Our goal then is to create a mathematical function that describes the relationship between house sizes and house prices.</p>
 
-<p>If we were to plot each training instance on a graph in coordinate form, i.e., in the form (house size, house price), then there should exist a best-fit line which minimizes the distance between itself and each point. Such a line can be derived from a <strong>cost function</strong>, which provides a cumulative measure of how well each ‘‘prediction’’ matches each ‘‘target.’’ (In this example, a ‘‘prediction’’ is the output variable that results from our model when we ‘‘feed it’’ an input feature. The ‘‘target’’ is the output variable in our training set associated with that given input feature.) This measure is called the <strong>cost</strong>. The lower the cost, the better the fit of our line.</p>
+<p>If we were to plot each training instance on a graph in coordinate form, i.e., in the form (house size, house price), then there should exist a best-fit line which minimizes the distance between itself and each point. Such a line can be derived from a <strong>cost function</strong>, which provides a cumulative measure of how well each ‘‘prediction’’ matches each ‘‘target.’’ (In this example, a ‘‘prediction’’ is the output variable that results from our function when we ‘‘feed it’’ an input feature. The ‘‘target’’ is the output variable in our training set associated with that given input feature.) This measure is called the <strong>cost</strong>. The lower the cost, the better the fit of our line.</p>
 
-<p>Since we want to use linear regression to create this model, we can use the following cost function J:</p>
+<p>Since we want to use linear regression to create this function, we can use the following cost function J:</p>
 
 <p>\(J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2}\),</p>
 
