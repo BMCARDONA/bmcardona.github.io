@@ -131,13 +131,13 @@
   </header>
 
   <article class="post-content">
-    <p><strong>Linear Regression</strong> is used in supervised machine learning to build a mathematical function that describes the relationship between the input features and the output variables in a training set.</p>
+    <p><strong>Linear Regression</strong> can be used in supervised machine learning to build a mathematical function that describes the relationship between the input features and the output variables in a training set.</p>
 
 <p>To create such a function, we need a training set composed of (say) two columns: one for the input features and one for the output variables. (We will actually have several columns if we have several input features; for simplicity, though, we will assume in this article that we are dealing with just one input feature.)</p>
 
 <p>Let’s suppose that in our training set our input feature is ‘‘house size’’ and our output variable is ‘‘house price.’’ (Hence, each row or ‘‘training instance’’ of our training set corresponds to a single house). Our goal then is to create a mathematical function that describes the relationship between house sizes and house prices.</p>
 
-<p>If we were to plot each training instance on a graph in coordinate form, i.e., in the form (house size, house price), then there should exist a best-fit line which minimizes the distance between itself and each point. Such a line can be derived from a <strong>cost function</strong>, which provides a cumulative measure of how well each ‘‘prediction’’ matches each ‘‘target.’’ (In this example, a ‘‘prediction’’ is the output variable that results from our function when we ‘‘feed it’’ an input feature. The ‘‘target’’ is the output variable in our training set associated with that given input feature.) This measure is called the <strong>cost</strong>. The lower the cost, the better the fit of our line.</p>
+<p>If we were to plot each training instance on a graph in coordinate form, i.e., in the form (house size, house price), then there should exist a best-fit line which minimizes the distance between itself and each point. Such a line can be derived from a ‘‘cost function’’, which provides a cumulative measure of how well each ‘‘prediction’’ matches each ‘‘target.’’ (In this example, a ‘‘prediction’’ is the output variable that results from our function when we ‘‘feed it’’ an input feature. The ‘‘target’’ is the output variable in our training set associated with that given input feature.) This measure is called the ‘‘cost’’. The lower the cost, the better the fit of our line.</p>
 
 <p>Since we want to use linear regression to create this function, we can use the following cost function J:</p>
 
@@ -145,14 +145,14 @@
 
 <p>where</p>
 <ul>
-  <li>\(w\) and \(b\) are <strong>weights</strong> (coefficients whose values can be freely manipulated);</li>
-  <li>\(m\) is the <strong>number of training instances</strong>;</li>
-  <li>\(x^{(i)}\) is the <strong>\(i^{th}\) training instance</strong>;</li>
-  <li>\(\hat{y}^{(i)}\) (sometimes written as \(f_{w, b}(x^{(i)})\) or \(w\cdot x^{(i)} + b\)) is the <strong>prediction</strong>;</li>
-  <li>and \(y^{(i)}\) is the <strong>target</strong>.</li>
+  <li>\(w\) and \(b\) are ‘‘weights’ (coefficients whose values can be freely manipulated);</li>
+  <li>\(m\) is the ‘‘number of training instances’’;</li>
+  <li>\(x^{(i)}\) is the ‘’\(i^{th}\) training instance’’;</li>
+  <li>\(\hat{y}^{(i)}\) (sometimes written as \(f_{w, b}(x^{(i)})\) or \(w\cdot x^{(i)} + b\)) is the ‘‘prediction’’;</li>
+  <li>and \(y^{(i)}\) is the ‘‘target’’.</li>
 </ul>
 
-<p>Note: The difference \(\hat{y}^{(i)} - y^{(i)}\) is sometimes referred to as the <strong>loss</strong>. The fact that the cost function squares the loss ensures that the ‘‘error surface’’ is convex like a bowl. It will always have a minimum that can be reached by following the gradient in all dimensions.</p>
+<p>Note: The difference \(\hat{y}^{(i)} - y^{(i)}\) is sometimes referred to as the ‘‘loss’’. The fact that the cost function squares the loss ensures that the ‘‘error surface’’ is convex like a bowl. It will always have a minimum that can be reached by following the gradient in all dimensions.</p>
 
 <p>Our goal is to minimize \(J(w, b)\), which requires that we find the ‘‘optimal’’ values of \(w\) and \(b\). The lower the value of \(J(w, b)\), the better our line will fit the data.</p>
 
