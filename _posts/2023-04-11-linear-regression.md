@@ -18,8 +18,10 @@ If we were to plot each training instance on a graph in the form (house size, ho
 We can use linear regression to find the best-fit line; this involves finding the lowest cost associated with the following cost function J:
 
 $$
+\begin{align*}
 J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2}
-$$,
+\end{align*}
+$$
 
 where 
 - $$w$$ and $$b$$ are "weights" (coefficients whose values can be freely manipulated);
