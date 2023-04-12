@@ -16,6 +16,7 @@ categories: Books
 - *[Benjamin Franklin: An American Life](https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X/ref=sr_1_1?crid=3LAT4J9JB7C3Q&keywords=Benjamin+Franklin+an+american+life&qid=1680920166&s=books&sprefix=benjamin+franklin+an+american+lif%2Cstripbooks%2C163&sr=1-1)* by Walter Isaacson.
 - *[Brave New World](https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523)* by Aldous Huxley.
 - *[Deep Work](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692)* by Cal Newport.
+- *[Doing Good Better](https://www.amazon.com/Doing-Good-Better-Effective-Altruism/dp/1592409660)* by William MacAskill.
 - *[Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354)* by Isaac Asimov.
 - *[Four Thousand Weeks: Time Management for Mortals](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122)* by Oliver Burkeman.
 - *[Free Will](https://www.amazon.com/Free-Will-Deckle-Edge-Harris/dp/1451683405/ref=pd_lpo_1?pd_rd_w=ipq4i&content-id=amzn1.sym.116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_p=116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_r=1SM2W5FQGEDX4QPT9PA6&pd_rd_wg=uXanv&pd_rd_r=1b6e771a-623a-4744-9ba8-cbb49874d9bc&pd_rd_i=1451683405&psc=1)* by Sam Harris.

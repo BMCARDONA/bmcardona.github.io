@@ -32,6 +32,7 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
 - [MIT OpenCourseWare](https://ocw.mit.edu) is a web-based publication of virtually all MIT course content.
 - [Khan Academy](https://www.khanacademy.org) provides free, online educational content in a wide range of subjects, including math, science, history, economics, and computer science.
 - [Coursera](https://www.google.com/search?client=safari&rls=en&q=coursera&ie=UTF-8&oe=UTF-8) partners with top universities and organizations from around the world to provide high-quality educational content to learners of all backgrounds.
+- [Wolfram U](https://www.wolfram.com/wolfram-u/) offers free open interactive courses, learning events and other educational resources for professional and technical development.
 
 
 ## Leisure
@@ -44,8 +45,8 @@ This post was inspired by Stephen Wolfram's 2019 [post](https://writings.stephen
     - [Episode transcripts](https://steno.ai/making-sense-with-sam-harris-14)
 - [Deep Questions](https://open.spotify.com/show/0e9lFr3AdJByoBpM6tAbxD?si=74930b088d064971) with Cal Newport.
     - [Episode transcripts](https://steno.ai/deep-questions-with-cal-newport)
-- [The Stephen Wolfram Podcast][https://open.spotify.com/show/0DAMKPOlWsIFDw5uKOopir?si=46646345af1c4eac] with Stephen Wolfram.
-    - 
+- [The Stephen Wolfram Podcast](https://open.spotify.com/show/0DAMKPOlWsIFDw5uKOopir?si=46646345af1c4eac) with Stephen Wolfram.
+    - [Episode transcripts](https://steno.ai/the-stephen-wolfram-podcast)
 
 
 ## Meditation
