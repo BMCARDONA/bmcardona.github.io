@@ -2,8 +2,8 @@
 layout: post
 title:  Reading List
 date:   2023-04-07 12:44:16
-description: Books I have read, am reading, or want to read.
-categories: Books
+description: Books I have read, am reading, or plan to read.
+categories: ["Reading", "Books"]
 related_posts: false
 ---
 

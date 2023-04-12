@@ -3,7 +3,7 @@ layout: post
 title:  An Infrastructure Cheatsheet
 date:   2023-04-05 12:44:16
 description: A no-frills list of my personal infrastructure. 
-categories: Productivity
+categories: ["Productivity"]
 related_posts: false
 ---
 
