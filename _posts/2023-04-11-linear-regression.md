@@ -9,7 +9,7 @@ related_posts: true
 
 __Linear Regression__ is used in supervised machine learning to build a mathematical model that describes the relationship between the input features and the output variables in a training set. 
 
-To create such a model, we must have a training set composed of (say) two columns: one for the input feature and one for the output variable. (We can actually have as many input features as we want; for simplicity, however, we will stick with just one input feature.) 
+To create such a model, we must have a training set composed of (say) two columns: one for the input features and one for the output variables. (We can actually have several columns to designate several input features; for simplicity, however, we will assume, for the sake of simplicity, that we are dealing with just one input feature.) 
 
 Let's suppose for our training set that our input feature is ''house size'' and our output variable is ''house price.'' (Hence, each row or ''training instance'' of our training set corresponds to a single house). Our goal then is to describe the relationship between house size and house price. 
 
