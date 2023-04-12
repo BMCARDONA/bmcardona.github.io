@@ -3,7 +3,7 @@ layout: post
 title: Linear Regression
 date: 2023-04-11 11:12:00-0400
 description: A Brief Note on Linear Regression
-categories: "Machine Learning"
+categories: ["Machine Learning"]
 related_posts: true
 ---
 
