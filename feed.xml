@@ -1,14 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-12T01:05:53+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Linear Regression</title><link href="https://bmcardona.github.io/blog/2023/linear-regression/" rel="alternate" type="text/html" title="Linear Regression" /><published>2023-04-11T15:12:00+00:00</published><updated>2023-04-11T15:12:00+00:00</updated><id>https://bmcardona.github.io/blog/2023/linear-regression</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/linear-regression/"><![CDATA[<p><strong>Linear Regression</strong> is a supervised machine learning model used to predict the value of one variable (a <strong>target variable</strong>) given the value of another variable (a <strong>prediction</strong>). For example, let’s suppose that our target variable is ‘‘house price’’ and our prediction is ‘‘house size’’ To predict the former from the latter, we first would need to obtain a training set composed of several rows (each row corresponding to a given house) and two columns, namely, ‘‘house price’’ and ‘‘house size.’’</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-12T01:25:12+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Linear Regression</title><link href="https://bmcardona.github.io/blog/2023/linear-regression/" rel="alternate" type="text/html" title="Linear Regression" /><published>2023-04-11T15:12:00+00:00</published><updated>2023-04-11T15:12:00+00:00</updated><id>https://bmcardona.github.io/blog/2023/linear-regression</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/linear-regression/"><![CDATA[<p><strong>Linear Regression</strong> is a supervised machine learning model used to predict the value of one variable (a <strong>prediction</strong>) given the value of another variable (a <strong>target</strong>).</p>
 
-<p>If we plot each row of this training set in coordinate form (house price, house size), it should be clear that there must exist a line of best fit which minimizes the distance between it and each coordinate. Such a line can be derived from a <strong>cost function</strong>, which provides a measure of how well our ‘‘prediction’’ (the line itself) matches our training data (the points). (Specifically, the cost function tells us the <strong>cost</strong>, which is the measure of how well our model predicts the target value. The lower the cost, the better the fit of the line.)</p>
+<p>Let’s suppose that our input feature is ‘‘house size’’ and our output variable is ‘‘house price.’’ To predict the latter from the former, we first would need to obtain a training set composed of several rows (with each row corresponding to a given house) and two columns, namely, ‘‘house size’’ and ‘‘house price.’’</p>
 
-<p>Since we want to use linear regression, we can use the following cost function J:
-\(\[ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{i} - y^{i})^{2} \]\),</p>
+<p>If we plot this training data on a House Size vs. House Price graph, however randomly ‘‘spread’’ the points may seem, there must exist a line of best fit which minimizes the distance between it and each point. Such a line can be derived from a <strong>cost function</strong>, which provides a measure of how well our ‘‘prediction’’ (the line itself) matches our training data (the points). (Specifically, the cost function tells us the <strong>cost</strong>, which is the measure of how well our model predicts the target value. The lower the cost, the better the fit of the line.)</p>
 
-<p>where \(w\) and \(b\) are <strong>weights</strong> (a coefficient that we can freely change), \(m\) is the <strong>number of training instances</strong>, \(i\) is the <strong>\(i^{th}\) training instance</strong>, \(x^{i}\) is a <strong>training instance</strong>, \(\hat{y}^{i}\) (sometimes written as \(f_{w, b}(x^{i}) or wx^{i}\)) is the <strong>prediction</strong>, \(y^{i}\) is a <strong>target</strong>.</p>
+<p>Since we want to use linear regression, we can use the following cost function J:</p>
 
-<p>Our goal is to minimize \(J(w, b)\). The lower the value of \(J(w, b)\), the better our linear line fits the data.</p>
+<p>\(J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{i} - y^{i})^{2}\),</p>
+
+<p>where</p>
+<ul>
+  <li>\(w\) and \(b\) are <strong>weights</strong> (coefficients whose values can be freely changed);</li>
+  <li>\(m\) is the <strong>number of training instances</strong>;</li>
+  <li>\(i\) is the <strong>\(i^{th}\) training instance</strong>;</li>
+  <li>\(x^{i}\) is a <strong>training instance</strong>;</li>
+  <li>\(\hat{y}^{i}\) (sometimes written as \(f_{w, b}(x^{i}) or wx^{i}\)) is the <strong>prediction</strong>;</li>
+  <li>and \(y^{i}\) is a <strong>target</strong>.</li>
+</ul>
+
+<p>The fact that the cost function squares the loss ensures that the ‘‘error surface’’ is convex like a soup bowl. It will always havea minimum that can be reached by following the gradient in all dimensions.</p>
+
+<p>Our goal is to minimize \(J(w, b)\). (Think of it this way: The lower the value of \(J(w, b)\), the better our linear line will fit the data.) Doing so requires that we find the ‘‘optimal’’ values of \(w\) and \(b\).</p>
 
 <!-- This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine. You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`. If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
 
