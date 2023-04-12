@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Linear Regression | Bradley M. Cardona</title>
     <meta name="author" content="Bradley M. Cardona">
-    <meta name="description" content="An Elementary Introduction to Linear Regressiion">
+    <meta name="description" content="An Elementary Introduction to Linear Regression">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -131,30 +131,26 @@
   </header>
 
   <article class="post-content">
-    <p><strong>Linear Regression</strong> is a supervised machine learning model used to predict the value of one variable (a <strong>prediction</strong>, denoted \(\hat{y}^{i}\)) given the value of another variable (a <strong>target</strong>, denoted \(y^{i}\)).</p>
+    <p><strong>Linear Regression</strong> is used in supervised machine learning to build a mathematical model that describes the relationship between the input features and the output variables in a training set.</p>
 
-<p>To obtain a prediction from a target, we need to have a training set composed of two columns: one for the input feature and one for the output variable. (In such a training set, each row or <strong>training instances</strong> would correspond to a given house).</p>
-
-<p>Let’s suppose that our input feature is ‘‘house size’’ and our output variable is ‘‘house price.’’ In other words, let’s try to predict a house’s price based on its size.</p>
-
-<p>If we were to plot each training instance on a graph in the coordinate form (house size, house price), it is clear that there must exist a line of best fit which, by definition, minimizes the distance between itself and each point. Such a line can be derived from a <strong>cost function</strong>, which provides a measure of how well our ‘‘prediction’’ (the line itself) matches our ‘‘target’’ (the points). Such a measure is called the <strong>cost</strong>. The lower the cost, the better the fit of our line.)</p>
+<p>To create such a model, we would need a training set composed of (say) two columns: one for the input feature and one for the output variable. (We can actually have as many input features as we want; for simplicity, however, I will I will stick with just one input feature.) Let’s suppose that our input feature is ‘‘house size’’ and our output variable is ‘‘house price.’’ (Hence, each row or ‘‘training instances’’ corresponds to a given house). If we were to plot each training instance on a graph in the coordinate form (house size, house price), then there must exist a best-fit line which, by definition, minimizes the distance between itself and each point. Such a line can be derived from a <strong>cost function</strong> which provides a measure of how well our ‘‘prediction’’ matches our ‘‘target.’’ Such a measure is called the <strong>cost</strong>. (The lower the cost, the better the fit of our line.)</p>
 
 <p>Since we want to use linear regression, we can use the following cost function J:</p>
 
-<p>\(J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{i} - y^{i})^{2}\),</p>
+<p>\(J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2}\),</p>
 
 <p>where</p>
 <ul>
   <li>\(w\) and \(b\) are <strong>weights</strong> (coefficients whose values can be freely changed);</li>
   <li>\(m\) is the <strong>number of training instances</strong>;</li>
-  <li>\(x^{i}\) is the <strong>\(i^{th}\) training instance</strong>;</li>
-  <li>\(\hat{y}^{i}\) (sometimes written as \(f_{w, b}(x^{i}) or wx^{i}\)) is the <strong>prediction</strong>;</li>
-  <li>and \(y^{i}\) is a <strong>target</strong>.</li>
+  <li>\(x^{(i)}\) is the <strong>\(i^{th}\) training instance</strong>;</li>
+  <li>\(\hat{y}^{(i)}\) (sometimes written as \(f_{w, b}(x^{(i)})\) or \(wx^{(i)}\)) is the <strong>prediction</strong>;</li>
+  <li>and \(y^{(i)}\) is a <strong>target</strong>.</li>
 </ul>
 
-<p>The portion \(\hat{y}^{i} - y^{i}\) is called the <strong>loss</strong>. The fact that the cost function squares the loss ensures that the ‘‘error surface’’ is convex like a soup bowl. It will always have a minimum that can be reached by following the gradient in all dimensions.</p>
+<p>The difference \(\hat{y}^{(i)} - y^{(i)}\) is sometimes referred to as the <strong>loss</strong>. The fact that the cost function squares the loss ensures that the ‘‘error surface’’ is convex like a bowl. It will always have a minimum that can be reached by following the gradient in all dimensions.</p>
 
-<p>Our goal is to minimize \(J(w, b)\). (Think of it this way: The lower the value of \(J(w, b)\), the better our linear line will fit the data.) Doing so requires that we find the ‘‘optimal’’ values of \(w\) and \(b\).</p>
+<p>Our goal is to minimize \(J(w, b)\), which requires that we find the ‘‘optimal’’ values of \(w\) and \(b\). The lower the value of \(J(w, b)\), the better our linear line will fit the data.</p>
 
 
   </article>
