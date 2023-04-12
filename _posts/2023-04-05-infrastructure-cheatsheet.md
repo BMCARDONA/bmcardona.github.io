@@ -40,7 +40,7 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 - Put phone away while reading; if unfamiliar with certain words, keep on hand a [physical dictionary](https://www.amazon.com/Paperback-Oxford-English-Dictionary-Dictionaries/dp/0199640947/ref=sr_1_1?crid=179MX4LD71LPV&keywords=oxford+dictionary&qid=1681314435&s=audible&sprefix=oxford+dictio%2Caudible%2C188&sr=1-1-catcorr). 
 
 ## Leisure
-- Message or call family and friends.
+- Spend time with family and friends.
 - Read. 
 - Listen to audiobooks. (Use a library card to [get access to thousands of audiobooks](https://help.libbyapp.com/en-us/6144.htm).)
 
