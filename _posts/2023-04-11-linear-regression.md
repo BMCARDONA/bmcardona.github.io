@@ -3,18 +3,21 @@ layout: post
 title: Linear Regression
 date: 2023-04-11 11:12:00-0400
 description: An Elementary Introduction to Linear Regressiion
-categories: Machine Learning
+categories: Machine-Learning
 related_posts: true
 ---
 
-__Linear Regression__ is a supervised machine learning model used to predict the value of one variable (the __target__) based on the value of another variable (the __prediction__). For example, suppose that we are trying to predict the price of a home based on its size. The first step would be to compile a data set 
+__Linear Regression__ is a supervised machine learning model used to predict the value of one variable (a __target variable__) given the value of another variable (a __prediction__). For example, let's suppose that our target variable is ''house price'' and our prediction is ''house size'' To predict the former from the latter, we first would need to obtain a training set composed of several rows (each row corresponding to a given house) and two columns, namely, ''house price'' and ''house size.'' 
 
-The __cost__ is the measure of how well our model predicts the target value. Moreover, we define a __cost function__ to be the performance of a machine learning model for a data set. 
 
-Suppose we are given the following cost function:
+If we plot each row of this training set in coordinate form (house price, house size), it should be clear that there must exist a line of best fit which minimizes the distance between it and each coordinate. Such a line can be derived from a __cost function__, which provides a measure of how well our ''prediction'' (the line itself) matches our training data (the points). (Specifically, the cost function tells us the __cost__, which is the measure of how well our model predicts the target value. The lower the cost, the better the fit of the line.)  
+
+Since we want to use linear regression, we can use the following cost function J:
 $$
-J(w, b) = \frac{1}{2m} \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{i} - y^{i})^{2}, where
-$$
+\[ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{i} - y^{i})^{2} \]
+$$,
+
+where $$w$$ and $$b$$ are __weights__ (a coefficient that we can freely change), $$m$$ is the __number of training instances__, $$i$$ is the __$$i^{th}$$ training instance__, $$x^{i}$$ is a __training instance__, $$\hat{y}^{i}$$ (sometimes written as $$f_{w, b}(x^{i}) or wx^{i}$$) is the __prediction__, $$y^{i}$$ is a __target__.     
 
 Our goal is to minimize $$J(w, b)$$. The lower the value of $$J(w, b)$$, the better our linear line fits the data. 
 
