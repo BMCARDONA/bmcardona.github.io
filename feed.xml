@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-10T03:09:20+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-12T00:09:47+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Reading List</title><link href="https://bmcardona.github.io/blog/2023/reading-list/" rel="alternate" type="text/html" title="Reading List" /><published>2023-04-07T12:44:16+00:00</published><updated>2023-04-07T12:44:16+00:00</updated><id>https://bmcardona.github.io/blog/2023/reading-list</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/reading-list/"><![CDATA[<h4 id="reading">Reading:</h4>
 <ul>
   <li><a href="https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758">Alexander Hamilton</a> by Ron Chernow.</li>
@@ -12,6 +12,7 @@
   <li><em><a href="https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X/ref=sr_1_1?crid=3LAT4J9JB7C3Q&amp;keywords=Benjamin+Franklin+an+american+life&amp;qid=1680920166&amp;s=books&amp;sprefix=benjamin+franklin+an+american+lif%2Cstripbooks%2C163&amp;sr=1-1">Benjamin Franklin: An American Life</a></em> by Walter Isaacson.</li>
   <li><em><a href="https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523">Brave New World</a></em> by Aldous Huxley.</li>
   <li><em><a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692">Deep Work</a></em> by Cal Newport.</li>
+  <li><em><a href="https://www.amazon.com/Doing-Good-Better-Effective-Altruism/dp/1592409660">Doing Good Better</a></em> by William MacAskill.</li>
   <li><em><a href="https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354">Foundation</a></em> by Isaac Asimov.</li>
   <li><em><a href="https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122">Four Thousand Weeks: Time Management for Mortals</a></em> by Oliver Burkeman.</li>
   <li><em><a href="https://www.amazon.com/Free-Will-Deckle-Edge-Harris/dp/1451683405/ref=pd_lpo_1?pd_rd_w=ipq4i&amp;content-id=amzn1.sym.116f529c-aa4d-4763-b2b6-4d614ec7dc00&amp;pf_rd_p=116f529c-aa4d-4763-b2b6-4d614ec7dc00&amp;pf_rd_r=1SM2W5FQGEDX4QPT9PA6&amp;pd_rd_wg=uXanv&amp;pd_rd_r=1b6e771a-623a-4744-9ba8-cbb49874d9bc&amp;pd_rd_i=1451683405&amp;psc=1">Free Will</a></em> by Sam Harris.</li>
@@ -57,6 +58,7 @@
   <li><a href="https://ocw.mit.edu">MIT OpenCourseWare</a> is a web-based publication of virtually all MIT course content.</li>
   <li><a href="https://www.khanacademy.org">Khan Academy</a> provides free, online educational content in a wide range of subjects, including math, science, history, economics, and computer science.</li>
   <li><a href="https://www.google.com/search?client=safari&amp;rls=en&amp;q=coursera&amp;ie=UTF-8&amp;oe=UTF-8">Coursera</a> partners with top universities and organizations from around the world to provide high-quality educational content to learners of all backgrounds.</li>
+  <li><a href="https://www.wolfram.com/wolfram-u/">Wolfram U</a> offers free open interactive courses, learning events and other educational resources for professional and technical development.</li>
 </ul>
 
 <h2 id="leisure">Leisure</h2>
@@ -78,9 +80,9 @@
       <li><a href="https://steno.ai/deep-questions-with-cal-newport">Episode transcripts</a></li>
     </ul>
   </li>
-  <li>[The Stephen Wolfram Podcast][https://open.spotify.com/show/0DAMKPOlWsIFDw5uKOopir?si=46646345af1c4eac] with Stephen Wolfram.
+  <li><a href="https://open.spotify.com/show/0DAMKPOlWsIFDw5uKOopir?si=46646345af1c4eac">The Stephen Wolfram Podcast</a> with Stephen Wolfram.
     <ul>
-      <li></li>
+      <li><a href="https://steno.ai/the-stephen-wolfram-podcast">Episode transcripts</a></li>
     </ul>
   </li>
 </ul>
@@ -103,4 +105,20 @@
 <ul>
   <li><a href="https://www.wolframalpha.com">Wolfram Alpha</a> is an answer engine developed by Wolfram Research.</li>
   <li><a href="https://www.wolfram.com/mathematica/">Mathematica</a> is a computational software program that provides a comprehensive environment for performing mathematical computations, data analysis, and visualizations.</li>
-</ul>]]></content><author><name></name></author><category term="Productivity" /><summary type="html"><![CDATA[A no-frills list of my personal infrastructure.]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="Productivity" /><summary type="html"><![CDATA[A no-frills list of my personal infrastructure.]]></summary></entry><entry><title type="html">a post with math</title><link href="https://bmcardona.github.io/blog/2015/linear-regression/" rel="alternate" type="text/html" title="a post with math" /><published>2015-10-20T15:12:00+00:00</published><updated>2015-10-20T15:12:00+00:00</updated><id>https://bmcardona.github.io/blog/2015/linear-regression</id><content type="html" xml:base="https://bmcardona.github.io/blog/2015/linear-regression/"><![CDATA[<p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/">MathJax 3</a> engine. You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>. If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
+
+<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph. Here is an example:</p>
+
+\[\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2\]
+
+<p>You can also use <code class="language-plaintext highlighter-rouge">\begin{equation}...\end{equation}</code> instead of <code class="language-plaintext highlighter-rouge">$$</code> for display mode math.
+MathJax will automatically number equations:</p>
+
+<p>\begin{equation}
+\label{eq:cauchy-schwarz}
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\end{equation}</p>
+
+<p>and by adding <code class="language-plaintext highlighter-rouge">\label{...}</code> inside the equation environment, we can now refer to the equation using <code class="language-plaintext highlighter-rouge">\eqref</code>.</p>
+
+<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">on par with KaTeX</a>.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="math" /><summary type="html"><![CDATA[an example of a blog post with some math]]></summary></entry></feed>
