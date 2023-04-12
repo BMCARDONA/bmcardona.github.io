@@ -19,7 +19,7 @@ We can use linear regression to find the best-fit line; this involves finding th
 
 $$
 \begin{align*}
-J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2}
+J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2},
 \end{align*}
 $$
 
@@ -34,9 +34,7 @@ where
 
 Our goal is to minimize $$J(w, b)$$, which requires that we find the "optimal" values of $$w$$ and $$b$$.
 
-Note: The difference $$\hat{y}^{(i)} - y^{(i)}$$ is sometimes referred to as the "loss". The fact that the cost function squares the loss ensures that the "error surface" is convex like a bowl. Hence, the error surface will always have a minimum that can be reached by following the gradient in all dimensions.
-
-By finding the minimum of the error surface, we will have found the values of $$w$$ and $$b$$ that minimize $$J(w, b)$$, thus giving us the best-fit line.
+Note: The difference $$\hat{y}^{(i)} - y^{(i)}$$ is sometimes referred to as the "loss". The fact that the cost function squares the loss ensures that the "error surface" is convex like a bowl. Hence, the error surface will always have a minimum that can be reached by following the gradient in all dimensions. By finding the minimum of the error surface, we will have found the values of $$w$$ and $$b$$ that minimize $$J(w, b)$$, thus giving us the best-fit line.
 
 
 
