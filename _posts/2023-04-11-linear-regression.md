@@ -2,7 +2,7 @@
 layout: post
 title: Linear Regression
 date: 2023-04-11 11:12:00-0400
-description: A brief summary of linear regression.
+description: A brief note on linear regression.
 categories: ["Machine Learning"]
 related_posts: false
 ---

@@ -12,8 +12,8 @@ related_posts: false
 - *[Viral: The Search for the Origin of COVID-19](https://www.amazon.com/Audible-Viral-Search-Origin-COVID-19/dp/B097CLV3QP/ref=sr_1_1?keywords=viral+the+search+for+the+origin+of+covid-19&qid=1681313204&sprefix=Viral%3A+The+Se%2Caps%2C249&sr=8-1)* by Matt Ridley and Alina Chan.
 
 #### Reading:
-- [Alexander Hamilton](https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758) by Ron Chernow.
-- [Artificial Intelligence](https://www.amazon.com/Artificial-Intelligence-A-Modern-Approach/dp/0134610997/ref=sr_1_1?crid=3TC0H4YT3TE25&keywords=artificial+intelligence+a+modern+approach+4th+edition&qid=1680920114&s=books&sprefix=Artific%2Cstripbooks%2C101&sr=1-1&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0) by Stuart Russell and Peter Norvig.
+- *[Alexander Hamilton](https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758)* by Ron Chernow.
+- *[Artificial Intelligence](https://www.amazon.com/Artificial-Intelligence-A-Modern-Approach/dp/0134610997/ref=sr_1_1?crid=3TC0H4YT3TE25&keywords=artificial+intelligence+a+modern+approach+4th+edition&qid=1680920114&s=books&sprefix=Artific%2Cstripbooks%2C101&sr=1-1&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0)* by Stuart Russell and Peter Norvig.
 
 #### Read:
 - *[American Prometheus](https://www.amazon.com/American-Prometheus-Triumph-Tragedy-Oppenheimer/dp/0375726268)* by Kai Bird and Martin J. Sherwin.
