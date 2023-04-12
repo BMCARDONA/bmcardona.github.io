@@ -37,7 +37,7 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 ## Hacks
 - Place no-snooze alarm clock out of arms reach. (This will push you to get out of bed.)
 - Avoid late-night eating by brushing teeth after last meal. 
-- Put phone away while reading; if unfamiliar with certain words, keep on hand a [physical dictionary](https://www.amazon.com/Paperback-Oxford-English-Dictionary-Dictionaries/dp/0199640947/ref=sr_1_1?crid=179MX4LD71LPV&keywords=oxford+dictionary&qid=1681314435&s=audible&sprefix=oxford+dictio%2Caudible%2C188&sr=1-1-catcorr). 
+- Put away phone while reading; if unfamiliar with certain words, keep on hand a [physical dictionary](https://www.amazon.com/Paperback-Oxford-English-Dictionary-Dictionaries/dp/0199640947/ref=sr_1_1?crid=179MX4LD71LPV&keywords=oxford+dictionary&qid=1681314435&s=audible&sprefix=oxford+dictio%2Caudible%2C188&sr=1-1-catcorr). 
 
 ## Leisure
 - Spend time with family and friends.
