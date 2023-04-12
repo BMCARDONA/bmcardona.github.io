@@ -25,7 +25,7 @@ where
 - $$w$$ and $$b$$ are ''weights'' (coefficients whose values can be freely manipulated);
 - $$m$$ is the ''number of training instances'';
 - $$x^{(i)}$$ is the ''$$i^{th}$$ training instance'';
-- $$\hat{y}^{(i)}$$ (sometimes written as $$f_{w, b}(x^{(i)})$$ or $$w\cdot x^{(i)} + b$$) is the ''prediction'';
+- $$\hat{y}^{(i)}$$ (sometimes written as $$f_{w, b}(x^{(i)})$$ or $$w\cdot x^{(i)} + b$$) is the ''$$i^{th}$$ prediction'';
 - and $$y^{(i)}$$ is the ''target''.  
 
 Note: The difference $$\hat{y}^{(i)} - y^{(i)}$$ is sometimes referred to as the ''loss''. The fact that the cost function squares the loss ensures that the ''error surface'' is convex like a bowl. It will always have a minimum that can be reached by following the gradient in all dimensions.
