@@ -14,7 +14,6 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 
 ## General Advice
 - Use a fan to drown out surrounding noise. Alternatively, play [white noise](https://open.spotify.com/track/5UBonaClAZVfzxJNn8nnhh?si=574507e8b3744f00) on loop.
-- Place alarm clock out of arms reach. (This will force you to get out of bed to turn off your alarm.)
 - Don't use social media (this includes YouTube and Reddit). See [The Social Dilemma](https://www.netflix.com/title/81254224).
 - Instead of trying to learn something abstractly, pick a specific project you'd like to work on and learn as you go. This will make it much more clearer how certain information can be applied. 
 
@@ -35,10 +34,14 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 - [Coursera](https://www.google.com/search?client=safari&rls=en&q=coursera&ie=UTF-8&oe=UTF-8) partners with top universities and organizations from around the world to provide high-quality educational content to learners of all backgrounds.
 - [Wolfram U](https://www.wolfram.com/wolfram-u/) offers free open interactive courses, learning events and other educational resources for professional and technical development.
 
+## Hacks
+- Place no-snooze alarm clock out of arms reach. (This will force you to get out of bed to turn off your alarm.)
+- To avoid late-night eating, brush teeth after last meal. 
+- Put phone away while reading; if unfamiliar with certain words, keep on hand a [physical dictionary](https://www.amazon.com/Paperback-Oxford-English-Dictionary-Dictionaries/dp/0199640947/ref=sr_1_1?crid=179MX4LD71LPV&keywords=oxford+dictionary&qid=1681314435&s=audible&sprefix=oxford+dictio%2Caudible%2C188&sr=1-1-catcorr). 
 
 ## Leisure
 - Message or call family and friends.
-- Read. (Never read more than two books at once.)
+- Read. 
 - Listen to audiobooks. (Use a library card to [get access to thousands of audiobooks](https://help.libbyapp.com/en-us/6144.htm).)
 
 ## Podcasts
@@ -55,9 +58,7 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 
 
 ## Nightly Routine
-- Use a time-blocking planner to plan for tomorrow. ([This](https://www.timeblockplanner.com) planner has been helpful to me.)
-- Brush teeth after dinner to avoid late-night eating.
-- After time blocking ends, schedule rest of day. (The latter portion should used for shallow work, as opposed to [deep work](https://calnewport.com/some-notes-on-deep-working/).) 
+- Fill out a time-blocking planner. (I use [this](https://www.timeblockplanner.com) one.)
 - Prepare tomorrow's clothes.
 - Wear a [sleep mask](https://www.amazon.com/Contoured-Sleeping-Blindfold-Concave-Meditation/dp/B07KC5DWCC/ref=zg_bs_3764231_sccl_1/132-0947972-7044716?th=1).
 
