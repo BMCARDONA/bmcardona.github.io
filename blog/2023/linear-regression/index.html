@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>sample-posts | Bradley M. Cardona</title>
+    <title>Linear Regression | Bradley M. Cardona</title>
     <meta name="author" content="Bradley M. Cardona">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="An Elementary Introduction to Linear Regressiion">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -34,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%97%BB&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://bmcardona.github.io/blog/category/sample-posts/">
+    <link rel="canonical" href="https://bmcardona.github.io/blog/2023/linear-regression/">
     
     <!-- Dark Mode -->
     
@@ -114,27 +113,79 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-tag fa-sm"></i> sample-posts </h1>
-    <p class="post-description"> An archive of posts in this category. </p>
+    <h1 class="post-title">Linear Regression</h1>
+    <p class="post-meta">April 11, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/category/machine">
+          <i class="fas fa-tag fa-sm"></i> Machine</a>  
+          <a href="/blog/category/learning">
+          <i class="fas fa-tag fa-sm"></i> Learning</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Oct 20, 2015</th>
-          <td>
-              <a class="post-link" href="/blog/2015/linear-regression/">a post with math</a>
-          </td>
-        </tr>
-      
-      </table>
-    </div>
+  <article class="post-content">
+    <p><strong>Linear Regression</strong> is a supervised machine learning model used to predict the value of one variable (the <strong>target</strong>) based on the value of another variable (the <strong>prediction</strong>). For example, suppose that we are trying to predict the price of a home based on its size. The first step would be to compile a data set</p>
+
+<p>The <strong>cost</strong> is the measure of how well our model predicts the target value. Moreover, we define a <strong>cost function</strong> to be the performance of a machine learning model for a data set.</p>
+
+<p>Suppose we are given the following cost function:
+\(J(w, b) = \frac{1}{2m} \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{i} - y^{i})^{2}, where\)</p>
+
+<p>Our goal is to minimize \(J(w, b)\). The lower the value of \(J(w, b)\), the better our linear line fits the data.</p>
+
+<!-- This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine. You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`. If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
+
+To use display mode, again surround your expression with `$$` and place it as a separate paragraph. Here is an example:
+
+$$
+\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2
+$$
+
+You can also use `\begin{equation}...\end{equation}` instead of `$$` for display mode math.
+MathJax will automatically number equations:
+
+\begin{equation}
+\label{eq:cauchy-schwarz}
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\end{equation}
+
+and by adding `\label{...}` inside the equation environment, we can now refer to the equation using `\eqref`.
+
+Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html) that brought a significant improvement to the loading and rendering speed, which is now [on par with KaTeX](http://www.intmath.com/cg5/katex-mathjax-comparison.php). -->
+
   </article>
+
+
+  
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/reading-list/">Reading List</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/infrastructure-cheatsheet/">An Infrastructure Cheatsheet</a>
+  </li>
 
 </div>
 
