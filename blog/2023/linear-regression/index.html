@@ -147,9 +147,10 @@
 <ul>
   <li>\(w\) and \(b\) are ‘‘weights’’ (coefficients whose values can be freely manipulated);</li>
   <li>\(m\) is the ‘‘number of training instances’’;</li>
-  <li>\(x^{(i)}\) is the ‘’\(i^{th}\) training instance’’;</li>
+  <li>\(i\) is the ‘’\(i^{th}\) training instance’’;</li>
+  <li>\(x^{(i)}\) is the ‘’\(i^{th}\) input feature’’;</li>
   <li>\(\hat{y}^{(i)}\) (sometimes written as \(f_{w, b}(x^{(i)})\) or \(w\cdot x^{(i)} + b\)) is the ‘’\(i^{th}\) prediction’’;</li>
-  <li>and \(y^{(i)}\) is the ‘’\(i^{th}\) target’’.</li>
+  <li>and \(y^{(i)}\) is the ‘’\(i^{th}\) output variable’’ (sometimes called the ‘’\(i^{th}\) target’’).</li>
 </ul>
 
 <p>Note: The difference \(\hat{y}^{(i)} - y^{(i)}\) is sometimes referred to as the ‘‘loss’’. The fact that the cost function squares the loss ensures that the ‘‘error surface’’ is convex like a bowl. It will always have a minimum that can be reached by following the gradient in all dimensions.</p>
