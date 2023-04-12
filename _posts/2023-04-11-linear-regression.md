@@ -29,9 +29,9 @@ where
 - $$y^{(i)}$$ is the "$$i^{th}$$ output variable" (sometimes called the "$$i^{th}$$ target"); 
 - and $$\hat{y}^{(i)}$$ (sometimes written as $$f_{w, b}(x^{(i)})$$ or $$w\cdot x^{(i)} + b$$) is the "$$i^{th}$$ prediction";
 
-Note: The difference $$\hat{y}^{(i)} - y^{(i)}$$ is sometimes referred to as the "loss". The fact that the cost function squares the loss ensures that the "error surface" is convex like a bowl. It will always have a minimum that can be reached by following the gradient in all dimensions.
+Note: The difference $$\hat{y}^{(i)} - y^{(i)}$$ is sometimes referred to as the "loss". The fact that the cost function squares the loss ensures that the "error surface" is convex like a bowl. Hence, the error surface will always have a minimum that can be reached by following the gradient in all dimensions.
 
-Our goal is to minimize $$J(w, b)$$, which requires that we find the "optimal" values of $$w$$ and $$b$$. The lower the value of $$J(w, b)$$, the better our line will fit the data.
+Our goal is to minimize $$J(w, b)$$, which requires that we find the "optimal" values of $$w$$ and $$b$$. The lower the value of $$J(w, b)$$, the better the fit of our line.
 
 
 
