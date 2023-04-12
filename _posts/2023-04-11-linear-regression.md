@@ -11,7 +11,7 @@ __Linear Regression__ is used in supervised machine learning to build a mathemat
 
 To create such a model, we must have a training set composed of (say) two columns: one for the input features and one for the output variables. (We can actually have several columns to designate several input features; for simplicity, however, we will assume, for the sake of simplicity, that we are dealing with just one input feature.) 
 
-Let's suppose for our training set that our input feature is ''house size'' and our output variable is ''house price.'' (Hence, each row or ''training instance'' of our training set corresponds to a single house). Our goal then is to describe the relationship between house size and house price. 
+Let's suppose for our training set that our input feature is ''house size'' and our output variable is ''house price.'' (Hence, each row or ''training instance'' of our training set corresponds to a single house). Our goal then is to create a mathematical model that describes the relationship in between house sizes and house prices. 
 
 If we were to plot each training instance on a graph in coordinate form, i.e., in the form (house size, house price), then there should exist a best-fit line which minimizes the distance between itself and each point. Such a line can be derived from a __cost function__, which provides a measure of how well our ''prediction'' matches our ''target.'' (This measure is called the __cost__. The lower the cost, the better the fit of our line.)  
 
