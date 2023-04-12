@@ -2,14 +2,14 @@
 layout: post
 title: Linear Regression
 date: 2023-04-11 11:12:00-0400
-description: A Brief Note on Linear Regression
+description: A Note on Linear Regression
 categories: ["Machine Learning"]
 related_posts: false
 ---
 
 Linear Regression can be used in supervised machine learning to find a mathematical function that describes the relationship between the input features and the output variables in a training set. 
 
-To create such a function, we need a training set composed of (say) two columns: one for the input features and one for the output variables. (We would actually have several columns if we had several input features; for simplicity, though, we will assume in this article that we are dealing with just one input feature.) 
+To create such a function, we need a training set composed of (say) two columns: one for the input features and one for the output variables. (We actually would have several columns if we had several input features; for simplicity, though, we will assume in this article that we are dealing with just one input feature.) 
 
 Let's suppose that in our training set our input feature is "house size" and our output variable is "house price." (Hence, each row or "training instance" of our training set corresponds to a single house). Our goal then is to find a mathematical function that describes the relationship between house sizes and house prices. 
 

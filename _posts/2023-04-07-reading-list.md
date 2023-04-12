@@ -2,10 +2,14 @@
 layout: post
 title:  Reading List
 date:   2023-04-07 12:44:16
-description: A collection of influential books.
+description: Books that I have read, am reading, or want to read.
 categories: Books
 related_posts: false
 ---
+
+#### To Read:
+- [Rebooting AI](https://www.amazon.com/Rebooting-AI-Building-Artificial-Intelligence/dp/052556604X/ref=sr_1_1?crid=3IBVCF0P01SV0&keywords=Rebooting+AI&qid=1681313177&sprefix=rebooting+ai%2Caps%2C99&sr=8-1) by Gary Marcus and Ernest Davis.
+- [Viral: The Search for the Origin of COVID-19](https://www.amazon.com/Audible-Viral-Search-Origin-COVID-19/dp/B097CLV3QP/ref=sr_1_1?keywords=viral+the+search+for+the+origin+of+covid-19&qid=1681313204&sprefix=Viral%3A+The+Se%2Caps%2C249&sr=8-1) by Matt Ridley and Alina Chan.
 
 #### Reading:
 - [Alexander Hamilton](https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758) by Ron Chernow.
