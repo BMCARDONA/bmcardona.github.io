@@ -43,6 +43,7 @@ A helpful [video](https://crossminds.ai/video/andrew-ng-how-to-read-research-pap
         - Not on ``brand.''
 - Finally...
     - Pick things that will teach you the most, and that will allow you to do important work.
+
 #### Advice on reading a paper: 
 - Read the paper in four passes: 
     - Read title, abstract, figures.
