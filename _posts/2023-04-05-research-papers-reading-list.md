@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Research Paper Reading List
+title:  Research Papers Reading List
 date:   2023-04-12 19:35:00
 description: Research Papers I have read, am reading, or plan to read.
 categories: ["Reading", "Research Papers", "Machine Learning"]
