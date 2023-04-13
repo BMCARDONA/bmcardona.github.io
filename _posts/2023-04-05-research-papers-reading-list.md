@@ -18,9 +18,9 @@ A helpful [lecture](https://crossminds.ai/video/andrew-ng-how-to-read-research-p
 
 #### Long-term advice:
 - Improve foundational skills through coursework and reading
-    - For Coursework:
+    - For coursework:
         - Andrew Ng's coursera courses.
-    - Steady reading (say, 2-3 papers per year).
+    - Steady reading (say, 2-3 papers per week).
         - Don't work in short bursts, but don't work all the time.
     - Print copies of papers you'd like to read.
 - Projects
