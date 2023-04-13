@@ -25,7 +25,7 @@ A helpful [lecture](https://crossminds.ai/video/andrew-ng-how-to-read-research-p
     - Print copies of papers you'd like to read.
 - Projects
     - Do meaningful work by creating one to two significant projects. (Having many shallow projects is not impressive.)
-    - Create and Contribute to open-source projects.
+    - Create and contribute to open-source projects.
     - Improve programming ability.
 - Specialize in a given field, but have some understanding of other fields as well ("T" shape). 
 - Saturday morning problem
