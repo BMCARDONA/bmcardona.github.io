@@ -36,7 +36,7 @@ A helpful [lecture](https://crossminds.ai/video/andrew-ng-how-to-read-research-p
     - The secret: If you read 2 papers a week, you will have read 100 papers in one year. 
         - The key is to work consistently, not in short bursts.
 - Selecting a job
-    - Work with great people on great projects.
+    - Work with great people, on great projects.
     - Focus on...
         - The team you'll interact with (10 - 30 persons).
         - Manager.
