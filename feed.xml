@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-13T01:11:23+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-13T01:18:41+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Research Paper Reading List</title><link href="https://bmcardona.github.io/blog/2023/research-papers-reading-list/" rel="alternate" type="text/html" title="Research Paper Reading List" /><published>2023-04-12T19:35:00+00:00</published><updated>2023-04-12T19:35:00+00:00</updated><id>https://bmcardona.github.io/blog/2023/research-papers-reading-list</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/research-papers-reading-list/"><![CDATA[<h4 id="to-read">To Read:</h4>
 
 <h4 id="reading">Reading:</h4>
@@ -18,7 +18,7 @@
       </li>
       <li>Steady reading (say, 2-3 papers per year).
         <ul>
-          <li>Don’t work in short bursts, but don’t work all the time .</li>
+          <li>Don’t work in short bursts, but don’t work all the time.</li>
         </ul>
       </li>
       <li>Print copies of papers you’d like to read.</li>
@@ -26,8 +26,8 @@
   </li>
   <li>Projects
     <ul>
-      <li>Do meaningful work by creating one to two significant projects. (Many shallow projects is not impressive.)</li>
-      <li>Contribute to open source projects.</li>
+      <li>Do meaningful work by creating one to two significant projects. (Having many shallow projects is not impressive.)</li>
+      <li>Create and Contribute to open-source projects.</li>
       <li>Improve programming ability.</li>
     </ul>
   </li>
@@ -38,12 +38,12 @@
         <ul>
           <li>Read paper.</li>
           <li>Work on project.</li>
-          <li>Open source.</li>
+          <li>Work on open-source project.</li>
         </ul>
       </li>
       <li>The secret: If you read 2 papers a week, you will have read 100 papers in one year.
         <ul>
-          <li>The key is to work consistently, and (to re-iterate) not in short bursts.</li>
+          <li>The key is to work consistently, not in short bursts.</li>
         </ul>
       </li>
     </ul>
@@ -55,7 +55,7 @@
         <ul>
           <li>The team you’ll interact with (10 - 30 persons).</li>
           <li>Manager.</li>
-          <li>Not on ``brand.’’</li>
+          <li>Not on ‘‘brand.’’</li>
         </ul>
       </li>
     </ul>
@@ -69,11 +69,11 @@
 
 <h4 id="advice-on-reading-a-paper">Advice on reading a paper:</h4>
 <ul>
-  <li>Read the paper in four passes:
+  <li>Read each paper in four passes:
     <ul>
       <li>Read title, abstract, figures.</li>
       <li>Read introduction, conclusion, figures, skip rest.</li>
-      <li>Read but skip/skim the math.</li>
+      <li>Read but skip (or skim) the math.</li>
       <li>Read entire paper but skip parts you don’t understand.</li>
     </ul>
   </li>
@@ -89,22 +89,25 @@
 
 <h4 id="how-to-understand-the-math">How to understand the math</h4>
 <ul>
-  <li>Re-derive from scratch.</li>
+  <li>Re-derive the math from scratch.</li>
 </ul>
 
 <h4 id="how-to-understand-the-code">How to understand the code</h4>
 <ul>
-  <li>Run opensource code.</li>
-  <li>Re-write from scratch.</li>
+  <li>Run open-source code.</li>
+  <li>Re-write the code from scratch.</li>
 </ul>
 
 <h4 id="general-advice">General advice</h4>
 <ul>
-  <li>Choose area of interest.</li>
+  <li>Choose area of interest. (Recall that you eventually need to specialize.)</li>
   <li>Generally speaking, if you read 15-20 papers on a given topic, you have a good understanding; 50-100 papers, a mastery-level understanding.</li>
-  <li>Compile a list of papers/articles you’d like to read.</li>
-  <li>Quickly scan (say 10%) of all papers.</li>
-  <li>Read a few papers, skip a few papers, and then decide which ones to read more.</li>
+  <li>Compile a list of papers/articles you’d like to read.
+    <ul>
+      <li>Quickly scan (say 10% of) all papers on list.</li>
+    </ul>
+  </li>
+  <li>Read a few papers, skip a few, and then decide which ones to read more.</li>
 </ul>
 
 <h4 id="how-to-find-the-papers">How to find the papers</h4>
