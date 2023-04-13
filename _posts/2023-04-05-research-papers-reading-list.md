@@ -14,7 +14,7 @@ related_posts: false
 
 #### Read:
 
-A helpful [video](https://crossminds.ai/video/andrew-ng-how-to-read-research-papers-and-machine-learning-career-advice-600242af495ecadbf27b382e/) by Andrew Ng on reading research papers.
+A helpful [lecture](https://crossminds.ai/video/andrew-ng-how-to-read-research-papers-and-machine-learning-career-advice-600242af495ecadbf27b382e/) by Andrew Ng.
 
 #### Long-term advice:
 - Improve foundational skills through coursework and reading
