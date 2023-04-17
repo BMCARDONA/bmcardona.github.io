@@ -2,7 +2,7 @@
 layout: post
 title:  An Infrastructure Cheatsheet
 date:   2023-04-05 12:44:16
-description: A no-frills list of my personal infrastructure. 
+# description: A no-frills list of my personal infrastructure. 
 categories: ["Productivity"]
 related_posts: false
 ---
@@ -12,7 +12,7 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 > “Productivity is a trap. Becoming more efficient just makes you more rushed, and trying to clear the decks simply makes them fill up again faster. Nobody in the history of humanity has ever achieved “work-life balance,” whatever that might be, and you certainly won’t get there by copying the “six things successful people do before 7:00 a.m.” The day will never arrive when you finally have everything under control—when the flood of emails has been contained; when your to-do lists have stopped getting longer; when you’re meeting all your obligations at work and in your home life; when nobody’s angry with you for missing a deadline or dropping the ball; and when the fully optimized person you’ve become can turn, at long last, to the things life is really supposed to be about. Let’s start by admitting defeat: none of this is ever going to happen. But you know what? That’s excellent news.” &mdash;Oliver Burkeman, *[Four Thousand Weeks: Time Management for Mortals](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122)*
 
 ## Blogs 
-- [DeepLearning.AI's The Batch](https://www.deeplearning.ai/the-batch/).
+- DeepLearning.AI's [The Batch](https://www.deeplearning.ai/the-batch/).
 - [Stephen Wolfram's Writings](https://writings.stephenwolfram.com/).
 
 
