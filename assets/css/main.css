@@ -216,6 +216,7 @@ blockquote {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
+    border-radius: 20px;
   }
   .profile .address p {
     display: block;
