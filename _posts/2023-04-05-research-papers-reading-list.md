@@ -3,6 +3,7 @@ layout: post
 title:  Research Papers Reading List
 date:   2023-04-12 19:35:00
 categories: ["Reading", "Research Papers", "Machine Learning"]
+img: assets/img/1.jpg
 related_posts: false
 ---
 
