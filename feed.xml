@@ -1,28 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-17T23:28:41+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bmcardona.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bmcardona.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-17T23:38:34+00:00</updated><id>https://bmcardona.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Research Papers Reading List</title><link href="https://bmcardona.github.io/blog/2023/research-papers-reading-list/" rel="alternate" type="text/html" title="Research Papers Reading List" /><published>2023-04-12T19:35:00+00:00</published><updated>2023-04-12T19:35:00+00:00</updated><id>https://bmcardona.github.io/blog/2023/research-papers-reading-list</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/research-papers-reading-list/"><![CDATA[<h1 id="reading">Reading:</h1>
-
-<h2 id="11---survey">1.1 - Survey</h2>
+<h4 id="11---survey">1.1 - Survey</h4>
 <ul>
-  <li><strong>[1]</strong> LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. “<strong>Deep learning</strong>.” Nature 521.7553 (2015): 436-444. <a href="http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf">[pdf]</a> <strong>(Three Giants’ Survey)</strong> :star::star::star::star::star:</li>
+  <li><strong>[1]</strong> LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. “<strong>Deep learning</strong>.” Nature 521.7553 (2015): 436-444. <a href="http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf">[pdf]</a> <strong>(Three Giants’ Survey)</strong> :star::star::star::star::star:
+___
+    <h1 id="read">Read:</h1>
+    <hr />
+    <h1 id="to-read">To Read:</h1>
+  </li>
 </ul>
 
-<h1 id="read">Read:</h1>
+<h2 id="1---deep-learning-history-and-basics">1 - Deep Learning History and Basics</h2>
 
-<h1 id="to-read">To Read:</h1>
-<hr />
-
-<h1 id="1---deep-learning-history-and-basics">1 - Deep Learning History and Basics</h1>
-
-<h2 id="10---book">1.0 - Book</h2>
+<h4 id="10---book">1.0 - Book</h4>
 <ul>
   <li><strong>[0]</strong> Bengio, Yoshua, Ian J. Goodfellow, and Aaron Courville. “<strong>Deep learning</strong>.” An MIT Press book. (2015). <a href="http://www.deeplearningbook.org/">[html]</a> <strong>(Deep Learning Bible, you can read this book while reading following papers.)</strong> :star::star::star::star::star:</li>
 </ul>
 
 <!-- ## 1.1 Survey
-
 **[1]** LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. "**Deep learning**." Nature 521.7553 (2015): 436-444. [[pdf]](http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf) **(Three Giants' Survey)** :star::star::star::star::star: -->
 
-<h2 id="12---deep-belief-networkdbnmilestone-of-deep-learning-eve">1.2 - Deep Belief Network(DBN)(Milestone of Deep Learning Eve)</h2>
+<h4 id="12---deep-belief-networkdbnmilestone-of-deep-learning-eve">1.2 - Deep Belief Network(DBN)(Milestone of Deep Learning Eve)</h4>
 
 <ul>
   <li>
@@ -33,7 +31,7 @@
   </li>
 </ul>
 
-<h2 id="13---imagenet-evolutiondeep-learning-broke-out-from-here">1.3 - ImageNet Evolution（Deep Learning broke out from here）</h2>
+<h4 id="13---imagenet-evolutiondeep-learning-broke-out-from-here">1.3 - ImageNet Evolution（Deep Learning broke out from here）</h4>
 
 <ul>
   <li>
@@ -50,7 +48,7 @@
   </li>
 </ul>
 
-<h2 id="14---speech-recognition-evolution">1.4 - Speech Recognition Evolution</h2>
+<h4 id="14---speech-recognition-evolution">1.4 - Speech Recognition Evolution</h4>
 
 <ul>
   <li>
@@ -77,9 +75,9 @@
   <p>After reading above papers, you will have a basic understanding of the Deep Learning history, the basic architectures of Deep Learning model(including CNN, RNN, LSTM) and how deep learning can be applied to image and speech recognition issues. The following papers will take you in-depth understanding of the Deep Learning method, Deep Learning in different areas of application and the frontiers. I suggest that you can choose the following papers based on your interests and research direction.</p>
 </blockquote>
 
-<h1 id="2---deep-learning-method">2 - Deep Learning Method</h1>
+<h2 id="2---deep-learning-method">2 - Deep Learning Method</h2>
 
-<h2 id="21---model">2.1 - Model</h2>
+<h4 id="21---model">2.1 - Model</h4>
 
 <ul>
   <li>
@@ -108,7 +106,7 @@
   </li>
 </ul>
 
-<h2 id="22---optimization">2.2 - Optimization</h2>
+<h4 id="22---optimization">2.2 - Optimization</h4>
 
 <ul>
   <li>
@@ -131,7 +129,7 @@
   </li>
 </ul>
 
-<h2 id="23---unsupervised-learning--deep-generative-model">2.3 - Unsupervised Learning / Deep Generative Model</h2>
+<h4 id="23---unsupervised-learning--deep-generative-model">2.3 - Unsupervised Learning / Deep Generative Model</h4>
 
 <ul>
   <li>
@@ -160,7 +158,7 @@
   </li>
 </ul>
 
-<h2 id="24---rnn--sequence-to-sequence-model">2.4 - RNN / Sequence-to-Sequence Model</h2>
+<h4 id="24---rnn--sequence-to-sequence-model">2.4 - RNN / Sequence-to-Sequence Model</h4>
 
 <ul>
   <li>
@@ -180,7 +178,7 @@
   </li>
 </ul>
 
-<h2 id="25---neural-turing-machine">2.5 - Neural Turing Machine</h2>
+<h4 id="25---neural-turing-machine">2.5 - Neural Turing Machine</h4>
 
 <ul>
   <li>
@@ -203,7 +201,7 @@
   </li>
 </ul>
 
-<h2 id="26---deep-reinforcement-learning">2.6 - Deep Reinforcement Learning</h2>
+<h4 id="26---deep-reinforcement-learning">2.6 - Deep Reinforcement Learning</h4>
 
 <ul>
   <li>
@@ -232,7 +230,7 @@
   </li>
 </ul>
 
-<h2 id="27---deep-transfer-learning--lifelong-learning--especially-for-rl">2.7 - Deep Transfer Learning / Lifelong Learning / especially for RL</h2>
+<h4 id="27---deep-transfer-learning--lifelong-learning--especially-for-rl">2.7 - Deep Transfer Learning / Lifelong Learning / especially for RL</h4>
 
 <ul>
   <li>
@@ -255,7 +253,7 @@
   </li>
 </ul>
 
-<h2 id="28---one-shot-deep-learning">2.8 - One Shot Deep Learning</h2>
+<h4 id="28---one-shot-deep-learning">2.8 - One Shot Deep Learning</h4>
 
 <ul>
   <li>
@@ -275,9 +273,9 @@
   </li>
 </ul>
 
-<h1 id="3---applications">3 - Applications</h1>
+<h2 id="3---applications">3 - Applications</h2>
 
-<h2 id="31---nlpnatural-language-processing">3.1 - NLP(Natural Language Processing)</h2>
+<h4 id="31---nlpnatural-language-processing">3.1 - NLP(Natural Language Processing)</h4>
 
 <ul>
   <li>
@@ -309,7 +307,7 @@
   </li>
 </ul>
 
-<h2 id="32---object-detection">3.2 - Object Detection</h2>
+<h4 id="32---object-detection">3.2 - Object Detection</h4>
 
 <ul>
   <li>
@@ -352,7 +350,7 @@
   </li>
 </ul>
 
-<h2 id="33---visual-tracking">3.3 - Visual Tracking</h2>
+<h4 id="33---visual-tracking">3.3 - Visual Tracking</h4>
 
 <ul>
   <li>
@@ -378,7 +376,7 @@
   </li>
 </ul>
 
-<h2 id="34--image-caption">3.4- Image Caption</h2>
+<h4 id="34--image-caption">3.4- Image Caption</h4>
 
 <ul>
   <li>
@@ -413,7 +411,7 @@
   </li>
 </ul>
 
-<h2 id="35---machine-translation">3.5 - Machine Translation</h2>
+<h4 id="35---machine-translation">3.5 - Machine Translation</h4>
 
 <blockquote>
   <p>Some milestone papers are listed in RNN / Seq-to-Seq topic.</p>
@@ -440,7 +438,7 @@
   </li>
 </ul>
 
-<h2 id="36---robotics">3.6 - Robotics</h2>
+<h4 id="36---robotics">3.6 - Robotics</h4>
 
 <ul>
   <li>
@@ -472,7 +470,7 @@
   </li>
 </ul>
 
-<h2 id="37---art">3.7 - Art</h2>
+<h4 id="37---art">3.7 - Art</h4>
 
 <ul>
   <li><strong>[1]</strong> Mordvintsev, Alexander; Olah, Christopher; Tyka, Mike (2015). “<strong>Inceptionism: Going Deeper into Neural Networks</strong>”. Google Research. <a href="https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html">[html]</a> <strong>(Deep Dream)</strong></li>
@@ -510,7 +508,7 @@
   </li>
 </ul>
 
-<h2 id="38---object-segmentation">3.8 - Object Segmentation</h2>
+<h4 id="38---object-segmentation">3.8 - Object Segmentation</h4>
 
 <ul>
   <li>
@@ -528,7 +526,7 @@
   <li>
     <p><strong>[5]</strong> Dai, J., He, K., Sun, J. “<strong>Instance-sensitive Fully Convolutional Networks</strong>.” arXiv preprint arXiv:1603.08678 (2016). <a href="https://arxiv.org/pdf/1603.08678v1.pdf">[pdf]</a> :star::star::star:</p>
   </li>
-</ul>]]></content><author><name></name></author><category term="Reading" /><category term="Research Papers" /><category term="Machine Learning" /><summary type="html"><![CDATA[Reading:]]></summary></entry><entry><title type="html">Linear Regression</title><link href="https://bmcardona.github.io/blog/2023/linear-regression/" rel="alternate" type="text/html" title="Linear Regression" /><published>2023-04-11T15:12:00+00:00</published><updated>2023-04-11T15:12:00+00:00</updated><id>https://bmcardona.github.io/blog/2023/linear-regression</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/linear-regression/"><![CDATA[<p>Linear Regression can be used in supervised machine learning to find a mathematical function that describes the relationship between the input features and the output variables in a training set.</p>
+</ul>]]></content><author><name></name></author><category term="Reading" /><category term="Research Papers" /><category term="Machine Learning" /><summary type="html"><![CDATA[Reading: 1.1 - Survey [1] LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. “Deep learning.” Nature 521.7553 (2015): 436-444. [pdf] (Three Giants’ Survey) :star::star::star::star::star: ___ Read: To Read:]]></summary></entry><entry><title type="html">Linear Regression</title><link href="https://bmcardona.github.io/blog/2023/linear-regression/" rel="alternate" type="text/html" title="Linear Regression" /><published>2023-04-11T15:12:00+00:00</published><updated>2023-04-11T15:12:00+00:00</updated><id>https://bmcardona.github.io/blog/2023/linear-regression</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/linear-regression/"><![CDATA[<p>Linear Regression can be used in supervised machine learning to find a mathematical function that describes the relationship between the input features and the output variables in a training set.</p>
 
 <p>To create such a function, we need a training set composed of (say) two columns: one for the input features and one for the output variables. (We actually would have several columns if we had several input features; for simplicity, though, we will assume in this article that we are dealing with just one input feature.)</p>
 
@@ -557,17 +555,15 @@ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2},
 <p>Note: The difference \(\hat{y}^{(i)} - y^{(i)}\) is sometimes referred to as the “loss”. The fact that the cost function squares the loss ensures that the “error surface” is convex like a bowl. Hence, the error surface will always have a minimum that can be reached by following the gradient in all dimensions. By finding the minimum of the error surface, we will have found the values of \(w\) and \(b\) that minimize \(J(w, b)\), thus giving us the best-fit line.</p>]]></content><author><name></name></author><category term="Machine Learning" /><summary type="html"><![CDATA[Linear Regression can be used in supervised machine learning to find a mathematical function that describes the relationship between the input features and the output variables in a training set.]]></summary></entry><entry><title type="html">Reading List</title><link href="https://bmcardona.github.io/blog/2023/reading-list/" rel="alternate" type="text/html" title="Reading List" /><published>2023-04-07T12:44:16+00:00</published><updated>2023-04-07T12:44:16+00:00</updated><id>https://bmcardona.github.io/blog/2023/reading-list</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/reading-list/"><![CDATA[<h4 id="to-read">To Read:</h4>
 <ul>
   <li><em><a href="https://www.amazon.com/Rebooting-AI-Building-Artificial-Intelligence/dp/052556604X/ref=sr_1_1?crid=3IBVCF0P01SV0&amp;keywords=Rebooting+AI&amp;qid=1681313177&amp;sprefix=rebooting+ai%2Caps%2C99&amp;sr=8-1">Rebooting AI</a></em> by Gary Marcus and Ernest Davis.</li>
-  <li><em><a href="https://www.amazon.com/Audible-Viral-Search-Origin-COVID-19/dp/B097CLV3QP/ref=sr_1_1?keywords=viral+the+search+for+the+origin+of+covid-19&amp;qid=1681313204&amp;sprefix=Viral%3A+The+Se%2Caps%2C249&amp;sr=8-1">Viral: The Search for the Origin of COVID-19</a></em> by Matt Ridley and Alina Chan.</li>
-</ul>
-
-<h4 id="reading">Reading:</h4>
-<ul>
+  <li><em><a href="https://www.amazon.com/Audible-Viral-Search-Origin-COVID-19/dp/B097CLV3QP/ref=sr_1_1?keywords=viral+the+search+for+the+origin+of+covid-19&amp;qid=1681313204&amp;sprefix=Viral%3A+The+Se%2Caps%2C249&amp;sr=8-1">Viral: The Search for the Origin of COVID-19</a></em> by Matt Ridley and Alina Chan.
+___
+    <h4 id="reading">Reading:</h4>
+  </li>
   <li><em><a href="https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758">Alexander Hamilton</a></em> by Ron Chernow.</li>
-  <li><em><a href="https://www.amazon.com/Artificial-Intelligence-A-Modern-Approach/dp/0134610997/ref=sr_1_1?crid=3TC0H4YT3TE25&amp;keywords=artificial+intelligence+a+modern+approach+4th+edition&amp;qid=1680920114&amp;s=books&amp;sprefix=Artific%2Cstripbooks%2C101&amp;sr=1-1&amp;ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0">Artificial Intelligence</a></em> by Stuart Russell and Peter Norvig.</li>
-</ul>
-
-<h4 id="read">Read:</h4>
-<ul>
+  <li><em><a href="https://www.amazon.com/Artificial-Intelligence-A-Modern-Approach/dp/0134610997/ref=sr_1_1?crid=3TC0H4YT3TE25&amp;keywords=artificial+intelligence+a+modern+approach+4th+edition&amp;qid=1680920114&amp;s=books&amp;sprefix=Artific%2Cstripbooks%2C101&amp;sr=1-1&amp;ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0">Artificial Intelligence</a></em> by Stuart Russell and Peter Norvig.
+___
+    <h4 id="read">Read:</h4>
+  </li>
   <li><em><a href="https://www.amazon.com/American-Prometheus-Triumph-Tragedy-Oppenheimer/dp/0375726268">American Prometheus</a></em> by Kai Bird and Martin J. Sherwin.</li>
   <li><em><a href="https://www.amazon.com/Aquariums-Pyongyang-Years-North-Korean/dp/0465011047">The Aquariums of Pyongyang</a></em> by Chol-hwan Kang and Pierre Rigoulot.</li>
   <li><em><a href="https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X/ref=sr_1_1?crid=3LAT4J9JB7C3Q&amp;keywords=Benjamin+Franklin+an+american+life&amp;qid=1680920166&amp;s=books&amp;sprefix=benjamin+franklin+an+american+lif%2Cstripbooks%2C163&amp;sr=1-1">Benjamin Franklin: An American Life</a></em> by Walter Isaacson.</li>
@@ -589,7 +585,7 @@ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2},
   <li><em><a href="https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303">Titan: The Life of John D. Rockefeller, Sr.</a></em> by Ron Chernow.</li>
   <li><em><a href="https://www.amazon.com/Waking-Up-Sam-Harris-audiobook/dp/B00M9KEFY6/ref=sr_1_1?crid=3RT3TWRQLHK66&amp;keywords=waking+up&amp;qid=1680919942&amp;sprefix=waking+u%2Caps%2C118&amp;sr=8-1">Waking Up: A Guide to Spirituality Without Religion</a></em> by Sam Harris.</li>
   <li><em><a href="https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265431">10% Happier</a></em> by Dan Harris.</li>
-</ul>]]></content><author><name></name></author><category term="Reading" /><category term="Books" /><summary type="html"><![CDATA[Books I have read, am reading, or plan to read.]]></summary></entry><entry><title type="html">On Reading Research Papers</title><link href="https://bmcardona.github.io/blog/2023/andrew-ng-research-paper-advice/" rel="alternate" type="text/html" title="On Reading Research Papers" /><published>2023-04-05T12:44:16+00:00</published><updated>2023-04-05T12:44:16+00:00</updated><id>https://bmcardona.github.io/blog/2023/andrew-ng-research-paper-advice</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/andrew-ng-research-paper-advice/"><![CDATA[<p>A helpful <a href="https://crossminds.ai/video/andrew-ng-how-to-read-research-papers-and-machine-learning-career-advice-600242af495ecadbf27b382e/">lecture</a> on reading research papers by Andrew Ng.</p>
+</ul>]]></content><author><name></name></author><category term="Reading" /><category term="Books" /><summary type="html"><![CDATA[To Read: Rebooting AI by Gary Marcus and Ernest Davis. Viral: The Search for the Origin of COVID-19 by Matt Ridley and Alina Chan. ___ Reading: Alexander Hamilton by Ron Chernow. Artificial Intelligence by Stuart Russell and Peter Norvig. ___ Read: American Prometheus by Kai Bird and Martin J. Sherwin. The Aquariums of Pyongyang by Chol-hwan Kang and Pierre Rigoulot. Benjamin Franklin: An American Life by Walter Isaacson. Brave New World by Aldous Huxley. Deep Work by Cal Newport. Doing Good Better by William MacAskill. Foundation by Isaac Asimov. Four Thousand Weeks: Time Management for Mortals by Oliver Burkeman. Free Will by Sam Harris. The Hitchhiker’s Guide to the Galaxy by Douglas Adams. A History of Western Philosophy by Bertrand Russell. Hyperion by Dan Simmons. Lying by Sam Harris. Making Sense: Conversations on Consciousness, Morality, and the Future of Humanity by Sam Harris. The Moral Landscape by Sam Harris. The Paper Menagerie by Ken Liu. A Primate’s Memoir by Robert Sapolsky. The Three Body Problem trilogy by Cixin Liu. Titan: The Life of John D. Rockefeller, Sr. by Ron Chernow. Waking Up: A Guide to Spirituality Without Religion by Sam Harris. 10% Happier by Dan Harris.]]></summary></entry><entry><title type="html">On Reading Research Papers</title><link href="https://bmcardona.github.io/blog/2023/andrew-ng-research-paper-advice/" rel="alternate" type="text/html" title="On Reading Research Papers" /><published>2023-04-05T12:44:16+00:00</published><updated>2023-04-05T12:44:16+00:00</updated><id>https://bmcardona.github.io/blog/2023/andrew-ng-research-paper-advice</id><content type="html" xml:base="https://bmcardona.github.io/blog/2023/andrew-ng-research-paper-advice/"><![CDATA[<p>A helpful <a href="https://crossminds.ai/video/andrew-ng-how-to-read-research-papers-and-machine-learning-career-advice-600242af495ecadbf27b382e/">lecture</a> on reading research papers by Andrew Ng.</p>
 
 <h4 id="long-term-advice">Long-term advice:</h4>
 <ul>
