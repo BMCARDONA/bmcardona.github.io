@@ -2,37 +2,33 @@
 layout: post
 title:  Research Papers Reading List
 date:   2023-04-12 19:35:00
-# description: Research Papers I have read, am reading, or plan to read.
 categories: ["Reading", "Research Papers", "Machine Learning"]
 related_posts: false
 ---
 
 # Reading:
-
-## 1.1 - Survey
+#### 1.1 - Survey
 - **[1]** LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. "**Deep learning**." Nature 521.7553 (2015): 436-444. [[pdf]](http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf) **(Three Giants' Survey)** :star::star::star::star::star:
-
-# Read:
-
-# To Read:
 ___
+# Read:
+___
+# To Read:
 
-# 1 - Deep Learning History and Basics
+## 1 - Deep Learning History and Basics
 
-## 1.0 - Book
+#### 1.0 - Book
 - **[0]** Bengio, Yoshua, Ian J. Goodfellow, and Aaron Courville. "**Deep learning**." An MIT Press book. (2015). [[html]](http://www.deeplearningbook.org/) **(Deep Learning Bible, you can read this book while reading following papers.)** :star::star::star::star::star:
 
 <!-- ## 1.1 Survey
-
 **[1]** LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. "**Deep learning**." Nature 521.7553 (2015): 436-444. [[pdf]](http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf) **(Three Giants' Survey)** :star::star::star::star::star: -->
 
-## 1.2 - Deep Belief Network(DBN)(Milestone of Deep Learning Eve)
+#### 1.2 - Deep Belief Network(DBN)(Milestone of Deep Learning Eve)
 
 - **[2]** Hinton, Geoffrey E., Simon Osindero, and Yee-Whye Teh. "**A fast learning algorithm for deep belief nets**." Neural computation 18.7 (2006): 1527-1554. [[pdf]](http://www.cs.toronto.edu/~hinton/absps/ncfast.pdf)**(Deep Learning Eve)** :star::star::star:
 
 - **[3]** Hinton, Geoffrey E., and Ruslan R. Salakhutdinov. "**Reducing the dimensionality of data with neural networks**." Science 313.5786 (2006): 504-507. [[pdf]](http://www.cs.toronto.edu/~hinton/science.pdf) **(Milestone, Show the promise of deep learning)** :star::star::star:
 
-## 1.3 - ImageNet Evolution（Deep Learning broke out from here）
+#### 1.3 - ImageNet Evolution（Deep Learning broke out from here）
 
 - **[4]** Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "**Imagenet classification with deep convolutional neural networks**." Advances in neural information processing systems. 2012. [[pdf]](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) **(AlexNet, Deep Learning Breakthrough)** :star::star::star::star::star:
 
@@ -50,7 +46,7 @@ ___
 
   
 
-## 1.4 - Speech Recognition Evolution
+#### 1.4 - Speech Recognition Evolution
 
   
 
@@ -82,9 +78,9 @@ ___
 
   
 
-# 2 - Deep Learning Method
+## 2 - Deep Learning Method
 
-## 2.1 - Model
+#### 2.1 - Model
 
 - **[14]** Hinton, Geoffrey E., et al. "**Improving neural networks by preventing co-adaptation of feature detectors**." arXiv preprint arXiv:1207.0580 (2012). [[pdf]](https://arxiv.org/pdf/1207.0580.pdf) **(Dropout)** :star::star::star:
 
@@ -116,7 +112,7 @@ ___
 
   
 
-## 2.2 - Optimization
+#### 2.2 - Optimization
 
   
 
@@ -144,7 +140,7 @@ ___
 
   
 
-## 2.3 - Unsupervised Learning / Deep Generative Model
+#### 2.3 - Unsupervised Learning / Deep Generative Model
 
   
 
@@ -181,7 +177,7 @@ ___
 
   
 
-## 2.4 - RNN / Sequence-to-Sequence Model
+#### 2.4 - RNN / Sequence-to-Sequence Model
 
   
 
@@ -205,7 +201,7 @@ ___
 
   
 
-## 2.5 - Neural Turing Machine
+#### 2.5 - Neural Turing Machine
 
   
 
@@ -234,7 +230,7 @@ ___
 
   
 
-## 2.6 - Deep Reinforcement Learning
+#### 2.6 - Deep Reinforcement Learning
 
   
 
@@ -270,7 +266,7 @@ ___
 
   
 
-## 2.7 - Deep Transfer Learning / Lifelong Learning / especially for RL
+#### 2.7 - Deep Transfer Learning / Lifelong Learning / especially for RL
 
   
 
@@ -299,7 +295,7 @@ ___
   
   
 
-## 2.8 - One Shot Deep Learning
+#### 2.8 - One Shot Deep Learning
 
   
 
@@ -324,11 +320,11 @@ ___
   
   
 
-# 3 - Applications
+## 3 - Applications
 
   
 
-## 3.1 - NLP(Natural Language Processing)
+#### 3.1 - NLP(Natural Language Processing)
 
   
 
@@ -368,7 +364,7 @@ ___
 
   
 
-## 3.2 - Object Detection
+#### 3.2 - Object Detection
 
   
 
@@ -420,7 +416,7 @@ Region-based Fully Convolutional Networks**." arXiv preprint arXiv:1605.06409 (2
   
   
 
-## 3.3 - Visual Tracking
+#### 3.3 - Visual Tracking
 
   
 
@@ -452,7 +448,7 @@ Region-based Fully Convolutional Networks**." arXiv preprint arXiv:1605.06409 (2
 
   
 
-## 3.4- Image Caption
+#### 3.4- Image Caption
 
 - **[1]** Farhadi,Ali,etal. "**Every picture tells a story: Generating sentences from images**". In Computer VisionECCV 2010. Springer Berlin Heidelberg:15-29, 2010. [[pdf]](https://www.cs.cmu.edu/~afarhadi/papers/sentence.pdf) :star::star::star:
 
@@ -494,7 +490,7 @@ Region-based Fully Convolutional Networks**." arXiv preprint arXiv:1605.06409 (2
 
   
 
-## 3.5 - Machine Translation
+#### 3.5 - Machine Translation
 
   
 
@@ -527,7 +523,7 @@ Region-based Fully Convolutional Networks**." arXiv preprint arXiv:1605.06409 (2
 
   
 
-## 3.6 - Robotics
+#### 3.6 - Robotics
 
   
 
@@ -567,7 +563,7 @@ Region-based Fully Convolutional Networks**." arXiv preprint arXiv:1605.06409 (2
 
   
 
-## 3.7 - Art
+#### 3.7 - Art
 
   
 
@@ -613,7 +609,7 @@ Region-based Fully Convolutional Networks**." arXiv preprint arXiv:1605.06409 (2
 
   
 
-## 3.8 - Object Segmentation
+#### 3.8 - Object Segmentation
 
   
 
