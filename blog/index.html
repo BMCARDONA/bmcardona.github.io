@@ -64,10 +64,14 @@ pagination:
         <a class="post-title" href="{% if post.redirect contains '://' %}{{ post.redirect }}{% else %}{{ post.redirect | relative_url }}{% endif %}">{{ post.title }}</a>
         {% endif %}
       </h3>
-      
       <p>{{ post.description }}</p>
-      <p class="post-meta"> {{read_time}} min read &nbsp; &middot; &nbsp;
+      <p class="post-meta">
+        <!-- MIN READ -->
+        <!-- {{ read_time }} min read &nbsp; &middot; &nbsp; -->
         {{ post.date | date: '%B %-d, %Y' }}
+        {%- if post.external_source %}
+        &nbsp; &middot; &nbsp; {{ post.external_source }}
+        {%- endif %}
       </p>
       <p class="post-tags">
         <!-- YEAR -->
