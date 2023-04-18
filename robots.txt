@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bmcardona.github.io/sitemap.xml
+Sitemap: bcardona.com/sitemap.xml
