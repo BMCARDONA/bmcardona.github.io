@@ -4,7 +4,6 @@ title: A Brief Note on Linear Regression
 date: 2023-04-11 11:12:00-0400
 categories: ["Machine Learning"]
 related_posts: false
-img: assets/img/linear-regression.png
 ---
 
 Linear Regression can be used in supervised machine learning to find a mathematical function that describes the relationship between the input features and the output variables in a training set. 
