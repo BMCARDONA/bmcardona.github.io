@@ -4,6 +4,7 @@ title:  On Reading Research Papers
 date:   2023-04-05 12:44:16
 categories: ["Reading", "Research Papers", "Machine Learning"]
 related_posts: false
+img: assets/img/ideas.jpg
 ---
 
 A helpful [lecture](https://crossminds.ai/video/andrew-ng-how-to-read-research-papers-and-machine-learning-career-advice-600242af495ecadbf27b382e/) on reading research papers by Andrew Ng.

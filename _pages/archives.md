@@ -4,7 +4,7 @@ permalink: /archives/
 title: Archives
 description: An archive of all my writings.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 ### Writings by Category
@@ -24,3 +24,5 @@ nav_order: 2
   <li><a href="{{ site.baseurl }}/blog/{{ year.name }}/">{{ year.name }}</a></li>
 {% endfor %}
 </ul>
+
+
