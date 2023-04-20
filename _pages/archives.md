@@ -24,5 +24,3 @@ nav_order: 2
   <li><a href="{{ site.baseurl }}/blog/{{ year.name }}/">{{ year.name }}</a></li>
 {% endfor %}
 </ul>
-
-
