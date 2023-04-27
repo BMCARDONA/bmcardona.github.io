@@ -61,8 +61,6 @@ However, we consider it good style to mention author last names if you discuss s
 
 ## Example
 
-Here's an example using a 2x2 real symmetric matrix:
-
 Let's say we have a 2x2 real symmetric matrix `C`:
 
 $$
