@@ -5,7 +5,6 @@ giscus_comments: false
 categories: ["Machine Learning"]
 date: 2023-04-23
 img: assets/img/linear-regression.png
----
 
 authors:
   - name: Bradley Cardona
