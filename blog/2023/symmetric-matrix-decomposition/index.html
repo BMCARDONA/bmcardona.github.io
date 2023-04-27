@@ -62,23 +62,6 @@
     <script src="/assets/js/distillpub/transforms.v2.js"></script>
     <script src="/assets/js/distillpub/overrides.js"></script>
     
-    <!-- Page/Post style -->
-    <style type="text/css">
-      .fake-img {
-  background: #bbb;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 12px;
-} .fake-img p {
-  font-family: monospace;
-  color: white;
-  text-align: left;
-  margin: 12px 0;
-  text-align: center;
-  font-size: 16px;
-}
-
-    </style>
   </head>
 
   <body>
@@ -88,16 +71,6 @@
       "description": "",
       "published": "April 23, 2023",
       "authors": [
-        {
-          "author": "Bradley Cardona",
-          "authorURL": "",
-          "affiliations": [
-            {
-              "name": "",
-              "url": ""
-            }
-          ]
-        }
         
       ],
       "katex": {
@@ -193,72 +166,158 @@
       <d-byline></d-byline>
 
       <d-article>
-        <d-contents>
-          <nav class="l-text figcaption">
-          <h3>Contents</h3>
-            <div><a href="#equation">Equation</a></div>
-            <div><a href="#example">Example</a></div>
-            
-          </nav>
-        </d-contents>
+        
 
-        <h2 id="equation">Equation</h2>
+        <p>authors:</p>
+<ul>
+  <li>name: Bradley Cardona
+    <h1 id="url-httpsenwikipediaorgwikialbert_einstein">url: “https://en.wikipedia.org/wiki/Albert_Einstein”</h1>
+    <h1 id="affiliations">affiliations:</h1>
+    <h1 id="name-ias-princeton">name: IAS, Princeton</h1>
+  </li>
+</ul>
 
-<p>On page 42 of <em>Deep Learning</em> by Bengio et al, it is stated that every symmetric matrix $A$ can be decomposed into an expression using only real valued-eigenvectors and eigenvalues, such that
-\(A = Q \Lambda Q^T \tag{2.41}\)
-where $Q$ is an orthogonal matrix composed of eigenvectors of $A$, and $\Lambda$ is a diagonal matrix. The eigenvalue $\Lambda_{i,i}$ is associated with the eigenvector in column $i$ of $Q$, denoted as $Q_{:,i}$.</p>
+<p>bibliography: deep-learning.bib # To change bibliography, go to assets –&gt; bibliography</p>
+
+<h1 id="optionally-you-can-add-a-table-of-contents-to-your-post">Optionally, you can add a table of contents to your post.</h1>
+<h1 id="notes">NOTES:</h1>
+<h1 id="--make-sure-that-toc-names-match-the-actual-section-names">- make sure that TOC names match the actual section names</h1>
+<h1 id="for-hyperlinks-within-the-post-to-work-correctly">for hyperlinks within the post to work correctly.</h1>
+<h1 id="--we-may-want-to-automate-toc-generation-in-the-future-using">- we may want to automate TOC generation in the future using</h1>
+<h1 id="jekyll-toc-plugin-httpsgithubcomtoshimarujekyll-toc">jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).</h1>
+<p>toc:</p>
+<ul>
+  <li>name: Equation
+    <h1 id="if-a-section-has-subsections-you-can-add-them-as-follows">if a section has subsections, you can add them as follows:</h1>
+    <h1 id="subsections">subsections:</h1>
+    <h1 id="--name-example-child-subsection-1">- name: Example Child Subsection 1</h1>
+    <h1 id="--name-example-child-subsection-2">- name: Example Child Subsection 2</h1>
+    <p><!-- - name: Citations --></p>
+  </li>
+  <li>name: Example
+    <h1 id="--name-footnotes">- name: Footnotes</h1>
+    <h1 id="--name-code-blocks">- name: Code Blocks</h1>
+    <h1 id="--name-interactive-plots">- name: Interactive Plots</h1>
+    <h1 id="--name-layouts">- name: Layouts</h1>
+    <h1 id="--name-other-typography">- name: Other Typography?</h1>
+  </li>
+</ul>
+
+<h1 id="below-is-an-example-of-injecting-additional-post-specific-styles">Below is an example of injecting additional post-specific styles.</h1>
+<h1 id="if-you-use-this-post-as-a-template-delete-this-_styles-block">If you use this post as a template, delete this _styles block.</h1>
+<p>_styles: &gt;
+  .fake-img {
+    background: #bbb;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+  }
+  .fake-img p {
+    font-family: monospace;
+    color: white;
+    text-align: left;
+    margin: 12px 0;
+    text-align: center;
+    font-size: 16px;
+  }</p>
+
+<hr>
+
+<h2 id="equation">Equation</h2>
+
+<p>On page 42 of <em>Deep Learning</em> by Bengio et al, it is stated that every symmetric matrix $A$ can be decomposed into an expression using only real valued-eigenvectors and eigenvalues, such that</p>
+
+\[A = Q \Lambda Q^T \tag{2.41}\]
+
+<p>where $Q$ is an orthogonal matrix composed of eigenvectors of $A$, and $\Lambda$ is a diagonal matrix. The eigenvalue $\Lambda_{i,i}$ is associated with the eigenvector in column $i$ of $Q$, denoted as $Q_{:,i}$.<d-cite key="Goodfellow-et-al-2016"></d-cite></p>
+
+<hr>
+
+<!-- ## Citations
+
+Citations are then used in the article body with the `<d-cite>` tag.
+The key attribute is a reference to the id provided in the bibliography.
+The key attribute can take multiple ids, separated by commas.
+
+The citation is presented inline like this: <d-cite key="Goodfellow-et-al-2016"></d-cite> (a number that displays more information on hover).
+If you have an appendix, a bibliography is automatically created and populated in it.
+
+Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
+However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.
+
+*** -->
 
 <h2 id="example">Example</h2>
 
-<p>Here’s an example of a real symmetric matrix that can be decomposed into an expression using only real-valued eigenvectors and eigenvalues:</p>
+<p>Here’s an example using a 2x2 real symmetric matrix:</p>
 
-<p>Let’s say we have a 2x2 real symmetric matrix <code class="language-plaintext highlighter-rouge">A</code>:
-\(A = \begin{bmatrix}
-2 &amp; -1 \\
--1 &amp; 2
-\end{bmatrix}\)
-The characteristic polynomial of <code class="language-plaintext highlighter-rouge">A</code> is given by:
-\(|A - \lambda I| = \begin{vmatrix}
-2 - \lambda &amp; -1 \\
--1 &amp; 2 - \lambda
-\end{vmatrix} = (2-\lambda)^2 - 1 = \lambda^2 - 4\lambda + 3\)
-The eigenvalues of <code class="language-plaintext highlighter-rouge">A</code> are the roots of the characteristic polynomial:
-\(\lambda^2 - 4\lambda + 3 = 0 \Rightarrow (\lambda - 1)(\lambda - 3) = 0 \Rightarrow \lambda_1 = 1, \lambda_2 = 3\)
-The eigenvectors of <code class="language-plaintext highlighter-rouge">A</code> are given by solving the equation <code class="language-plaintext highlighter-rouge">(A - λI)v = 0</code> for each eigenvalue <code class="language-plaintext highlighter-rouge">λ</code>. For <code class="language-plaintext highlighter-rouge">λ_1 = 1</code>, we have:
-\((A - \lambda_1 I)v_1 = \begin{bmatrix}
-1 &amp; -1 \\
--1 &amp; 1
+<p>Let’s say we have a 2x2 real symmetric matrix <code class="language-plaintext highlighter-rouge">C</code>:</p>
+
+\[C = \begin{bmatrix}
+4 &amp; 1 \\
+1 &amp; 4
+\end{bmatrix}\]
+
+<p>The characteristic polynomial of <code class="language-plaintext highlighter-rouge">C</code> is given by:</p>
+
+\[|C - \lambda I| = \begin{vmatrix}
+4 - \lambda &amp; 1 \\
+1 &amp; 4 - \lambda
+\end{vmatrix} = (4-\lambda)^2 - 1 = \lambda^2 - 8\lambda + 15\]
+
+<p>The eigenvalues of <code class="language-plaintext highlighter-rouge">C</code> are the roots of the characteristic polynomial:</p>
+
+\[\lambda^2 - 8\lambda + 15 = 0 \Rightarrow (\lambda - 3)(\lambda - 5) = 0 \Rightarrow \lambda_1 = 3, \lambda_2 = 5\]
+
+<p>The eigenvectors of <code class="language-plaintext highlighter-rouge">C</code> are given by solving the equation <code class="language-plaintext highlighter-rouge">(C - λI)v = 0</code> for each eigenvalue <code class="language-plaintext highlighter-rouge">λ</code>. For <code class="language-plaintext highlighter-rouge">λ_1 = 3</code>, we have:</p>
+
+\[(C - \lambda_1 I)v_1 = \begin{bmatrix}
+1 &amp; 1 \\
+1 &amp; 1
 \end{bmatrix}v_1 = 0 \Rightarrow v_1 = t\begin{bmatrix}
-1 \\
-1
-\end{bmatrix}\)
-For <code class="language-plaintext highlighter-rouge">λ_2 = 3</code>, we have:
-\((A - \lambda_2 I)v_2 = \begin{bmatrix}
--1 &amp; -1 \\
--1 &amp; -1
-\end{bmatrix}v_2 = 0 \Rightarrow v_2 = t\begin{bmatrix}
 -1 \\
 1
-\end{bmatrix}\)
-Thus, the eigenvectors of <code class="language-plaintext highlighter-rouge">A</code> are <code class="language-plaintext highlighter-rouge">v_1 = [1, 1]</code> and <code class="language-plaintext highlighter-rouge">v_2 = [-1, 1]</code>. We can normalize these eigenvectors to obtain an orthogonal matrix <code class="language-plaintext highlighter-rouge">Q</code>:
-\(Q = \frac{1}{\sqrt{2}}\begin{bmatrix}
-1 &amp; -1 \\
+\end{bmatrix}\]
+
+<p>For <code class="language-plaintext highlighter-rouge">λ_2 = 5</code>, we have:</p>
+
+\[(C - \lambda_2 I)v_2 = \begin{bmatrix}
+-1 &amp; 1 \\
+1 &amp; -1
+\end{bmatrix}v_2 = 0 \Rightarrow v_2 = t\begin{bmatrix}
+1 \\
+1
+\end{bmatrix}\]
+
+<p>Thus, the eigenvectors of <code class="language-plaintext highlighter-rouge">C</code> are <code class="language-plaintext highlighter-rouge">v_1 = [-1, 1]</code> and <code class="language-plaintext highlighter-rouge">v_2 = [1, 1]</code>. We can normalize these eigenvectors to obtain an orthogonal matrix <code class="language-plaintext highlighter-rouge">Q</code>:</p>
+
+\[Q = \frac{1}{\sqrt{2}}\begin{bmatrix}
+-1 &amp; 1 \\
 1 &amp; 1
-\end{bmatrix}\)
-The diagonal matrix <code class="language-plaintext highlighter-rouge">Λ</code> is given by:
-\(Λ = \begin{bmatrix}
+\end{bmatrix}\]
+
+<p>The diagonal matrix <code class="language-plaintext highlighter-rouge">Λ</code> is given by:</p>
+
+\[Λ = \begin{bmatrix}
 \lambda_1 &amp; 0 \\
 0 &amp; \lambda_2
 \end{bmatrix} = \begin{bmatrix}
-1 &amp; 0 \\
-0 &amp; 3
-\end{bmatrix}\)
-Thus, we have decomposed <code class="language-plaintext highlighter-rouge">A</code> into the expression:
-$$
-A = QΛQ^T = \frac{1}{\sqrt{2}}\begin{bmatrix}
-1 &amp; -1 <br>
+3 &amp; 0 \\
+0 &amp; 5
+\end{bmatrix}\]
+
+<p>Thus, we have decomposed <code class="language-plaintext highlighter-rouge">C</code> into the expression:</p>
+
+\[C = QΛQ^T = \frac{1}{\sqrt{2}}\begin{bmatrix}
+-1 &amp; 1 \\
 1 &amp; 1
-\end{bmatrix}\begin{bmatrix}</p>
+\end{bmatrix}\begin{bmatrix}
+3 &amp; 0 \\
+0 &amp; 5
+\end{bmatrix}\left(\frac{1}{\sqrt{2}}\begin{bmatrix}
+-1 &amp; 1 \\
+1 &amp; 1
+\end{bmatrix}\right)^T\]
 
 
       </d-article>
@@ -268,7 +327,7 @@ A = QΛQ^T = \frac{1}{\sqrt{2}}\begin{bmatrix}
         <d-citation-list></d-citation-list>
       </d-appendix>
 
-      <d-bibliography src="/assets/bibliography/deep-learning.bib"></d-bibliography>
+      <d-bibliography src="/assets/bibliography/"></d-bibliography>
 </div>
 
     <!-- Footer -->    <!-- ORIGINAL CODE -->
