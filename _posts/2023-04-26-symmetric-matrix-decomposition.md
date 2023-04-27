@@ -13,7 +13,6 @@ bibliography: deep-learning.bib # To change bibliography, go to assets --> bibli
 
 toc:
   - name: Equation
-  <!-- - name: Citations -->
   - name: Example
 
 _styles: >
