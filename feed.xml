@@ -1,5 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-22T18:50:11+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Reading List (Research Papers)</title><link href="https://bcardona.com/blog/2023/research-papers-reading-list/" rel="alternate" type="text/html" title="Reading List (Research Papers)" /><published>2023-04-12T19:35:00+00:00</published><updated>2023-04-12T19:35:00+00:00</updated><id>https://bcardona.com/blog/2023/research-papers-reading-list</id><content type="html" xml:base="https://bcardona.com/blog/2023/research-papers-reading-list/"><![CDATA[<h1 id="reading">Reading:</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-27T02:08:15+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Eigendecomposition of a Real Symmetric Matrix</title><link href="https://bcardona.com/blog/2023/symmetric-matrix-decomposition/" rel="alternate" type="text/html" title="Eigendecomposition of a Real Symmetric Matrix" /><published>2023-04-23T00:00:00+00:00</published><updated>2023-04-23T00:00:00+00:00</updated><id>https://bcardona.com/blog/2023/symmetric-matrix-decomposition</id><content type="html" xml:base="https://bcardona.com/blog/2023/symmetric-matrix-decomposition/"><![CDATA[<h2 id="equation">Equation</h2>
+
+<p>On page 42 of <em>Deep Learning</em> by Bengio et al, it is stated that every symmetric matrix $A$ can be decomposed into an expression using only real valued-eigenvectors and eigenvalues, such that
+\(A = Q \Lambda Q^T \tag{2.41}\)
+where $Q$ is an orthogonal matrix composed of eigenvectors of $A$, and $\Lambda$ is a diagonal matrix. The eigenvalue $\Lambda_{i,i}$ is associated with the eigenvector in column $i$ of $Q$, denoted as $Q_{:,i}$.</p>
+
+<h2 id="example">Example</h2>
+
+<p>Here’s an example of a real symmetric matrix that can be decomposed into an expression using only real-valued eigenvectors and eigenvalues:</p>
+
+<p>Let’s say we have a 2x2 real symmetric matrix <code class="language-plaintext highlighter-rouge">A</code>:
+\(A = \begin{bmatrix}
+2 &amp; -1 \\
+-1 &amp; 2
+\end{bmatrix}\)
+The characteristic polynomial of <code class="language-plaintext highlighter-rouge">A</code> is given by:
+\(|A - \lambda I| = \begin{vmatrix}
+2 - \lambda &amp; -1 \\
+-1 &amp; 2 - \lambda
+\end{vmatrix} = (2-\lambda)^2 - 1 = \lambda^2 - 4\lambda + 3\)
+The eigenvalues of <code class="language-plaintext highlighter-rouge">A</code> are the roots of the characteristic polynomial:
+\(\lambda^2 - 4\lambda + 3 = 0 \Rightarrow (\lambda - 1)(\lambda - 3) = 0 \Rightarrow \lambda_1 = 1, \lambda_2 = 3\)
+The eigenvectors of <code class="language-plaintext highlighter-rouge">A</code> are given by solving the equation <code class="language-plaintext highlighter-rouge">(A - λI)v = 0</code> for each eigenvalue <code class="language-plaintext highlighter-rouge">λ</code>. For <code class="language-plaintext highlighter-rouge">λ_1 = 1</code>, we have:
+\((A - \lambda_1 I)v_1 = \begin{bmatrix}
+1 &amp; -1 \\
+-1 &amp; 1
+\end{bmatrix}v_1 = 0 \Rightarrow v_1 = t\begin{bmatrix}
+1 \\
+1
+\end{bmatrix}\)
+For <code class="language-plaintext highlighter-rouge">λ_2 = 3</code>, we have:
+\((A - \lambda_2 I)v_2 = \begin{bmatrix}
+-1 &amp; -1 \\
+-1 &amp; -1
+\end{bmatrix}v_2 = 0 \Rightarrow v_2 = t\begin{bmatrix}
+-1 \\
+1
+\end{bmatrix}\)
+Thus, the eigenvectors of <code class="language-plaintext highlighter-rouge">A</code> are <code class="language-plaintext highlighter-rouge">v_1 = [1, 1]</code> and <code class="language-plaintext highlighter-rouge">v_2 = [-1, 1]</code>. We can normalize these eigenvectors to obtain an orthogonal matrix <code class="language-plaintext highlighter-rouge">Q</code>:
+\(Q = \frac{1}{\sqrt{2}}\begin{bmatrix}
+1 &amp; -1 \\
+1 &amp; 1
+\end{bmatrix}\)
+The diagonal matrix <code class="language-plaintext highlighter-rouge">Λ</code> is given by:
+\(Λ = \begin{bmatrix}
+\lambda_1 &amp; 0 \\
+0 &amp; \lambda_2
+\end{bmatrix} = \begin{bmatrix}
+1 &amp; 0 \\
+0 &amp; 3
+\end{bmatrix}\)
+Thus, we have decomposed <code class="language-plaintext highlighter-rouge">A</code> into the expression:
+$$
+A = QΛQ^T = \frac{1}{\sqrt{2}}\begin{bmatrix}
+1 &amp; -1 <br />
+1 &amp; 1
+\end{bmatrix}\begin{bmatrix}</p>]]></content><author><name>Bradley Cardona</name></author><summary type="html"><![CDATA[Equation]]></summary></entry><entry><title type="html">Reading List (Research Papers)</title><link href="https://bcardona.com/blog/2023/research-papers-reading-list/" rel="alternate" type="text/html" title="Reading List (Research Papers)" /><published>2023-04-12T19:35:00+00:00</published><updated>2023-04-12T19:35:00+00:00</updated><id>https://bcardona.com/blog/2023/research-papers-reading-list</id><content type="html" xml:base="https://bcardona.com/blog/2023/research-papers-reading-list/"><![CDATA[<h1 id="reading">Reading:</h1>
 
 <hr />
 
@@ -555,6 +611,7 @@ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2},
 <ul>
   <li><em><a href="https://www.amazon.com/Rebooting-AI-Building-Artificial-Intelligence/dp/052556604X/ref=sr_1_1?crid=3IBVCF0P01SV0&amp;keywords=Rebooting+AI&amp;qid=1681313177&amp;sprefix=rebooting+ai%2Caps%2C99&amp;sr=8-1">Rebooting AI</a></em> by Gary Marcus and Ernest Davis.</li>
   <li><em><a href="https://www.amazon.com/Audible-Viral-Search-Origin-COVID-19/dp/B097CLV3QP/ref=sr_1_1?keywords=viral+the+search+for+the+origin+of+covid-19&amp;qid=1681313204&amp;sprefix=Viral%3A+The+Se%2Caps%2C249&amp;sr=8-1">Viral: The Search for the Origin of COVID-19</a></em> by Matt Ridley and Alina Chan.</li>
+  <li><em><a href="https://www.amazon.com/Love-World-Journey-Through-Bardos/dp/0525512535">In Love with the World: A Monk’s Journey Through the Bardos of Living and Dying</a></em> by Yongey Mingyur Rinpoche and Helen Tworkov.</li>
 </ul>
 
 <hr />
@@ -591,7 +648,7 @@ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2},
   <li><em><a href="https://www.amazon.com/Titan-Life-John-Rockefeller-Sr/dp/1400077303">Titan: The Life of John D. Rockefeller, Sr.</a></em> by Ron Chernow.</li>
   <li><em><a href="https://www.amazon.com/Waking-Up-Sam-Harris-audiobook/dp/B00M9KEFY6/ref=sr_1_1?crid=3RT3TWRQLHK66&amp;keywords=waking+up&amp;qid=1680919942&amp;sprefix=waking+u%2Caps%2C118&amp;sr=8-1">Waking Up: A Guide to Spirituality Without Religion</a></em> by Sam Harris.</li>
   <li><em><a href="https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265431">10% Happier</a></em> by Dan Harris.</li>
-</ul>]]></content><author><name></name></author><category term="Reading" /><category term="Books" /><summary type="html"><![CDATA[To Read: Rebooting AI by Gary Marcus and Ernest Davis. Viral: The Search for the Origin of COVID-19 by Matt Ridley and Alina Chan.]]></summary></entry><entry><title type="html">On Reading Research Papers</title><link href="https://bcardona.com/blog/2023/andrew-ng-research-paper-advice/" rel="alternate" type="text/html" title="On Reading Research Papers" /><published>2023-04-05T12:44:16+00:00</published><updated>2023-04-05T12:44:16+00:00</updated><id>https://bcardona.com/blog/2023/andrew-ng-research-paper-advice</id><content type="html" xml:base="https://bcardona.com/blog/2023/andrew-ng-research-paper-advice/"><![CDATA[<p>A helpful <a href="https://crossminds.ai/video/andrew-ng-how-to-read-research-papers-and-machine-learning-career-advice-600242af495ecadbf27b382e/">lecture</a> on reading research papers by Andrew Ng.</p>
+</ul>]]></content><author><name></name></author><category term="Reading" /><category term="Books" /><summary type="html"><![CDATA[To Read: Rebooting AI by Gary Marcus and Ernest Davis. Viral: The Search for the Origin of COVID-19 by Matt Ridley and Alina Chan. In Love with the World: A Monk’s Journey Through the Bardos of Living and Dying by Yongey Mingyur Rinpoche and Helen Tworkov.]]></summary></entry><entry><title type="html">On Reading Research Papers</title><link href="https://bcardona.com/blog/2023/andrew-ng-research-paper-advice/" rel="alternate" type="text/html" title="On Reading Research Papers" /><published>2023-04-05T12:44:16+00:00</published><updated>2023-04-05T12:44:16+00:00</updated><id>https://bcardona.com/blog/2023/andrew-ng-research-paper-advice</id><content type="html" xml:base="https://bcardona.com/blog/2023/andrew-ng-research-paper-advice/"><![CDATA[<p>A helpful <a href="https://crossminds.ai/video/andrew-ng-how-to-read-research-papers-and-machine-learning-career-advice-600242af495ecadbf27b382e/">lecture</a> on reading research papers by Andrew Ng.</p>
 
 <h4 id="long-term-advice">Long-term advice:</h4>
 <ul>
