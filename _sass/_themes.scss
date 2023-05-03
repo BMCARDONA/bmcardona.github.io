@@ -36,8 +36,10 @@
 
 html[data-theme='dark'] {
   --global-bg-color: #{$dark-mode-color};
-  --global-wolfram-nav-bar-color: #23292e;
+  // --global-wolfram-nav-bar-color: #23292e;
+  --global-wolfram-nav-bar-color: rgb(43, 48, 59);
   --global-code-bg-color: #{$code-bg-color-dark};
+
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};
   --global-theme-color: #{$cyan-color};
