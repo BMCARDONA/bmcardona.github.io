@@ -11,8 +11,8 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: rgb(33, 37, 45);
   --global-text-color-light: #828282;
-  --global-theme-color: #643b95;
-  --global-hover-color: #643b95;
+  --global-theme-color: rgb(180, 58, 43);
+  --global-hover-color: rgb(180, 58, 43);
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;

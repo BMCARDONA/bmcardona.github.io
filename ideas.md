@@ -8,3 +8,4 @@ Website ideas:
     - Add to "hacks": If listening to podcast to fall asleep, set sleep timer. 
     - Add to "Desk:: Glasses
 - Add timeless spotify link
+- Make article image sizes smaller
