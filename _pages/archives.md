@@ -2,9 +2,9 @@
 layout: page
 permalink: /archives/
 title: Archives
-description: An archive of all my writings.
+description: Archives of all my writings.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 ### Writings by Category
