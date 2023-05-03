@@ -17,7 +17,8 @@ ___
 #### Reading:
 - *[Alexander Hamilton](https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758)* by Ron Chernow.
 <!-- - *[Artificial Intelligence](https://www.amazon.com/Artificial-Intelligence-A-Modern-Approach/dp/0134610997/ref=sr_1_1?crid=3TC0H4YT3TE25&keywords=artificial+intelligence+a+modern+approach+4th+edition&qid=1680920114&s=books&sprefix=Artific%2Cstripbooks%2C101&sr=1-1&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0)* by Stuart Russell and Peter Norvig. -->
-- *[Deep Learning](http://www.deeplearningbook.org/)* by Yoshua Bengio, Ian J. Goodfellow, and Aaron Courville.
+<!-- - *[Deep Learning](http://www.deeplearningbook.org/)* by Yoshua Bengio, Ian J. Goodfellow, and Aaron Courville. -->
+- *[Deep Learning with Python](https://www.amazon.com/Learning-Python-Second-Fran-C3-A7ois-Chollet-dp-1617296864/dp/1617296864/ref=dp_ob_title_bk)* by Francois Challet.
 
 ___
 

@@ -3,7 +3,7 @@ layout: distill
 title: Eigendecomposition of a Real Symmetric Matrix
 giscus_comments: false
 categories: ["Machine Learning"]
-date: 2023-04-23
+date: 2023-04-26
 img: assets/img/linear-regression.png
 
 authors:
@@ -20,7 +20,7 @@ _styles: >
     background: #bbb;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 11px;
+    margin-bottom: 12px;
   }
   .fake-img p {
     font-family: monospace;
@@ -28,7 +28,7 @@ _styles: >
     text-align: left;
     margin: 12px 0;
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
   }
 
 ---
