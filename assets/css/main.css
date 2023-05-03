@@ -9,7 +9,7 @@
   --global-bg-color: #ffffff;
   --global-wolfram-nav-bar-color: rgb(240, 237, 245);
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
-  --global-text-color: #001f24;
+  --global-text-color: rgb(33, 37, 45);
   --global-text-color-light: #828282;
   --global-theme-color: #643b95;
   --global-hover-color: #643b95;
@@ -36,8 +36,8 @@
 }
 
 html[data-theme=dark] {
-  --global-bg-color: #001f24;
-  --global-wolfram-nav-bar-color: #23292e;
+  --global-bg-color: rgb(33, 37, 45);
+  --global-wolfram-nav-bar-color: rgb(43, 48, 59);
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
   --global-text-color-light: #e8e8e8;
