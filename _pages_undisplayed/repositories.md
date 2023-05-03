@@ -1,10 +1,10 @@
 ---
-layout: page
-permalink: /repositories/
-title: Repositories
-description:
-nav: true
-nav_order: 2
+# layout: page
+# permalink: /repositories/
+# title: Repositories
+# description:
+# nav: true
+# nav_order: 2
 ---
 
 ## My GitHub
