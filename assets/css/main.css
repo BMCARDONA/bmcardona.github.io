@@ -292,7 +292,7 @@ blockquote {
   transition-property: all 0.2s ease-in-out;
 }
 .navbar.navbar-light .navbar-brand.social a:hover i::before {
-  color: var(--global-theme-color);
+  filter: brightness(85%);
 }
 
 .navbar-toggler .icon-bar {
