@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  An Infrastructure Cheatsheet
-date:   2023-04-05 12:44:16
+date:   2023-04-04 12:44:16
 categories: ["Productivity"]
 related_posts: false
 img: assets/img/gears.jpg
