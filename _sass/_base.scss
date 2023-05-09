@@ -165,7 +165,7 @@ blockquote {
 // Navbar customization
 
 .navbar {
-  box-shadow: none;
+  box-shadow: true;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-wolfram-nav-bar-color);
   opacity: 0.95;
