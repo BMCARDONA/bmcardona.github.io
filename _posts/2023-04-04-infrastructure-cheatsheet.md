@@ -29,6 +29,7 @@ This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephen
 - Pencil
 - Notebook
 - Laptop
+- Glasses
 
 
 ## Educational resources
