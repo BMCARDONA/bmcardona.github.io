@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Etch-A-Sketch
-description: A pretty neat toy that's something between a sketchpad and an Etch-A-Sketch.
+description: A neat toy that's something between a sketchpad and an Etch-A-Sketch.
 img: assets/img/etch_a_sketch.png
 redirect: https://bcardona.com/etch-a-sketch/
 importance: 2
