@@ -2,12 +2,12 @@
 layout: page
 title: Sorting Visualizer
 description: A visualizer for several sorting algorithms, including Heap sort, Insertion sort, and Quick sort.
-img: assets/img/sorting_visualizer.png
+img: assets/img/sorting-visualizer.png
 redirect: https://bmcardona.github.io/sorting-visualizer/
 importance: 2
 category: Visualizers
 ---
-
+<!-- Don't forget to update categories in projects.md file! -->
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
