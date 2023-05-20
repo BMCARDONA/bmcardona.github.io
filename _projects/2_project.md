@@ -2,7 +2,7 @@
 layout: page
 title: Pathfinding Visualizer
 description: A visualizer for several pathfinding algorithms, including DFS, BFS, and A* Search.
-img: assets/img/pathfinding-visualizer.png
+img: assets/img/pathfinding_visualizer.png
 redirect: https://bmcardona.github.io/pathfinding-visualizer/
 importance: 2
 category: Visualizers
