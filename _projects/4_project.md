@@ -2,7 +2,7 @@
 layout: page
 title: Tic-Tac-Toe
 description: A no-frills game of tic-tac-toe.
-img: assets/img/tic_tac_toe.png
+img: assets/img/tic_tac_toe.jpg
 redirect: hhttps://bcardona.com/tic-tac-toe/
 importance: 2
 category: Games
