@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio Template
 description: A template website that showcases your work as a software developer.
-img: assets/img/pathfinding_visualizer.jpg
+img: assets/img/pathfinding_visualizer.png
 redirect: https://bcardona.com/personal-website-js/
 importance: 2
 category: Templates

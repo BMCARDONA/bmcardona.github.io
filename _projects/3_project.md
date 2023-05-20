@@ -2,7 +2,7 @@
 layout: page
 title: Sudoku
 description: A playable sudoku board that can generate any random board's solution.
-img: assets/img/sudoku.jpg
+img: assets/img/sudoku.png
 redirect: https://bcardona.com/sudoku-solver/
 importance: 2
 category: Games
