@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Approved financial aid for Andrew Ng's [Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning) course.
+Approved for financial aid for Andrew Ng's [Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning) course.

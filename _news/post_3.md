@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Approved financial aid for Andrew Ng's [Unsupervised Learning, Recommenders, Reinforcement Learning](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning) and [Advanced Learning Algorithms](https://www.coursera.org/learn/advanced-learning-algorithms) course.
+Approved for financial aid for Andrew Ng's [Unsupervised Learning, Recommenders, Reinforcement Learning](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning) and [Advanced Learning Algorithms](https://www.coursera.org/learn/advanced-learning-algorithms) course.
