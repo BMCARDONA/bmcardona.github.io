@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Bradley. A recent mathematics graduate of Allegheny College.
+Recent mathematics graduate of Allegheny College.
 
 **Interests**: Mathematics, Data Analysis, Data Science. *Interested in collaborating? [Contact me](mailto:bcardona300@gmail.com).*
 
