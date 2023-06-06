@@ -188,7 +188,7 @@ blockquote {
   align-items: center;
 }
 
-.global-text-color-for-about {
+.danger-color-dark {
   color: var(--global-text-color);
 }
 
