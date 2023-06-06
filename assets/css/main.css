@@ -189,7 +189,7 @@ blockquote {
 }
 
 .global-text-color-for-about {
-  background-color: var(--global-text-color);
+  background-color: var(--global-theme-color);
 }
 
 .citation,
