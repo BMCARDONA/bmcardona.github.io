@@ -188,6 +188,10 @@ blockquote {
   align-items: center;
 }
 
+.global-text-color-for-about {
+  color: var(--global-text-color);
+}
+
 .citation,
 .citation-number {
   color: var(--global-theme-color);
