@@ -12,7 +12,12 @@
               {% endif %}
               {% for item in news limit: news_limit %} 
                 <tr>
-                  <th scope="row">{{ item.date | date: "%B %-d, %Y" | replace: "\n", "" }}</th>
+                  <!-- <th scope="row">{{ item.date | date: "%B %-d, %Y" | replace: "\n", "" }}</th> -->
+                  <th scope="row">
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                      {{ item.date | date: "%B %-d, %Y" | replace: "\n", "" }}
+                    </span>
+                  </th>
                   <td>
                     {% if item.inline -%} 
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
