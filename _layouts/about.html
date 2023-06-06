@@ -26,9 +26,6 @@ layout: default
 </div>
 {%- endif %}
 
-<div class="clearfix">
-  {{ content }}
-</div>
 
 <!-- about.html -->
       <div class="post">
@@ -42,6 +39,10 @@ layout: default
         </header>
 
         <article>
+
+          <div class="clearfix">
+            {{ content }}
+          </div>
 
           <!-- News -->
           {% if page.news -%}
