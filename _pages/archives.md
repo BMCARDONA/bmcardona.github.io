@@ -26,3 +26,14 @@ nav_order: 2
 </ul>
 
 
+### Writings by Month
+<ul>
+{% assign posts_by_month = site.posts | group_by_exp:"post", "post.date | date: '%Y-%m'" %}
+{% assign sorted_posts_by_month = posts_by_month | sort: 'name' | reverse %}
+{% for month in sorted_posts_by_month %}
+  <li><a href="{{ site.baseurl }}/blog/{{ month.name }}/">{{ month.name }}</a></li>
+{% endfor %}
+</ul>
+
+
+
