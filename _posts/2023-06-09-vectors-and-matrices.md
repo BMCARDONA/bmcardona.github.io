@@ -2,12 +2,12 @@
 layout: post
 title: The Basic Linear Algebra of a Neural Network Layer
 date: 2023-06-09 16:42:00-0500
-categories: ["Machine Learning", "Deep Learning"]
+categories: ["Machine Learning"]
 related_posts: false
-img: assets/img/neural-network.jpeg
+img: assets/img/neural_network.jpeg
 ---
 
-It is sometimes difficult to wrap one's mind around what is happening mathematically inside the layer of a neural network between an input matrix, a weight matrix, and bias vector. But, fear not! Let's go through an example to see \textit{exactly} how the dot product between an input matrix $\mathbf{\hat{X}}$ and a weight matrix $\mathbf{\hat{W}}$ is calculated, how broadcasting can be used to add the bias vector $\mathbf{\hat{b}}$ to the resulting product, and why the dimensions of the resulting matrices and vectors make sense. \\
+It is sometimes difficult to wrap one's mind around what is happening mathematically inside the layer of a neural network between an input matrix, a weight matrix, and bias vector. But, fear not! Let's go through an example to see *exactly* how the dot product between an input matrix $\mathbf{\hat{X}}$ and a weight matrix $\mathbf{\hat{W}}$ is calculated, how broadcasting can be used to add the bias vector $\mathbf{\hat{b}}$ to the resulting product, and why the dimensions of the resulting matrices and vectors make sense. \\
 
 Suppose we have an $2 \times 2$ input matrix $\mathbf{\hat{X}}$, which represents a batch of 2 training examples, with 2 features each:
 
@@ -57,7 +57,7 @@ Using broadcasting, we can add the bias vector $\mathbf{\hat{b}}$ to each row of
 $$
 \mathbf{\hat{X}}\mathbf{\hat{W}} + \mathbf{\hat{b}} = \begin{bmatrix}
 0.9 + 0.7 & 1.2 - 0.8 & 1.5 + 0.9 \\\\
-1.7 + 0.7 & 2.4 - 0.
+1.7 + 0.7 & 2.4 - 0.8 & 3.1 + 0.9
 \end{bmatrix} = \begin{bmatrix}
 1.6 & 0.4 & 2.4 \\\\
 2.4 & 1.6 & 4
@@ -69,8 +69,5 @@ Hence, broadcasting just involves adding the bias vector $\mathbf{\hat{b}}$ elem
 It is worth pointing out that the resulting matrix has a size of $2 \times 3$, where $2$ is given the the number of training examples in the current batch, and $3$ is given by the number of units in the current layer. \\
 
 
-\textbf{As an aside}:
-It need not be said that I initially had trouble keeping track of the dimensions of the matrices and vectors found in a layer of even a basic neural network. My hope is that this post will provide insight into how some basic linear algebra computations are performed inside a layer, and why the dimensions of the various vectors and matrices involved make sense. I am currently completing Andrew Ng's Advanced Learning Algorithms class on Coursera, and will likely use this post as a reference in the months to come. 
-
-
-
+**As an aside**:
+It need not be said that I initially had trouble keeping track of the dimensions of the matrices and vectors found in a layer of even a basic neural network. My hope is that this post will provide insight into how some basic linear algebra computations are performed inside a layer, and why the dimensions of the various vectors and matrices involved make sense. I am currently completing Andrew Ng's Advanced Learning Algorithms class on Coursera, and will likely use this post as a reference in the months to come.
