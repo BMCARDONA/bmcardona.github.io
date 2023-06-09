@@ -18,7 +18,7 @@ $$
 \end{bmatrix}.
 $$
 
-Suppose, moreover, that $$\mathbf{\hat{X}}$$ is the input of a layer with 3 units (neurons). We will therefore have a $$2 \times 3$$ weight matrix $$\mathbf{\hat{W}}$$, where 2 is given by the number of features of $$\mathbf{\hat{X}}$$, and 3 is given by the number of units in the current layer:
+Suppose that $$\mathbf{\hat{X}}$$ serves as the input of a layer with 3 units (neurons). We will therefore have a $$2 \times 3$$ weight matrix $$\mathbf{\hat{W}}$$, where 2 is given by the number of features of $$\mathbf{\hat{X}}$$, and 3 is given by the number of units in the current layer:
 
 $$
 \mathbf{\hat{W}} = \begin{bmatrix}
