@@ -31,9 +31,11 @@ nav_order: 2
 {% assign posts_by_month = site.posts | group_by_exp:"post", "post.date | date: '%Y-%m'" %}
 {% assign sorted_posts_by_month = posts_by_month | sort: 'name' | reverse %}
 {% for month in sorted_posts_by_month %}
-  <li><a href="{{ site.baseurl }}/blog/{{ month.name }}/">{{ month.name }}</a></li>
+  {% assign year_month = month.name | split: "-" %}
+  <li><a href="{{ site.baseurl }}/blog/{{ year_month[0] }}/{{ year_month[1] }}/">{{ month.name }}</a></li>
 {% endfor %}
 </ul>
+
 
 
 
