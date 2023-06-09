@@ -287,7 +287,7 @@ blockquote {
 }
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
   background-color: inherit;
-  font-weight: bolder;
+  font-weight: 700;
   color: var(--global-theme-color);
 }
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover {
