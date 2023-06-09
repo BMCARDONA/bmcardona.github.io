@@ -2,7 +2,7 @@
 layout: post
 title: Some Basic Linear Algebra of a Neural Network Layer
 date: 2023-06-09 16:42:00-0400
-categories: ["Machine Learning"]
+categories: ["Machine Learning", "Deep Learning"]
 related_posts: false
 img: assets/img/neural_network.jpeg
 ---
