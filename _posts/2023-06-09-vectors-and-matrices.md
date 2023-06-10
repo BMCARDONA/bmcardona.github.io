@@ -51,19 +51,19 @@ b = \begin{bmatrix}
 $$
 
 We will now use broadcasting to expand $$\mathbf{\hat{b}}$$. (Broadcasting applies to element-wise operations.
-Its basic operation is to 'stretch' a smaller dimension by replicating elements to match a larger dimension. In this case, we will 'stretch' $$\mathbf{\hat{b}}$$ by replicating its rows, so that it has the same dimensions as $$\mathbf{\hat{X}} \cdot \mathbf{\hat{W}}$$.) Let's call this broadcasted version of b "$$\mathbf{\hat{B_{broadcast}}}$$." We have 
+Its basic operation is to 'stretch' a smaller dimension by replicating elements to match a larger dimension. In this case, we will 'stretch' $$\mathbf{\hat{b}}$$ by replicating its rows, so that it has the same dimensions as $$\mathbf{\hat{X}} \cdot \mathbf{\hat{W}}$$.) Let's call this broadcasted matrix $$\mathbf{\hat{B}}$$. We have 
 
 $$
-\mathbf{\hat{B_{broadcast}}} = \begin{bmatrix}
+\mathbf{\hat{B}} = \begin{bmatrix}
 0.7 & -0.8 & 0.9 \\\\
 0.7 & -0.8 & 0.9 \\\\
 \end{bmatrix}.
 $$
 
-We can now add $$\mathbf{\hat{B_{broadcast}}}$$ to $$\mathbf{\hat{X}} \cdot \mathbf{\hat{W}}$$:
+We can now add $$\mathbf{\hat{B}}$$ element-wise to $$\mathbf{\hat{X}} \cdot \mathbf{\hat{W}}$$:
 
 $$
-\mathbf{\hat{X}}\mathbf{\hat{W}} + \mathbf{\hat{B_{broadcast}}} = \begin{bmatrix}
+\mathbf{\hat{X}}\mathbf{\hat{W}} + \mathbf{\hat{B}} = \begin{bmatrix}
 0.9 + 0.7 & 1.2 - 0.8 & 1.5 + 0.9 \\\\
 1.7 + 0.7 & 2.4 - 0.8 & 3.1 + 0.9
 \end{bmatrix} = \begin{bmatrix}
