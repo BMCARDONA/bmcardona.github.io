@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T21:10:08+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T21:11:07+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Some Basic Linear Algebra of a Neural Network Layer</title><link href="https://bcardona.com/blog/2023/vectors-and-matrices/" rel="alternate" type="text/html" title="Some Basic Linear Algebra of a Neural Network Layer" /><published>2023-06-09T20:42:00+00:00</published><updated>2023-06-09T20:42:00+00:00</updated><id>https://bcardona.com/blog/2023/vectors-and-matrices</id><content type="html" xml:base="https://bcardona.com/blog/2023/vectors-and-matrices/"><![CDATA[<p>It can be difficult to wrap one’s mind around what is happening mathematically inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. But, fear not! Let’s go through an example to see exactly how to calculate the dot product between an input matrix \(\mathbf{\hat{X}}\) and a weight matrix \(\mathbf{\hat{W}}\), how broadcasting is used to add the bias vector \(\mathbf{\hat{b}}\) to the resulting product, and why the dimensions of the resulting matrices and vectors make sense.</p>
 
 <p>Suppose we have an \(2 \times 2\) input matrix \(\mathbf{\hat{X}}\), which represents a batch of 2 training examples, with 2 features each:</p>
@@ -39,7 +39,7 @@ Its basic operation is to ‘stretch’ a smaller dimension by replicating eleme
 
 \[\mathbf{\hat{B}} = \begin{bmatrix}
 0.7 &amp; -0.8 &amp; 0.9 \\\\
-0.7 &amp; -0.8 &amp; 0.9 \\\\
+0.7 &amp; -0.8 &amp; 0.9
 \end{bmatrix}.\]
 
 <p>We can now add \(\mathbf{\hat{B}}\) element-wise to \(\mathbf{\hat{X}} \cdot \mathbf{\hat{W}}\):</p>
