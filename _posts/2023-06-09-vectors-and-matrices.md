@@ -56,7 +56,7 @@ Its basic operation is to 'stretch' a smaller dimension by replicating elements 
 $$
 \mathbf{\hat{B}} = \begin{bmatrix}
 0.7 & -0.8 & 0.9 \\\\
-0.7 & -0.8 & 0.9 \\\\
+0.7 & -0.8 & 0.9
 \end{bmatrix}.
 $$
 
