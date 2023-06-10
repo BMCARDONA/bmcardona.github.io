@@ -74,7 +74,7 @@ $$
 
 <!-- Hence, broadcasting just involves adding the bias vector $$\mathbf{\hat{b}}$$ element-wise to each row of the resulting matrix from the dot product of $$\mathbf{\hat{X}}$$ and $$\mathbf{\hat{W}}$$. -->
 
-It is worth pointing out that the resulting matrix has a size of $$2 \times 3$$ (which is the same as $$\mathbf{\hat{X}}$$ and $$\mathbf{\hat{W}}$$), where $$2$$ is given by the number of features of $$\mathbf{\hat{X}}$$, and $$3$$ is given by the number of units in the current layer. 
+It is worth pointing out that the resulting matrix has a size of $$2 \times 3$$ (which is the same as $$\mathbf{\hat{X}} \cdot \mathbf{\hat{W}}$$), where $$2$$ is given by the number of features of $$\mathbf{\hat{X}}$$, and $$3$$ is given by the number of units in the current layer. 
 
 For completeness, here is a vectorized implemention of the example in Python: 
 ```python 
