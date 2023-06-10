@@ -68,5 +68,23 @@ Hence, broadcasting just involves adding the bias vector $$\mathbf{\hat{b}}$$ el
 
 It is worth pointing out that the resulting matrix has a size of $$2 \times 3$$, where $$2$$ is given by the number of training examples in the current batch, and $$3$$ is given by the number of units in the current layer. 
 
+For completeness, here is a vectorized implemention of the example in Python: 
+```python 
+import numpy as np
+
+def dense(X, W, b):                  # dense layer
+    z = np.matmul(X, W) + b          # np.matmul() returns the matrix product of two matrices
+    return z
+
+X = np.array([[1, 2],                # batch
+              [3, 4]])
+W = np.array([[0.1, 0.2, 0.3],       # weights
+              [0.4, 0.5, 0.6]])
+b = np.array([[0.7, -0.8, 0.9]])     # biases
+
+result = dense(X, W, b)
+return result
+```
+
 **As an aside**:
 It need not be said that I initially had trouble keeping track of the dimensions of the matrices and vectors found in a layer of even a basic neural network. My hope is that this post will provide some insight into how to perform basic linear algebra computations inside a neural network layer, and why the dimensions of the various vectors and matrices involved make sense. I am currently completing Andrew Ng's Advanced Learning Algorithms class on Coursera, and will likely use this post as a reference in the months to come.
