@@ -42,19 +42,28 @@ $$
 \end{aligned}
 $$
 
-Let's assume we have a $$3 \times 1$$ bias vector $$\mathbf{\hat{b}}$$ (where 3 is given by the number of units in the current layer), representing the bias for each unit in the layer:
+Let's assume we have a $$1 \times 3$$ bias vector $$\mathbf{\hat{b}}$$ (where 3 is given by the number of units in the current layer), representing the bias for each unit in the layer:
 
 $$
 b = \begin{bmatrix}
 0.7 & -0.8 & 0.9
 \end{bmatrix}.
-
 $$
 
-Using broadcasting, we can add the bias vector $$\mathbf{\hat{b}}$$ to each row of the resulting dot product matrix:
+We will now use broadcasting to expand $$\mathbf{\hat{b}}$$. (Broadcasting applies to element-wise operations.
+Its basic operation is to 'stretch' a smaller dimension by replicating elements to match a larger dimension. In this case, we will 'stretch' $$\mathbf{\hat{b}}$$ by replicating its rows, so that it has the same dimensions as $$\mathbf{\hat{X}} \cdot \mathbf{\hat{W}}$$.) Let's call this broadcasted version of b "$$\mathbf{\hat{B_{broadcast}}}$$." We have 
 
 $$
-\mathbf{\hat{X}}\mathbf{\hat{W}} + \mathbf{\hat{b}} = \begin{bmatrix}
+\mathbf{\hat{B_{broadcast}}} = \begin{bmatrix}
+0.7 & -0.8 & 0.9 \\\\
+0.7 & -0.8 & 0.9 \\\\
+\end{bmatrix}.
+$$
+
+We can now add $$\mathbf{\hat{B_{broadcast}}}$$ to $$\mathbf{\hat{X}} \cdot \mathbf{\hat{W}}$$:
+
+$$
+\mathbf{\hat{X}}\mathbf{\hat{W}} + \mathbf{\hat{B_{broadcast}}} = \begin{bmatrix}
 0.9 + 0.7 & 1.2 - 0.8 & 1.5 + 0.9 \\\\
 1.7 + 0.7 & 2.4 - 0.8 & 3.1 + 0.9
 \end{bmatrix} = \begin{bmatrix}
@@ -63,9 +72,9 @@ $$
 \end{bmatrix}.
 $$
 
-Hence, broadcasting just involves adding the bias vector $$\mathbf{\hat{b}}$$ element-wise to each row of the resulting matrix from the dot product of $$\mathbf{\hat{X}}$$ and $$\mathbf{\hat{W}}$$.
+<!-- Hence, broadcasting just involves adding the bias vector $$\mathbf{\hat{b}}$$ element-wise to each row of the resulting matrix from the dot product of $$\mathbf{\hat{X}}$$ and $$\mathbf{\hat{W}}$$. -->
 
-It is worth pointing out that the resulting matrix has a size of $$2 \times 3$$, where $$2$$ is given by the number of training examples in the current batch, and $$3$$ is given by the number of units in the current layer. 
+It is worth pointing out that the resulting matrix has a size of $$2 \times 3$$ (which is the same as $$\mathbf{\hat{X}}$$ and $$\mathbf{\hat{W}}$$), where $$2$$ is given by the number of features of $$\mathbf{\hat{X}}$$, and $$3$$ is given by the number of units in the current layer. 
 
 For completeness, here is a vectorized implemention of the example in Python: 
 ```python 
