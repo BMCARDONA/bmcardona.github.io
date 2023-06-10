@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T19:34:24+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T20:42:16+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Some Basic Linear Algebra of a Neural Network Layer</title><link href="https://bcardona.com/blog/2023/vectors-and-matrices/" rel="alternate" type="text/html" title="Some Basic Linear Algebra of a Neural Network Layer" /><published>2023-06-09T20:42:00+00:00</published><updated>2023-06-09T20:42:00+00:00</updated><id>https://bcardona.com/blog/2023/vectors-and-matrices</id><content type="html" xml:base="https://bcardona.com/blog/2023/vectors-and-matrices/"><![CDATA[<p>It can be difficult to wrap one’s mind around what is happening mathematically inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. But, fear not! Let’s go through an example to see exactly how to calculate the dot product between an input matrix \(\mathbf{\hat{X}}\) and a weight matrix \(\mathbf{\hat{W}}\), how broadcasting is used to add the bias vector \(\mathbf{\hat{b}}\) to the resulting product, and why the dimensions of the resulting matrices and vectors make sense.</p>
 
 <p>Suppose we have an \(2 \times 2\) input matrix \(\mathbf{\hat{X}}\), which represents a batch of 2 training examples, with 2 features each:</p>
@@ -10,10 +10,22 @@
 
 <p>Suppose that \(\mathbf{\hat{X}}\) serves as the input of a layer with 3 units (neurons). We will therefore have a \(2 \times 3\) weight matrix \(\mathbf{\hat{W}}\), where 2 is given by the number of features of \(\mathbf{\hat{X}}\), and 3 is given by the number of units in the current layer:</p>
 
-\[\mathbf{\hat{W}} = \begin{bmatrix}
+<!-- $$
+\mathbf{\hat{W}} = \begin{bmatrix}
+0.1 & 0.2 & 0.3 \\\\
+0.4 & 0.5 & 0.6
+\end{bmatrix}.
+$$ -->
+
+<p>\begin{matrix}
+\overset{\uparrow}{\text{weights in first unit}} &amp;
+\overset{\uparrow}{\text{weights in second unit}} &amp;
+\overset{\uparrow}{\text{weights in third unit}}
+\end{matrix}
+\(\mathbf{\hat{W}} = \begin{bmatrix}
 0.1 &amp; 0.2 &amp; 0.3 \\\\
 0.4 &amp; 0.5 &amp; 0.6
-\end{bmatrix}.\]
+\end{bmatrix}.\)</p>
 
 <p>By taking the dot product of \(\mathbf{\hat{X}}\) and \(\mathbf{\hat{W}}\), we are left with a \(2 \times 3\) matrix:</p>
 
