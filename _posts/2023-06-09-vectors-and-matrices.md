@@ -20,25 +20,12 @@ $$
 
 Suppose that $$\mathbf{\hat{X}}$$ serves as the input of a layer with 3 units (neurons). We will therefore have a $$2 \times 3$$ weight matrix $$\mathbf{\hat{W}}$$, where 2 is given by the number of features of $$\mathbf{\hat{X}}$$, and 3 is given by the number of units in the current layer:
 
-<!-- $$
-\mathbf{\hat{W}} = \begin{bmatrix}
-0.1 & 0.2 & 0.3 \\\\
-0.4 & 0.5 & 0.6
-\end{bmatrix}.
-$$ -->
-
-\begin{matrix}
-\overset{\uparrow}{\text{weights in first unit}} &
-\overset{\uparrow}{\text{weights in second unit}} &
-\overset{\uparrow}{\text{weights in third unit}}
-\end{matrix}
 $$
 \mathbf{\hat{W}} = \begin{bmatrix}
 0.1 & 0.2 & 0.3 \\\\
 0.4 & 0.5 & 0.6
 \end{bmatrix}.
 $$
-
 
 By taking the dot product of $$\mathbf{\hat{X}}$$ and $$\mathbf{\hat{W}}$$, we are left with a $$2 \times 3$$ matrix:
 
@@ -59,10 +46,9 @@ Let's assume we have a $$3 \times 1$$ bias vector $$\mathbf{\hat{b}}$$ (where 3 
 
 $$
 b = \begin{bmatrix}
-0.7 \\\\
--0.8 \\\\
-0.9
+0.7 & -0.8 & 0.9
 \end{bmatrix}.
+
 $$
 
 Using broadcasting, we can add the bias vector $$\mathbf{\hat{b}}$$ to each row of the resulting dot product matrix:
