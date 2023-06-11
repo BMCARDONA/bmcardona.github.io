@@ -96,4 +96,4 @@ return result
 ```
 
 **As an aside**:
-It need not be said that I initially had trouble keeping track of the dimensions of the matrices and vectors found in a layer of even a basic neural network. My hope is that this post will provide some insight into how to perform basic linear algebra computations inside a neural network layer, and why the dimensions of the various vectors and matrices involved make sense. I am currently completing Andrew Ng's Advanced Learning Algorithms class on Coursera, and will likely use this post as a reference in the months to come.
+It need not be said that I initially had trouble keeping track of the dimensions of the matrices and vectors found in a layer of even a basic neural network. My hope is that this post will provide some insight into how to perform a basic linear algebra computation inside a neural network layer, and why the dimensions of the various vectors and matrices involved make sense. I am currently completing Andrew Ng's Advanced Learning Algorithms class on Coursera, and will likely use this post as a reference in the months to come.
