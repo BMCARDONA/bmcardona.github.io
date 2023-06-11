@@ -51,8 +51,8 @@ $$
 \end{bmatrix}.
 $$
 
-We will now use broadcasting to expand $$\mathbf{\hat{b}}$$. (Broadcasting applies to element-wise operations.
-Its basic operation is to 'stretch' a smaller dimension by replicating elements to match a larger dimension. In this case, we will 'stretch' $$\mathbf{\hat{b}}$$ by replicating its rows, so that it has the same dimensions as $$\mathbf{\hat{X}} \cdot \mathbf{\hat{W}}$$.) Let's call this broadcasted matrix $$\mathbf{\hat{B}}$$. We have 
+We will use broadcasting to expand $$\mathbf{\hat{b}}$$. (Broadcasting applies to element-wise operations.
+Its basic operation is to 'stretch' a smaller dimension by replicating elements to match a larger dimension. In this case, we will 'stretch' $$\mathbf{\hat{b}}$$ by replicating its rows, so that it has a size of $$2 \times 3$$, the same dimensions as $$\mathbf{\hat{X}} \cdot \mathbf{\hat{W}}$$.) Let's call this broadcasted matrix $$\mathbf{\hat{B}}$$. We have 
 
 $$
 \mathbf{\hat{B}} = \begin{bmatrix}
