@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some Basic Linear Algebra of a Neural Network Layer
+title: Linear Algebra in a Neural Network Layer
 date: 2023-06-09 16:42:00-0400
 last_edited: 2023-06-10 12:00:00-0400
 categories: ["Machine Learning", "Deep Learning"]
@@ -8,7 +8,7 @@ related_posts: false
 img: assets/img/neural_network.jpeg
 ---
 
-It can be difficult to wrap one's mind around what is happening mathematically inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. But, fear not! Let's go through an example to see exactly how to calculate the dot product between an input matrix $$\mathbf{\hat{X}}$$ and a weight matrix $$\mathbf{\hat{W}}$$, how broadcasting is used to add the bias vector $$\mathbf{\hat{b}}$$ to the resulting product, and why the dimensions of the resulting matrices and vectors make sense. 
+It can be difficult to wrap one's mind around what is happening computationally inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. Let's go through an example to see exactly how to calculate the dot product between an input matrix $$\mathbf{\hat{X}}$$ and a weight matrix $$\mathbf{\hat{W}}$$, how broadcasting is used to add the bias vector $$\mathbf{\hat{b}}$$ to the resulting product, and why the dimensions of the resulting matrices and vectors make sense. 
 
 Suppose we have an $$2 \times 2$$ input matrix $$\mathbf{\hat{X}}$$, which represents a batch of 2 training examples, with 2 features each:
 
@@ -19,7 +19,7 @@ $$
 \end{bmatrix}.
 $$
 
-Suppose that $$\mathbf{\hat{X}}$$ serves as the input of a layer with 3 units (neurons). We will therefore have a $$2 \times 3$$ weight matrix $$\mathbf{\hat{W}}$$, where 2 is given by the number of features of $$\mathbf{\hat{X}}$$, and 3 is given by the number of units in the current layer:
+Suppose that $$\mathbf{\hat{X}}$$ serves as the input to a layer with 3 units (neurons). We will therefore have a $$2 \times 3$$ weight matrix $$\mathbf{\hat{W}}$$, where 2 is given by the number of features of $$\mathbf{\hat{X}}$$, and 3 is given by the number of units in the current layer:
 
 $$
 \mathbf{\hat{W}} = \begin{bmatrix}
