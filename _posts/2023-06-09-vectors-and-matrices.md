@@ -2,6 +2,7 @@
 layout: post
 title: Some Basic Linear Algebra of a Neural Network Layer
 date: 2023-06-09 16:42:00-0400
+last_edited: 2023-06-10 12:00:00-0400
 categories: ["Machine Learning", "Deep Learning"]
 related_posts: false
 img: assets/img/neural_network.jpeg
@@ -45,7 +46,7 @@ $$
 Let's assume we have a $$1 \times 3$$ bias vector $$\mathbf{\hat{b}}$$ (where 3 is given by the number of units in the current layer), representing the bias for each unit in the layer:
 
 $$
-b = \begin{bmatrix}
+\mathbf{\hat{b}} = \begin{bmatrix}
 0.7 & -0.8 & 0.9
 \end{bmatrix}.
 $$
