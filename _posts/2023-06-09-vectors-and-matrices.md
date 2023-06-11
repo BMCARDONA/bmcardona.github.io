@@ -8,7 +8,7 @@ related_posts: false
 img: assets/img/neural_network.jpeg
 ---
 
-It can be difficult to wrap one's mind around what is happening computationally inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. Let's go through an example to see exactly how to calculate the dot product between an input matrix $$\mathbf{\hat{X}}$$ and a weight matrix $$\mathbf{\hat{W}}$$, how broadcasting is used to add the bias vector $$\mathbf{\hat{b}}$$ to the resulting product, and why the dimensions of the resulting matrices and vectors make sense. 
+It can be difficult to wrap one's mind around what is happening computationally inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. Let's go through an example to see exactly how to calculate the dot product between an input matrix $$\mathbf{\hat{X}}$$ and a weight matrix $$\mathbf{\hat{W}}$$, how broadcasting is used to add the bias vector $$\mathbf{\hat{b}}$$ to the resulting dot product, and why the dimensions of the resulting matrices and vectors make sense. 
 
 Suppose we have an $$2 \times 2$$ input matrix $$\mathbf{\hat{X}}$$, which represents a batch of 2 training examples, with 2 features each:
 
