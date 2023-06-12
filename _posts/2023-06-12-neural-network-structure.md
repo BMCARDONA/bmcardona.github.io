@@ -5,7 +5,7 @@ date: 2023-06-12 12:00:00-0400
 last_edited:
 categories: ["Machine Learning"]
 related_posts: false
-img: assets/img/code.jpeg
+img: assets/img/code.jpg
 ---
 
 In order to keep track of the many different ways one can train a regression/classification algorithm using TensorFlow and Keras, I thought I would create a high-level cheatsheet containing several coding examples.
