@@ -104,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title">Linear Algebra in a Neural Network Layer</h1>
-    <p class="post-meta">Posted: June 9, 2023. Last edited: June 10, 2023</p>
+    <p class="post-meta">Posted: June 9, 2023. Last edited: June 12, 2023</p>
 
       <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
         ·  
@@ -192,11 +192,16 @@ Its basic operation is to ‘stretch’ a smaller dimension by replicating eleme
 <span class="k">return</span> <span class="n">result</span>
 </code></pre></div></div>
 
-<p>We may generalize this example by saying that the dimensions of the parameters in a given layer is determined as follows:
-    - If network has \(s_{in}\) units in a layer (i.e., if each training example of \(\mathbf{\hat{X}}\) has \(s_{in}\) features) and \(s_{out}\) units in the next layer (i.e., if the current layer has \(s_{out}\) units/neurons), then 
-        - \(\mathbf{\hat{W}}\) will be of dimension \(s_{in} \times s_{out}\).
-        - \(\mathbf{\hat{b}}\) will be a vector with \(s_{out}\) elements
-    - Note: A layer’s input dimensions (\(s_{in}\)) are calculated for you. You specify a layer’s output dimensions and this determines the next layer’s input dimension. The input dimension of the first layer is derived from the size of the input data specified in the model.fit statement</p>
+<p>We may generalize this example by saying that the dimensions of the parameters in a given layer is determined as follows:</p>
+<ul>
+  <li>If network has \(s_{in}\) units in a layer (i.e., if each training example of \(\mathbf{\hat{X}}\) has \(s_{in}\) features) and \(s_{out}\) units in the next layer (i.e., if the current layer has \(s_{out}\) units/neurons), then
+    <ul>
+      <li>\(\mathbf{\hat{W}}\) will be of dimension \(s_{in} \times s_{out}\).</li>
+      <li>\(\mathbf{\hat{b}}\) will be a vector with \(s_{out}\) elements</li>
+    </ul>
+  </li>
+  <li>Note: A layer’s input dimensions (\(s_{in}\)) are calculated for you. You specify a layer’s output dimensions and this determines the next layer’s input dimension. The input dimension of the first layer is derived from the size of the input data specified in the model.fit statement</li>
+</ul>
 
 <p><strong>As an aside</strong>:
 It need not be said that I initially had trouble keeping track of the dimensions of the matrices and vectors found in a layer of even a basic neural network. My hope is that this post will provide some insight into how to perform a basic linear algebra computation inside a neural network layer, and why the dimensions of the various vectors and matrices involved make sense. I am currently completing Andrew Ng’s Advanced Learning Algorithms class on Coursera, and will likely use this post as a reference in the months to come.</p>
