@@ -1,5 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-11T20:07:31+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Linear Algebra in a Neural Network Layer</title><link href="https://bcardona.com/blog/2023/vectors-and-matrices/" rel="alternate" type="text/html" title="Linear Algebra in a Neural Network Layer" /><published>2023-06-09T20:42:00+00:00</published><updated>2023-06-09T20:42:00+00:00</updated><id>https://bcardona.com/blog/2023/vectors-and-matrices</id><content type="html" xml:base="https://bcardona.com/blog/2023/vectors-and-matrices/"><![CDATA[<p>It can be difficult to wrap one’s mind around what is happening computationally inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. Let’s go through an example to see exactly how to calculate the dot product between an input matrix \(\mathbf{\hat{X}}\) and a weight matrix \(\mathbf{\hat{W}}\), how broadcasting is used to add the bias vector \(\mathbf{\hat{b}}\) to the resulting dot product, and why the dimensions of the resulting matrices and vectors make sense.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-12T14:46:48+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">A High-Level Data Analysis Checklist</title><link href="https://bcardona.com/blog/2023/data-analysis-checklist/" rel="alternate" type="text/html" title="A High-Level Data Analysis Checklist" /><published>2023-06-12T14:34:00+00:00</published><updated>2023-06-12T14:34:00+00:00</updated><id>https://bcardona.com/blog/2023/data-analysis-checklist</id><content type="html" xml:base="https://bcardona.com/blog/2023/data-analysis-checklist/"><![CDATA[<p>To easily reference the six steps (Ask, Prepare, Process, Analyze, Share, Act) of the data analysis process, I thought I would create a high-level data analysis checklist. Enjoy!</p>
+
+<h1 id="data-analysis-checklist">Data Analysis Checklist</h1>
+
+<h2 id="1-ask">1. Ask</h2>
+<ul>
+  <li>Ask SMART (specific, measurable, achievable, relevant, time-bound) and effective questions</li>
+  <li>Structure how you think</li>
+  <li>Summarize data</li>
+  <li>Put things into context</li>
+  <li>Manage team and stakeholder expectations</li>
+  <li>Problem-solve and conflict-resolution</li>
+</ul>
+
+<h2 id="2-prepare">2. Prepare</h2>
+<ul>
+  <li>Ensure ethical data analysis practices</li>
+  <li>Address issues of bias and credibility</li>
+  <li>Access databases and import data</li>
+  <li>Write simple queries</li>
+  <li>Organize and protect data</li>
+  <li>Connect with the data community (optional)</li>
+</ul>
+
+<h2 id="3-process">3. Process</h2>
+<ul>
+  <li>Connect business objectives to data analysis</li>
+  <li>Identify clean and dirty data</li>
+  <li>Clean small datasets using spreadsheet tools</li>
+  <li>Clean large datasets by writing SQL queries</li>
+  <li>Document data-cleaning processes</li>
+</ul>
+
+<h2 id="4-analyze">4. Analyze</h2>
+<ul>
+  <li>Sort data in spreadsheets and by writing SQL queries</li>
+  <li>Filter data in spreadsheets and by writing SQL queries</li>
+  <li>Convert data</li>
+  <li>Format data</li>
+  <li>Substantiate data analysis processes</li>
+  <li>Seek feedback and support from others during data analysis</li>
+</ul>
+
+<h2 id="5-share">5. Share</h2>
+<ul>
+  <li>Create visualizations and dashboards in Tableau</li>
+  <li>Address accessibility issues when communicating about data</li>
+  <li>Understand the purpose of different business communication tools</li>
+  <li>Tell a data-driven story</li>
+  <li>Present to others about data</li>
+  <li>Answer questions about data</li>
+</ul>
+
+<h2 id="6-act">6. Act</h2>
+<ul>
+  <li>Code in R</li>
+  <li>Write functions in R</li>
+  <li>Access data in R</li>
+  <li>Clean data in R</li>
+  <li>Generate data visualizations in R</li>
+  <li>Report on data analysis to stakeholders</li>
+</ul>]]></content><author><name></name></author><category term="Productivity" /><category term="Data Analysis" /><summary type="html"><![CDATA[To easily reference the six steps (Ask, Prepare, Process, Analyze, Share, Act) of the data analysis process, I thought I would create a high-level data analysis checklist. Enjoy!]]></summary></entry><entry><title type="html">Linear Algebra in a Neural Network Layer</title><link href="https://bcardona.com/blog/2023/vectors-and-matrices/" rel="alternate" type="text/html" title="Linear Algebra in a Neural Network Layer" /><published>2023-06-09T20:42:00+00:00</published><updated>2023-06-09T20:42:00+00:00</updated><id>https://bcardona.com/blog/2023/vectors-and-matrices</id><content type="html" xml:base="https://bcardona.com/blog/2023/vectors-and-matrices/"><![CDATA[<p>It can be difficult to wrap one’s mind around what is happening computationally inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. Let’s go through an example to see exactly how to calculate the dot product between an input matrix \(\mathbf{\hat{X}}\) and a weight matrix \(\mathbf{\hat{W}}\), how broadcasting is used to add the bias vector \(\mathbf{\hat{b}}\) to the resulting dot product, and why the dimensions of the resulting matrices and vectors make sense.</p>
 
 <p>Suppose we have an \(2 \times 2\) input matrix \(\mathbf{\hat{X}}\), which represents a batch of 2 training examples, with 2 features each:</p>
 
