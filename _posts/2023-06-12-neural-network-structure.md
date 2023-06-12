@@ -21,10 +21,10 @@ from tensorflow.keras.activations import linear, sigmoid
 # Model
 model = Sequential([
     # Use dense Layers, which are simple layers of neurons in which each neuron receives input from all the neurons of the previous layer.
-    tf.keras.layers.Dense(units=25, activation='sigmoid'),
-    tf.keras.layers.Dense(units=25, activation='sigmoid'),.
+    tf.keras.layers.Dense(units=25, activation='sigmoid', name="L1"),
+    tf.keras.layers.Dense(units=25, activation='sigmoid', name="L2"),.
     # For more stable and accurate results, combine softmax and SparseCategoricalCrossentropy loss function
-    tf.keras.layers.Dense(units=10, activation='linear'),
+    tf.keras.layers.Dense(units=10, activation='linear', name="L3"),
 ])
 
 # Compile
