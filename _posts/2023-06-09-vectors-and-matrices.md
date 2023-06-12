@@ -95,7 +95,7 @@ result = dense(X, W, b)
 return result
 ```
 
-We may generalize this example by saying that the dimensions of the parameters in a given layer is determined as follows:
+We may generalize this example by saying that the dimensions of the parameters in a given layer are determined as follows:
 - If network has $$s_{in}$$ units in a layer (i.e., if each training example of $$\mathbf{\hat{X}}$$ has $$s_{in}$$ features) and $$s_{out}$$ units in the next layer (i.e., if the current layer has $$s_{out}$$ units/neurons), then 
     - $$\mathbf{\hat{W}}$$ will be of dimension $$s_{in} \times s_{out}$$.
     - $$\mathbf{\hat{b}}$$ will be a vector with $$s_{out}$$ elements
