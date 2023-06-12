@@ -102,3 +102,4 @@ As a generalization, we can say that the dimensions of the parameters in a given
     - If network has $s_{in}$ units in a layer (i.e., if each training example of $$\mathbf{\hat{X}}$$ has $s_{in}$ features) and $s_{out}$ units in the next layer (i.e., if the current layer has $s_{out}$ units/neurons), then 
         - $W$ will be of dimension $s_{in} \times s_{out}$.
         - $b$ will be a vector with $s_{out}$ elements
+    - Note: A layer's input dimensions ($s_{in}$) are calculated for you. You specify a layer's output dimensions and this determines the next layer's input dimension. The input dimension of the first layer is derived from the size of the input data specified in the model.fit statement
