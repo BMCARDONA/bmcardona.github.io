@@ -8,7 +8,7 @@ related_posts: false
 img: assets/img/neural_network.jpeg
 ---
 
-In order to keep track of the many different ways one can code a regression/classification algorithm using TensorFlow and Keras, I thought I would create a high-level cheatsheet containing several coding examples.
+In order to keep track of the many different ways one can train a regression/classification algorithm using TensorFlow and Keras, I thought I would create a high-level cheatsheet containing several coding examples.
 
 ## Multiclass Classification 
 
