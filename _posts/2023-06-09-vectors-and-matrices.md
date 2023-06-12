@@ -2,7 +2,7 @@
 layout: post
 title: Linear Algebra in a Neural Network Layer
 date: 2023-06-09 16:42:00-0400
-last_edited: 2023-06-10 12:00:00-0400
+last_edited: 2023-06-12 12:00:00-0400
 categories: ["Machine Learning", "Deep Learning"]
 related_posts: false
 img: assets/img/neural_network.jpeg
@@ -96,10 +96,10 @@ return result
 ```
 
 We may generalize this example by saying that the dimensions of the parameters in a given layer is determined as follows:
-    - If network has $$s_{in}$$ units in a layer (i.e., if each training example of $$\mathbf{\hat{X}}$$ has $$s_{in}$$ features) and $$s_{out}$$ units in the next layer (i.e., if the current layer has $$s_{out}$$ units/neurons), then 
-        - $$\mathbf{\hat{W}}$$ will be of dimension $$s_{in} \times s_{out}$$.
-        - $$\mathbf{\hat{b}}$$ will be a vector with $$s_{out}$$ elements
-    - Note: A layer's input dimensions ($$s_{in}$$) are calculated for you. You specify a layer's output dimensions and this determines the next layer's input dimension. The input dimension of the first layer is derived from the size of the input data specified in the model.fit statement
+- If network has $$s_{in}$$ units in a layer (i.e., if each training example of $$\mathbf{\hat{X}}$$ has $$s_{in}$$ features) and $$s_{out}$$ units in the next layer (i.e., if the current layer has $$s_{out}$$ units/neurons), then 
+    - $$\mathbf{\hat{W}}$$ will be of dimension $$s_{in} \times s_{out}$$.
+    - $$\mathbf{\hat{b}}$$ will be a vector with $$s_{out}$$ elements
+- Note: A layer's input dimensions ($$s_{in}$$) are calculated for you. You specify a layer's output dimensions and this determines the next layer's input dimension. The input dimension of the first layer is derived from the size of the input data specified in the model.fit statement
 
 **As an aside**:
 It need not be said that I initially had trouble keeping track of the dimensions of the matrices and vectors found in a layer of even a basic neural network. My hope is that this post will provide some insight into how to perform a basic linear algebra computation inside a neural network layer, and why the dimensions of the various vectors and matrices involved make sense. I am currently completing Andrew Ng's Advanced Learning Algorithms class on Coursera, and will likely use this post as a reference in the months to come.
