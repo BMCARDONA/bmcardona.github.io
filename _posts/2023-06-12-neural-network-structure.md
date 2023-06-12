@@ -10,11 +10,12 @@ img: assets/img/neural_network.jpeg
 
 In order to keep track of the many different ways one can code a regression/classification algorithm using TensorFlow and Keras, I thought I would create a high-level cheatsheet containing several coding examples.
 
-## Multilabel Classification 
+## Multiclass Classification 
 
 ```python
 # Model
 model = Sequential([
+    # Use dense Layers, which are simple layers of neurons in which each neuron receives input from all the neurons of the previous layer.
     tf.keras.layers.Dense(units=25, activation='sigmoid'),
     tf.keras.layers.Dense(units=25, activation='sigmoid'),.
     # For more stable and accurate results, combine softmax and SparseCategoricalCrossentropy loss function
