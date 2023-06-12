@@ -13,6 +13,11 @@ In order to keep track of the many different ways one can train a regression/cla
 ## Multiclass Classification 
 
 ```python
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.activations import linear, sigmoid
+
 # Model
 model = Sequential([
     # Use dense Layers, which are simple layers of neurons in which each neuron receives input from all the neurons of the previous layer.
