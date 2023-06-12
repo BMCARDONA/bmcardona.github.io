@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>2023 | Bradley Cardona  </title>
+    <title>Creating Neural Networks using TensorFlow and Keras | Bradley Cardona  </title>
     <meta name="author" content="Bradley Cardona  ">
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -34,7 +34,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%97%BB&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://bcardona.com/blog/2023/">
+    <link rel="canonical" href="https://bcardona.com/blog/2023/neural-network-structure/">
     
     <!-- Dark Mode -->
     
@@ -98,77 +98,50 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-calendar fa-sm"></i> 2023 </h1>
-    <p class="post-description"> An archive of posts from this year. </p>
+    <h1 class="post-title">Creating Neural Networks using TensorFlow and Keras</h1>
+    <p class="post-meta">Posted: June 9, 2023</p>
+
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/category/machine-learning">
+          <i class="fas fa-tag fa-sm"></i> Machine Learning</a>  
+          
+
+    
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Jun 9, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/neural-network-structure/">Creating Neural Networks using TensorFlow and Keras</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 9, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/vectors-and-matrices/">Linear Algebra in a Neural Network Layer</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">May 8, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/russell/">Bertrand Russell and Numbers</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 12, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/research-papers-reading-list/">Reading List (Research Papers)</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 11, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/linear-regression/">A Brief Note on Linear Regression</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 7, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/reading-list/">Reading List (Books)</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 5, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/andrew-ng-research-paper-advice/">On Reading Research Papers</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 4, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/infrastructure-cheatsheet/">An Infrastructure Cheatsheet</a>
-          </td>
-        </tr>
-      
-      </table>
-    </div>
-  </article>
+  <article class="post-content">
+    <p>In order to keep track of the many different ways one can code a regression/classification algorithm using TensorFlow and Keras, I thought I would create a high-level cheatsheet containing several coding examples.</p>
 
+<h2 id="multilabel-classification">Multilabel Classification</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Model
+</span><span class="n">model</span> <span class="o">=</span> <span class="nc">Sequential</span><span class="p">([</span>
+    <span class="n">tf</span><span class="p">.</span><span class="n">keras</span><span class="p">.</span><span class="n">layers</span><span class="p">.</span><span class="nc">Dense</span><span class="p">(</span><span class="n">units</span><span class="o">=</span><span class="mi">25</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="sh">'</span><span class="s">sigmoid</span><span class="sh">'</span><span class="p">),</span>
+    <span class="n">tf</span><span class="p">.</span><span class="n">keras</span><span class="p">.</span><span class="n">layers</span><span class="p">.</span><span class="nc">Dense</span><span class="p">(</span><span class="n">units</span><span class="o">=</span><span class="mi">25</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="sh">'</span><span class="s">sigmoid</span><span class="sh">'</span><span class="p">),.</span>
+    <span class="c1"># For more stable and accurate results, combine softmax and SparseCategoricalCrossentropy loss function
+</span>    <span class="n">tf</span><span class="p">.</span><span class="n">keras</span><span class="p">.</span><span class="n">layers</span><span class="p">.</span><span class="nc">Dense</span><span class="p">(</span><span class="n">units</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="sh">'</span><span class="s">linear</span><span class="sh">'</span><span class="p">),</span>
+<span class="p">])</span>
+
+<span class="c1"># Compile
+</span><span class="n">model</span><span class="p">.</span><span class="nf">compile</span><span class="p">(</span>
+    <span class="c1"># Use Adam algorithm, which makes gradient descent faster by adjusting the learning rate automatically
+</span>    <span class="n">optimizer</span><span class="o">=</span><span class="n">tf</span><span class="p">.</span><span class="n">keras</span><span class="p">.</span><span class="n">optimizers</span><span class="p">.</span><span class="nc">Adam</span><span class="p">(</span><span class="n">learning_rate</span><span class="o">=</span><span class="mf">1e-3</span><span class="p">),</span>
+    <span class="c1"># For more stable and accurate results, combine softmax and SparseCategoricalCrossentropy loss function
+</span>    <span class="n">loss</span><span class="o">=</span><span class="n">tf</span><span class="p">.</span><span class="n">keras</span><span class="p">.</span><span class="n">losses</span><span class="p">.</span><span class="nc">SparseCategoricalCrossentropy</span><span class="p">(</span><span class="n">from_logits</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span> 
+<span class="p">)</span>
+
+<span class="c1"># Fit
+</span><span class="n">model</span><span class="p">.</span><span class="nf">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+</code></pre></div></div>
+
+
+  </article>
 </div>
 
     </div>
