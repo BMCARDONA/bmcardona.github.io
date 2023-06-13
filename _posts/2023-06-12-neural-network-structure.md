@@ -37,6 +37,11 @@ Note that large neural networks are generally ``low bias'' machines.
 - If a large neural network $$\textit{does}$$ do well on the training set, but poorly on the validation set, try getting more training examples. 
 - If a large neural network does well on both the training set and the validation set, congratulations -- you're done! 
 
+## Error Analysis
+- If a model has misclassified (say) $$1,000$$ training examples, you could try manually examining (say) 100 (more if you have the time) of those examples and categorizing them based on common traits.
+    - After doing this, you should have a better indication of which types of examples are misclassfied the most and therefore are maybe most fruitful to focus your attention on.
+        - For example, if you find that "misspelling" examples are being misclassified the most, you might collect more data pertaining to misspellings.
+- Note that one limitation of error analysis is that it's much easier to do for problems that humans are good at.
 
 ## Multiclass Classification 
 ```python
