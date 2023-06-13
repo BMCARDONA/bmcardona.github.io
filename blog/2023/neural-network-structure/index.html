@@ -152,6 +152,20 @@
   <li>If a large neural network does well on both the training set and the validation set, congratulations – you’re done!</li>
 </ul>
 
+<h2 id="error-analysis">Error Analysis</h2>
+<ul>
+  <li>If a model has misclassified (say) \(1,000\) training examples, you could try manually examining (say) 100 (more if you have the time) of those examples and categorizing them based on common traits.
+    <ul>
+      <li>After doing this, you should have a better indication of which types of examples are misclassfied the most and therefore are maybe most fruitful to focus your attention on.
+        <ul>
+          <li>For example, if you find that “misspelling” examples are being misclassified the most, you might collect more data pertaining to misspellings.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Note that one limitation of error analysis is that it’s much easier to do for problems that humans are good at.</li>
+</ul>
+
 <h2 id="multiclass-classification">Multiclass Classification</h2>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">tensorflow</span> <span class="k">as</span> <span class="n">tf</span>
 <span class="kn">from</span> <span class="n">tensorflow.keras.models</span> <span class="kn">import</span> <span class="n">Sequential</span>
