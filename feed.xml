@@ -1,8 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-12T21:55:25+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Creating Neural Networks using TensorFlow and Keras</title><link href="https://bcardona.com/blog/2023/neural-network-structure/" rel="alternate" type="text/html" title="Creating Neural Networks using TensorFlow and Keras" /><published>2023-06-12T16:00:00+00:00</published><updated>2023-06-12T16:00:00+00:00</updated><id>https://bcardona.com/blog/2023/neural-network-structure</id><content type="html" xml:base="https://bcardona.com/blog/2023/neural-network-structure/"><![CDATA[<p>In order to keep track of the many different ways one can train a regression/classification algorithm using TensorFlow and Keras, I thought I would create a high-level cheatsheet containing several coding examples.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-13T21:22:52+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Creating Neural Networks using TensorFlow and Keras</title><link href="https://bcardona.com/blog/2023/neural-network-structure/" rel="alternate" type="text/html" title="Creating Neural Networks using TensorFlow and Keras" /><published>2023-06-12T16:00:00+00:00</published><updated>2023-06-12T16:00:00+00:00</updated><id>https://bcardona.com/blog/2023/neural-network-structure</id><content type="html" xml:base="https://bcardona.com/blog/2023/neural-network-structure/"><![CDATA[<p>In order to keep track of the many different ways one can train a regression/classification algorithm using TensorFlow and Keras, I created this self-referential sheet which contains several helpful tips/coding examples.</p>
+
+<h2 id="biasvariance">Bias/Variance</h2>
+<p>If a model’s \(J_{train}\) is much higher than the baseline level of performance (e.g., human level performance, competing algorithms performance, guess based on experience), this is an indication that the model has <strong>high bias (the model is underfitting)</strong>.</p>
+
+<p>If a model’s cross validation error \(J_{cv}\) is much higher than the training error \(J_{train}\), this is an indication that the model has <strong>high variance (the model is overfitting)</strong>.</p>
+
+<p>If a model has high bias…</p>
+<ul>
+  <li>Try getting additional features</li>
+  <li>Try adding polynomial features</li>
+  <li>Try decreasing \(\lambda\)</li>
+</ul>
+
+<p>If a model has high variance…</p>
+<ul>
+  <li>Get more training examples</li>
+  <li>Try smaller sets of features (e.g., \(x, x^{2}\) instead of \(x, x^{2}, x^{3}, x^{4}\))</li>
+  <li>Try increasing \(\lambda\)</li>
+</ul>
+
+<p>Note that large neural networks are generally ``low bias’’ machines.</p>
+<ul>
+  <li>If a large neural network \(\textit{does not}\) do well on the training set, try creating a bigger network.</li>
+  <li>If a large neural network \(\textit{does}\) do well on the training set, but poorly on the validation set, try getting more training examples.</li>
+  <li>If a large neural network does well on both the training set and the validation set, congratulations – you’re done!</li>
+</ul>
 
 <h2 id="multiclass-classification">Multiclass Classification</h2>
-
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">tensorflow</span> <span class="k">as</span> <span class="n">tf</span>
 <span class="kn">from</span> <span class="n">tensorflow.keras.models</span> <span class="kn">import</span> <span class="n">Sequential</span>
 <span class="kn">from</span> <span class="n">tensorflow.keras.layers</span> <span class="kn">import</span> <span class="n">Dense</span>
@@ -27,7 +52,7 @@
 
 <span class="c1"># Fit
 </span><span class="n">model</span><span class="p">.</span><span class="nf">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="Machine Learning" /><summary type="html"><![CDATA[In order to keep track of the many different ways one can train a regression/classification algorithm using TensorFlow and Keras, I thought I would create a high-level cheatsheet containing several coding examples.]]></summary></entry><entry><title type="html">Linear Algebra in a Neural Network Layer</title><link href="https://bcardona.com/blog/2023/vectors-and-matrices/" rel="alternate" type="text/html" title="Linear Algebra in a Neural Network Layer" /><published>2023-06-09T20:42:00+00:00</published><updated>2023-06-09T20:42:00+00:00</updated><id>https://bcardona.com/blog/2023/vectors-and-matrices</id><content type="html" xml:base="https://bcardona.com/blog/2023/vectors-and-matrices/"><![CDATA[<p>It can be difficult to wrap one’s mind around what is happening computationally inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. Let’s go through an example to see exactly how to calculate the dot product between an input matrix \(\mathbf{\hat{X}}\) and a weight matrix \(\mathbf{\hat{W}}\), how broadcasting is used to add the bias vector \(\mathbf{\hat{b}}\) to the resulting dot product, and why the dimensions of the resulting matrices and vectors make sense.</p>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Machine Learning" /><summary type="html"><![CDATA[In order to keep track of the many different ways one can train a regression/classification algorithm using TensorFlow and Keras, I created this self-referential sheet which contains several helpful tips/coding examples.]]></summary></entry><entry><title type="html">Linear Algebra in a Neural Network Layer</title><link href="https://bcardona.com/blog/2023/vectors-and-matrices/" rel="alternate" type="text/html" title="Linear Algebra in a Neural Network Layer" /><published>2023-06-09T20:42:00+00:00</published><updated>2023-06-09T20:42:00+00:00</updated><id>https://bcardona.com/blog/2023/vectors-and-matrices</id><content type="html" xml:base="https://bcardona.com/blog/2023/vectors-and-matrices/"><![CDATA[<p>It can be difficult to wrap one’s mind around what is happening computationally inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. Let’s go through an example to see exactly how to calculate the dot product between an input matrix \(\mathbf{\hat{X}}\) and a weight matrix \(\mathbf{\hat{W}}\), how broadcasting is used to add the bias vector \(\mathbf{\hat{b}}\) to the resulting dot product, and why the dimensions of the resulting matrices and vectors make sense.</p>
 
 <p>Suppose we have an \(2 \times 2\) input matrix \(\mathbf{\hat{X}}\), which represents a batch of 2 training examples, with 2 features each:</p>
 
@@ -101,7 +126,7 @@ Its basic operation is to ‘stretch’ a smaller dimension by replicating eleme
 <span class="k">return</span> <span class="n">result</span>
 </code></pre></div></div>
 
-<p>We may generalize this example by saying that the dimensions of the parameters in a given layer is determined as follows:</p>
+<p>We may generalize this example by saying that the dimensions of the parameters in a given layer are determined as follows:</p>
 <ul>
   <li>If network has \(s_{in}\) units in a layer (i.e., if each training example of \(\mathbf{\hat{X}}\) has \(s_{in}\) features) and \(s_{out}\) units in the next layer (i.e., if the current layer has \(s_{out}\) units/neurons), then
     <ul>
