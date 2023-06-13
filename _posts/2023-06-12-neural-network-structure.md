@@ -10,6 +10,12 @@ img: assets/img/code.jpg
 
 In order to keep track of the many different ways one can train a regression/classification algorithm using TensorFlow and Keras, I created this self-referential sheet which contains several helpful tips/coding examples.
 
+## Iterative loop of ML development
+1. Choose architecture (model, data, etc)
+2. Train model
+3. Diagnostics (bias, variance, and error analysis)
+4. Repeat steps $$1$$-$$4$$ until model is complete
+
 
 ## Bias/Variance
 If a model's $$J_{train}$$ is much higher than the baseline level of performance (e.g., human level performance, competing algorithms performance, guess based on experience), this is an indication that the model has **high bias (the model is underfitting)**. 
