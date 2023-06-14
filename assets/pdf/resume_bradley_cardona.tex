@@ -1,0 +1,194 @@
+%-------------------------
+% Resume in Latex
+% Author : Shubhi Rani
+% License : MIT
+%------------------------
+\documentclass[letterpaper,10.8pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{array} % for m column type
+\usepackage{tabularx} % for tabularx environment
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%----------HEADING-----------------
+% Create a tabular table with three columns
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}m{0.33\textwidth}>{\centering\arraybackslash}m{0.33\textwidth}>{\raggedleft\arraybackslash}m{0.33\textwidth}}
+    % First row
+    % Left column: Address
+    209 North River St. & 
+    % Center column: empty
+    & 
+    % Right column: Email
+    (845) 522-2002 \\
+    
+    % Second row
+    % Left column: City and state
+    Athens, PA 18810 & 
+    % Center column: Name
+    \textbf{{\LARGE Bradley M. Cardona}} & 
+    % Right column: Personal website
+    \href[pdfnewwindow=true]{mailto:bcardona300@gmail.com}{bcardona300@gmail.com} \\
+    
+    % Third row
+    % Left column: Github link
+    \href[pdfnewwindow=true]{https://github.com/bmcardona}{www.github.com/bmcardona} & 
+    % Center column: empty
+    & 
+    % Right column: Mobile
+    \href[pdfnewwindow=true]{https://www.bcardona.com}{www.bcardona.com} \\
+\end{tabularx}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Allegheny College}{Meadville, PA}
+      {Mathematics, B.S. (GPA: 3.55)}{Aug 2019 - May 2023} 
+      \resumeSubHeadingListStart
+          \resumeItem{Selected Coursework}
+              {Linear Algebra, Foundations of Mathematics, Vector Calculus and Variables, Probability/Statistic Inferences I, Probability/Statistic Inferences II, Optimization and Approximation, Algebraic Structures I, Introduction to Real Analysis, Complex Variables}
+      \resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd
+
+%-------- CERTIFICATES ------------
+\section{Certificates}
+	\resumeSubHeadingListStart
+	% \resumeSubItem{Data Analytics}{Google Data Analytics Professional Certificate}
+ %        \begin{itemize}
+ %            \item Completed extensive six-month job-ready Google Career Certificate training. Demonstrated hands-on experience with data cleaning, data visualization, project management, interpreting and communicating analytics findings. Confidence in transforming complex data into actionable and clear insights. Fluency in computer programming languages and a solid understanding of databases.
+ %        \end{itemize}
+
+  \resumeSubItem{Data Analytics}{Ask Questions to Make Data-Driven Decisions \href[pdfnewwindow=true]{https://coursera.org/share/2043adb76d618a504205d3e24af21035}{\faExternalLink}, Foundations: Data, Data Everywhere \href[pdfnewwindow=true]{https://coursera.org/share/8bad5bf04863199386561db14dbd7fe9}{\faExternalLink}, Prepare Data for Exploration \href[pdfnewwindow=true]{https://www.coursera.org/account/accomplishments/certificate/UH6MDTHJRJXX}{\faExternalLink}, Process Data from Dirty to Clean \href[pdfnewwindow=true]{https://coursera.org/share/b28dd0a0bdc244960becfdacabb0b6c1}{\faExternalLink}, Analyze Data to Answer Questions \href[pdfnewwindow=true]{https://coursera.org/share/24a82b1e2d9ebab94888e0c82fd9be9c}{\faExternalLink}}
+ 
+ \resumeSubItem{Machine Learning}{Supervised Machine Learning: Regression and Classification \href[pdfnewwindow=true]{https://www.coursera.org/account/accomplishments/verify/ECMJTAY3PVC6?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course}{\faExternalLink}}
+\resumeSubHeadingListEnd
+
+%-----------INTERNSHIPS-----------------
+\section{Internships}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Allegheny College Mathematics Department}{Meadville, PA}
+    { Undergraduate Researcher }{May 2022 -  Jul 2022}
+    \begin{itemize}
+        \item{Studied mathematics under the supervision of Professor Caryn Werner.}
+        \item{Explored systems of algebraic curves in the projective plane, a topic in algebraic geometry.}
+        \item{Solved equations and visualized graphs using Wolfram Mathematica and the Wolfram Language.}
+        \item{Presented my work to students and faculty of Allegheny College, as part of the ACRoSS seminar series.}
+    \end{itemize}
+    \resumeSubheading
+    {Allegheny College Biology Department}{Meadville, PA}
+    { Undergraduate Researcher }{Jun 2021 -  Aug 2021}
+    \begin{itemize}
+        \item Studied fruit flies under the supervision of Professor Bradley Hersh.
+        \item Attached green fluorescent proteins to several candidate DNA regions from fruit flies to identify biological switches by which a gene is turned on or off.
+    \end{itemize}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Software Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Personal website}{\href[pdfnewwindow=true]{https://www.bcardona.com}{www.bcardona.com} (for additional information and projects)}
+\resumeSubItem{Pathfinding Visualizer \href[pdfnewwindow=true]{https://bcardona.com/pathfinding-visualizer/}{\faExternalLink}}{}
+    \begin{itemize}
+        \item{Built VanillaJS application for visualizing various search algorithms. }
+        \item{Implemented Depth-First Search, Breadth-First Search, A* Search, Greedy Best-First Search, and Dijkstra’s algorithm. }
+        \item{\underline{Utilized}: JavaScript, HTML, CSS, Git, GitHub}
+    \end{itemize}
+\resumeSubItem{Sorting Visualizer \href[pdfnewwindow=true]{https://bcardona.com/sorting-visualizer/}{\faExternalLink}}{}
+    \begin{itemize}
+        \item{Built VanillaJS application for visualizing various sorting algorithms. }
+        \item{Implemented Bubble Sort, Heap Sort, Insertion Sort, Quick Sort, and Selection Sort.}
+        \item{\underline{Utilized}: JavaScript, HTML, CSS, Git, GitHub}
+    \end{itemize}
+\resumeSubItem{Sudoku \href[pdfnewwindow=true]{https://bcardona.com/sudoku-solver/}{\faExternalLink}}{}
+    \begin{itemize}
+        \item{Built VanillaJS application for playing Sudoku.}
+        \item{Implemented four board difficulties: easy, medium, hard, and impossible.}
+        \item{\underline{Utilized}: JavaScript, HTML, CSS, Git, GitHub}
+    \end{itemize}
+\resumeSubItem{Portfolio Template \href[pdfnewwindow=true]{https://bcardona.com/personal-website-js/}{\faExternalLink}}{}
+    \begin{itemize}
+        \item{Built template using React to showcase recently updated GitHub projects.}
+        \item{Used Github’s REST API to show automatically when update has been made to GitHub repository.}
+        \item{\underline{Utilized}: ReactJS, Git, GitHub}
+    \end{itemize}
+\resumeSubHeadingListEnd
+
+%--------TECHNICAL SKILLS------------
+\section{Technical Skills}
+\resumeSubHeadingListStart
+\resumeSubItem{Proficient}{Python, SQL, JavaScript (ES6), Microsoft Excel, Google Sheets, Git, GitHub, Mathematica, Wolfram Language, LaTeX, HTML5, CSS3}
+\resumeSubItem{Familiar}{Tableau, React, C++}
+\resumeSubHeadingListEnd
+
+%--------SOFT SKILLS------------
+\section{Soft Skills}
+\resumeSubHeadingListStart
+\resumeSubItem{Strong}{Communication, Collaboration, Attention to detail, Perseverance, Adaptability}
+\resumeSubHeadingListEnd
+% %-------------------------------------------
+\end{document}
