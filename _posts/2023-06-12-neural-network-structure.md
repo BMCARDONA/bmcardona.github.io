@@ -8,7 +8,12 @@ related_posts: false
 img: assets/img/code.jpg
 ---
 
-In order to keep track of the many different ways one can train a regression/classification algorithm using TensorFlow and Keras, I created this self-referential sheet which contains several helpful tips/coding examples.
+To keep track of the many different ways one can improve a machine learning model using TensorFlow and Keras, I decided to create this self-referential sheet which contains several helpful tips/coding examples, based on Andrew Ng's Advanced Learning Algorithms course.
+
+: Andrew Ng. (2023). Advanced Learning Algorithms. Coursera. [https://www.coursera.org/learn/advanced-learning-algorithms](https://www.coursera.org/learn/advanced-learning-algorithms)
+
+
+
 
 ## Iterative loop of ML development
 1. Choose architecture (model, data, etc)
