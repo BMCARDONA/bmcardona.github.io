@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.20)  26 JUN 2023 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.20)  29 JUN 2023 08:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -208,6 +208,17 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@delta=\dimen155
 \TX@cols=\count271
 \TX@ftn=\toks23
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks24
+\SOUL@lasttoken=\toks25
+\SOUL@cmds=\toks26
+\SOUL@buffer=\toks27
+\SOUL@token=\toks28
+\SOUL@spaceskip=\skip65
+\SOUL@ttwidth=\dimen156
+\SOUL@uldp=\dimen157
+\SOUL@ulht=\dimen158
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count272
@@ -220,39 +231,39 @@ LaTeX Warning: Unused global option(s):
 (./resume_bradley_cardona.aux)
 \openout1 = `resume_bradley_cardona.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
  (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count273
-\scratchdimen=\dimen156
+\scratchdimen=\dimen159
 \scratchbox=\box55
 \nofMPsegments=\count274
 \nofMParguments=\count275
-\everyMPshowfont=\toks24
+\everyMPshowfont=\toks29
 \MPscratchCnt=\count276
-\MPscratchDim=\dimen157
+\MPscratchDim=\dimen160
 \MPnumerator=\count277
 \makeMPintoPDFobject=\count278
-\everyMPtoPDFconversion=\toks25
+\everyMPtoPDFconversion=\toks30
 )
-Package hyperref Info: Link coloring OFF on input line 76.
+Package hyperref Info: Link coloring OFF on input line 77.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -262,49 +273,39 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count279
 )
-LaTeX Info: Redefining \ref on input line 76.
-LaTeX Info: Redefining \pageref on input line 76.
-LaTeX Info: Redefining \nameref on input line 76.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
  (./resume_bradley_cardona.out) (./resume_bradley_cardona.out)
 \@outlinefile=\write3
 \openout3 = `resume_bradley_cardona.out'.
 
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd)
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 103.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 103.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 103.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 102.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 102.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 102.
 
-Underfull \hbox (badness 10000) in alignment at lines 103--103
+Underfull \hbox (badness 10000) in alignment at lines 102--102
 [][][] 
  []
 
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 125.
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 125.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 125.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 125.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 125.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 125.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 125.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 125.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 127.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 127.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 154.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 155.
-
-
-LaTeX Font Warning: Font shape `U/fontawesometwo/bx/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 155.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 157.
+(Font)              <9> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 157.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 161.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 167.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 173.
+(Font)              <6> on input line 114.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 124.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 126.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 146.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 146.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 147.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 147.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 147.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 158.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 164.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 164.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 170.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 170.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -313,25 +314,22 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./resume_bradley_cardona.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `resume_bradley_cardona.out' has not changed.
 (rerunfilecheck)             Checksum: F7D74894CBDD32B397F9AB35875B76DC;647.
  ) 
 Here is how much of TeX's memory you used:
- 10846 strings out of 478268
- 168116 string characters out of 5846347
- 486877 words of memory out of 5000000
- 28928 multiletter control sequences out of 15000+600000
- 474816 words of font info for 49 fonts, out of 8000000 for 9000
+ 11020 strings out of 478268
+ 170313 string characters out of 5846347
+ 492438 words of memory out of 5000000
+ 29101 multiletter control sequences out of 15000+600000
+ 474813 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,1242b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on resume_bradley_cardona.pdf (1 page, 152286 bytes).
+ 60i,11n,63p,530b,339s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on resume_bradley_cardona.pdf (1 page, 146748 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

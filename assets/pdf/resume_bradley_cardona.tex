@@ -16,6 +16,7 @@
 \usepackage{fontawesome}
 \usepackage{array} % for m column type
 \usepackage{tabularx} % for tabularx environment
+\usepackage{soul}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -84,7 +85,6 @@
     & 
     % Right column: Email
     (845) 522-2002 \\
-    
     % Second row
     % Left column: City and state
     Athens, PA 18810 & 
@@ -92,7 +92,6 @@
     \textbf{{\LARGE Bradley M. Cardona}} & 
     % Right column: Personal website
     \href[pdfnewwindow=true]{mailto:bcardona300@gmail.com}{bcardona300@gmail.com} \\
-    
     % Third row
     % Left column: Github link
     \href[pdfnewwindow=true]{https://github.com/bmcardona}{www.github.com/bmcardona} & 
@@ -104,27 +103,27 @@
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Allegheny College}{Meadville, PA}
-      {Mathematics, B.S. (GPA: 3.55)}{Aug 2019 - May 2023} 
-      \resumeSubHeadingListStart
-          \resumeItem{Selected Coursework}
-              {Linear Algebra, Foundations of Mathematics, Vector Calculus and Variables, Probability/Statistic Inferences I, Probability/Statistic Inferences II, Optimization and Approximation, Algebraic Structures I, Introduction to Real Analysis, Complex Variables}
-      \resumeSubHeadingListEnd
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Allegheny College}{Meadville, PA}
+{Bachelor of Science in Mathematics (GPA: 3.55)}{Aug 2019 - May 2023}
+\resumeItemListStart
+\resumeItem{Honors}
+{Cum Laude}
+\resumeItem{Selected Coursework}
+{Linear Algebra, Foundations of Mathematics, Vector Calculus and Variables, Probability/Statistic Inferences I, Probability/Statistic Inferences II, Optimization and Approximation, Algebraic Structures I, Introduction to Real Analysis, Complex Variables}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 
 %-------- CERTIFICATES ------------
 \section{Certificates}
-	\resumeSubHeadingListStart
-	% \resumeSubItem{Data Analytics}{Google Data Analytics Professional Certificate}
- %        \begin{itemize}
- %            \item Completed extensive six-month job-ready Google Career Certificate training. Demonstrated hands-on experience with data cleaning, data visualization, project management, interpreting and communicating analytics findings. Confidence in transforming complex data into actionable and clear insights. Fluency in computer programming languages and a solid understanding of databases.
- %        \end{itemize}
-
-  \resumeSubItem{Data Analytics}{Ask Questions to Make Data-Driven Decisions \href[pdfnewwindow=true]{https://coursera.org/share/2043adb76d618a504205d3e24af21035}{\faExternalLink}, Foundations: Data, Data Everywhere \href[pdfnewwindow=true]{https://coursera.org/share/8bad5bf04863199386561db14dbd7fe9}{\faExternalLink}, Prepare Data for Exploration \href[pdfnewwindow=true]{https://www.coursera.org/account/accomplishments/certificate/UH6MDTHJRJXX}{\faExternalLink}, Process Data from Dirty to Clean \href[pdfnewwindow=true]{https://coursera.org/share/b28dd0a0bdc244960becfdacabb0b6c1}{\faExternalLink}, Analyze Data to Answer Questions \href[pdfnewwindow=true]{https://coursera.org/share/24a82b1e2d9ebab94888e0c82fd9be9c}{\faExternalLink}, Share Data Through the Art of Visualization \href[pdfnewwindow=true]{https://coursera.org/share/ff7ac92df60f898a27e340e6b865a824}{\faExternalLink}, Data Analysis with R Programming \href[pdfnewwindow=true]{https://www.coursera.org/account/accomplishments/certificate/QYLE7X43MWEA}{\faExternalLink}}
- 
- \resumeSubItem{Machine Learning}{Supervised Machine Learning: Regression and Classification \href[pdfnewwindow=true]{https://www.coursera.org/account/accomplishments/verify/ECMJTAY3PVC6?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course}{\faExternalLink}, {Advanced Learning Algorithms \href[pdfnewwindow=true]{https://coursera.org/share/e306cd16168204a8aa6a8c92b9b2a6e7}{\faExternalLink}}}
+\resumeSubHeadingListStart
+\resumeSubItem{\href[pdfnewwindow=true]{https://www.coursera.org/account/accomplishments/specialization/certificate/X54K9A8GBQQF}{\underline{\smash{Google Data Analytics Professional Certificate}}}}
+{Developed an advanced understanding and proficiency of platforms for effective data analyses, including spreadsheets, SQL, R, and Tableau.}
+\resumeSubItem{\href[pdfnewwindow=true]{https://www.coursera.org/account/accomplishments/certificate/ECMJTAY3PVC6}{\underline{\smash{Supervised Machine Learning: Regression and Classification}}}}
+{Learned to build machine learning models in Python using popular libraries such as NumPy and Scikit-Learn.}
+\resumeSubItem{\href[pdfnewwindow=true]{https://www.coursera.org/account/accomplishments/certificate/HMPYUELLAEPB}{\underline{\smash{Advanced Learning Algorithms}}}}
+{Explored decision trees, tree ensemble methods, and built and trained a neural network with TensorFlow for multi-class classification.}
 \resumeSubHeadingListEnd
 
 %-----------INTERNSHIPS-----------------
@@ -139,50 +138,60 @@
         \item{Solved equations and visualized graphs using Wolfram Mathematica and the Wolfram Language.}
         \item{Presented my work to students and faculty of Allegheny College, as part of the ACRoSS seminar series.}
     \end{itemize}
-    \resumeSubheading
-    {Allegheny College Biology Department}{Meadville, PA}
-    { Undergraduate Researcher }{Jun 2021 -  Aug 2021}
-    \begin{itemize}
-        \item Studied fruit flies under the supervision of Professor Bradley Hersh.
-        \item Attached green fluorescent proteins to several candidate DNA regions from fruit flies to identify biological switches by which a gene is turned on or off.
-    \end{itemize}
 \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{Software Projects}
 \resumeSubHeadingListStart
-\resumeSubItem{Personal website}{\href[pdfnewwindow=true]{https://www.bcardona.com}{www.bcardona.com} (for additional information and projects)}
-\resumeSubItem{Pathfinding Visualizer \href[pdfnewwindow=true]{https://bcardona.com/pathfinding-visualizer/}{\faExternalLink}}{}
+\resumeSubItem{Personal website}{\href[pdfnewwindow=true]{https://www.bcardona.com}{\href[pdfnewwindow=true]{www.bcardona.com}{\underline{\smash{www.bcardona.com}}}} (for additional information and projects)}
+\resumeSubItem{Fertility Rates Case Study (\textnormal{\href[pdfnewwindow=true]{https://www.bcardona.com}{\href[pdfnewwindow=true]{https://public.tableau.com/app/profile/bradley.cardona/viz/AverageFertilityRatebyRegion1960-2021/Dashboard2}{\underline{\smash{Tableau}}}}}, \textnormal{\href[pdfnewwindow=true]{https://github.com/BMCARDONA/fertility_rates_case_study/tree/main}{\underline{\smash{GitHub}}}})}{} 
+
+
+
+% \href[pdfnewwindow=true]{https://www.bcardona.com}{\href[pdfnewwindow=true]{link}{\underline{\smash{project}}}} 
+
+  \begin{itemize}
+    \item Conducted a case study to determine the Average Total Fertility Rate by Geographic Region from 1960 to 2021.
+    \item Concluded that a significant decline in average total fertility rates has been observed worldwide in nearly every country.
+    \item \underline{Utilized}: R, Tableau, Excel, Git, GitHub
+  \end{itemize}
+\resumeSubItem{Deep Work Tracker \href[pdfnewwindow=true]{https://github.com/bmcardona/deep_work_tracker}{(\textnormal{\underline{\smash{GitHub}})}}}{}
+  \begin{itemize}
+    \item{Developed a Python project to track and record focused work activities, known as ``deep work'', to improve my productivity.}
+    \item{Implemented a CSV file-based system for logging daily accomplishments and a Python script for generating visualizations and a daily/monthly summary.}
+    \item{\underline{Utilized}: Python, Pandas, Matplotlib, Seaborn, Git, GitHub}
+  \end{itemize}
+\resumeSubItem{Pathfinding Visualizer \href[pdfnewwindow=true]{https://bcardona.com/pathfinding-visualizer/}{(\textnormal{\underline{\smash{Website}}}, \href[pdfnewwindow=true]{https://github.com/BMCARDONA/pathfinding-visualizer}{\textnormal{\underline{\smash{GitHub}}})}}}{}
     \begin{itemize}
-        \item{Built VanillaJS application for visualizing various search algorithms. }
+        \item{Developed an immersive JavaScript web application to visualize various search algorithms. }
         \item{Implemented Depth-First Search, Breadth-First Search, A* Search, Greedy Best-First Search, and Dijkstra’s algorithm. }
         \item{\underline{Utilized}: JavaScript, HTML, CSS, Git, GitHub}
     \end{itemize}
-\resumeSubItem{Sorting Visualizer \href[pdfnewwindow=true]{https://bcardona.com/sorting-visualizer/}{\faExternalLink}}{}
+    \resumeSubItem{Sorting Visualizer \href[pdfnewwindow=true]{https://bcardona.com/sorting-visualizer/}{(\textnormal{\underline{\smash{Website}}}, \href[pdfnewwindow=true]{https://github.com/BMCARDONA/sorting-visualizer}{\textnormal{\underline{\smash{GitHub}}})}}}{}
     \begin{itemize}
-        \item{Built VanillaJS application for visualizing various sorting algorithms. }
+        \item{Built an interactive JavaScript web application to visualize a range of sorting algorithms.}
         \item{Implemented Bubble Sort, Heap Sort, Insertion Sort, Quick Sort, and Selection Sort.}
         \item{\underline{Utilized}: JavaScript, HTML, CSS, Git, GitHub}
     \end{itemize}
-\resumeSubItem{Sudoku \href[pdfnewwindow=true]{https://bcardona.com/sudoku-solver/}{\faExternalLink}}{}
-    \begin{itemize}
-        \item{Built VanillaJS application for playing Sudoku.}
-        \item{Implemented four board difficulties: easy, medium, hard, and impossible.}
-        \item{\underline{Utilized}: JavaScript, HTML, CSS, Git, GitHub}
-    \end{itemize}
-\resumeSubItem{Portfolio Template \href[pdfnewwindow=true]{https://bcardona.com/personal-website-js/}{\faExternalLink}}{}
-    \begin{itemize}
-        \item{Built template using React to showcase recently updated GitHub projects.}
-        \item{Used Github’s REST API to show automatically when update has been made to GitHub repository.}
-        \item{\underline{Utilized}: ReactJS, Git, GitHub}
-    \end{itemize}
-\resumeSubHeadingListEnd
+% \resumeSubItem{Sudoku \href[pdfnewwindow=true]{https://bcardona.com/sudoku-solver/}{\faExternalLink}}{}
+%     \begin{itemize}
+%         \item{Built VanillaJS application for playing Sudoku.}
+%         \item{Implemented four board difficulties: easy, medium, hard, and impossible.}
+%         \item{\underline{Utilized}: JavaScript, HTML, CSS, Git, GitHub}
+%     \end{itemize}
+% \resumeSubItem{Portfolio Template \href[pdfnewwindow=true]{https://bcardona.com/personal-website-js/}{\faExternalLink}}{}
+%     \begin{itemize}
+%         \item{Built template using React to showcase recently updated GitHub projects.}
+%         \item{Used Github’s REST API to show automatically when update has been made to GitHub repository.}
+%         \item{\underline{Utilized}: ReactJS, Git, GitHub}
+%     \end{itemize}
+  \resumeSubHeadingListEnd
 
 %--------TECHNICAL SKILLS------------
 \section{Technical Skills}
 \resumeSubHeadingListStart
-\resumeSubItem{Proficient}{Python, R, SQL, JavaScript (ES6), Git, GitHub, Tableau, RStudio, Jupyter, Microsoft Excel, Google Sheets, Wolfram Mathematica, Wolfram Language, LaTeX, HTML5, CSS3}
-\resumeSubItem{Familiar}{React, C++}
+\resumeSubItem{Proficient}{Python, R, SQL, Git, GitHub, Tableau, RStudio, Jupyter, Microsoft Excel, Google Sheets, Wolfram Mathematica, Wolfram Language, LaTeX, HTML5, CSS3}
+\resumeSubItem{Familiar}{JavaScript (ES6), ReactJS, C++}
 \resumeSubHeadingListEnd
 
 %--------SOFT SKILLS------------
