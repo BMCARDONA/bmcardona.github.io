@@ -8,24 +8,22 @@ related_posts: false
 img: assets/img/code.jpg
 ---
 
-To keep track of the many different ways one can improve a machine learning model using TensorFlow and Keras, I decided to create this self-referential sheet which contains several helpful tips/coding examples, based on Andrew Ng's Advanced Learning Algorithms course.
-
-: Andrew Ng. (2023). Advanced Learning Algorithms. Coursera. [https://www.coursera.org/learn/advanced-learning-algorithms](https://www.coursera.org/learn/advanced-learning-algorithms)
-
-
-
+To keep track of the many different ways one can improve a machine learning model using TensorFlow and Keras, I decided to create this self-referential sheet which contains several helpful tips/coding examples, based on [Andrew Ng's Advanced Learning Algorithms course](https://www.coursera.org/learn/advanced-learning-algorithms).
 
 ## Iterative loop of ML development
 1. Choose architecture (model, data, etc)
 2. Train model
+    - train your parameters $$W,B$$ with the training set
 3. Diagnostics (bias, variance, and error analysis)
+    - tune model parameters such as complexity, regularization and number of examples with the cross-validation set
+    - evaluate your 'real world' performance using the test set.
 4. Repeat steps $$1$$-$$4$$ until model is complete
 
 
 ## Bias/Variance
-If a model's $$J_{train}$$ is much higher than the baseline level of performance (e.g., human level performance, competing algorithms performance, guess based on experience), this is an indication that the model has **high bias (the model is underfitting)**. 
+If a model's $$J_{train}$$ is much higher than the baseline level of performance (e.g., human level performance, competing algorithms performance, guess based on experience), this is an indication that the model has **high bias** (the model is underfitting). 
 
-If a model's cross validation error $$J_{cv}$$ is much higher than the training error $$J_{train}$$, this is an indication that the model has **high variance (the model is overfitting)**. 
+If a model's cross validation error $$J_{cv}$$ is much higher than the training error $$J_{train}$$, this is an indication that the model has **high variance** (model is overfitting / generalizes "poorly"). 
 
 If a model has high bias...
 - Try getting additional features
