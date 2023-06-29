@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.20)  29 JUN 2023 08:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.20)  29 JUN 2023 08:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -289,23 +289,23 @@ Underfull \hbox (badness 10000) in alignment at lines 102--102
 [][][] 
  []
 
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 120.
+(Font)              <9> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 120.
+(Font)              <6> on input line 114.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 124.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 144.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 144.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 145.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 145.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 145.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 156.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 162.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 162.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 168.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 168.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 126.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 146.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 146.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 147.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 147.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 147.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 158.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 164.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 164.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 170.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 170.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -320,13 +320,13 @@ Package rerunfilecheck Info: File `resume_bradley_cardona.out' has not changed.
 Here is how much of TeX's memory you used:
  11020 strings out of 478268
  170313 string characters out of 5846347
- 491438 words of memory out of 5000000
+ 492438 words of memory out of 5000000
  29101 multiletter control sequences out of 15000+600000
  474813 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,530b,339s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on resume_bradley_cardona.pdf (1 page, 147104 bytes).
+Output written on resume_bradley_cardona.pdf (1 page, 146408 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
