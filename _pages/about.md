@@ -18,9 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Math graduate of Allegheny College.
-
 **Interests**: Data Analytics, Data Science. *Interested in collaborating? [Contact me](mailto:bcardona300@gmail.com).*
+
+As a recent graduate with a B.S. in Mathematics from Allegheny College, I am excited to enter the dynamic world of data analytics and data science. My completion of the Google Data Analytics Professional Certificate has provided me with a strong foundation in data analysis; moreover, my completion of the Supervised Machine Learning: Regression and Classification and Advanced Learning Algorithms courses have allowed me to readily expand my knowledge of machine learning. With experience in Python, R, SQL, Tableau, Git, GitHub, RStudio, Jupyter, Microsoft Excel, and Google Sheets, coupled with my background in mathematics, I feel well-equipped to begin tackling challenges as they relate to data analytics and data science.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
