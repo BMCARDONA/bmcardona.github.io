@@ -2,96 +2,89 @@
   type: map
   contents:
     - name: Full Name
-      value: Bradley Cardona
-    - name: Date of Birth
-      value: January 15th, 2000
-    - name: Languages
-      value: English
+      value: Bradley M. Cardona
+    - name: Phone Number
+      value: (845) 522-2002
+    - name: Email
+      value: bcardona300@gmail.com
+    - name: Github
+      value: www.github.com/bmcardona
+    - name: Website
+      value: www.bcardona.com
 
 - title: Education
   type: time_table
   contents:
     - title: B.S. Mathematics
-      institution: Allegheny College
-      year: 2019-2023
+      institution: Allegheny College Meadville, PA
+      year: Aug 2019 - May 2023
       description:
-        # - Description 1.
-        # - Description 2.
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
-    # - title: Federal teaching diploma
-    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-    #   year: 1900
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
+        - GPA: 3.55 (Cum Laude)
+        - Selected Coursework: Linear Algebra, Introduction to Real Analysis, Vector Calculus and Variables, Probability/Statistic Inferences I, Probability/Statistic Inferences II, Optimization and Approximation, Complex Variables
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Undergraduate Mathematics Researcher
-      institution: Allegheny College
-      year: 2022
-      # description:
-        # - Studied algebraic geometry under the supervision of [Professor Caryn Werner](https://sites.allegheny.edu/math/faculty/.caryn-werner/)).
-        # - Description 2.
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
-    - title: Undergraduate Biology Researcher
-      institution: Allegheny College
-      year: 2021
-      # description:
-      #   - Studied algebraic geometry under the supervision of [Professor Bradley Hersh](https://sites.allegheny.edu/bio/faculty/bradley-m-hersh/).
-        # - Description 2.
-
-    # - title: Director
-    #   institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-    #   year: 1917-1933
-
-    # - title: Professor of Theoretical Physics
-    #   institution: Karl-Ferdinand University, Prague, Czechoslovakia
-    #   year: 1911 - 1917
-    #   description:
-
-    # - title: Associate Professor of Theoretical Physics
-    #   institution: University of Zurich, Zurich, Switzerland
-    #   year: 1909 - 1911
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
-
-- title: Interests
-  type: nested_list
-  contents:
-    - title: Data Analytics.
-      # items: 
-      #   - Description 1.
-      #   - Description 2.
-    - title: Data Science.
-      # items:
-      #   - Description 1.
-      #   - Description 2.
-
-- title: Other Interests
+- title: Certificates
   type: list
   contents:
-    - <u>Hobbies:</u> Reading, Writing, Biking, Guinea pigs.
+    - Google Data Analytics Professional Certificate
+    - Supervised Machine Learning: Regression and Classification
+    - Advanced Learning Algorithms
+
+- title: Internships
+  type: time_table
+  contents:
+    - title: Undergraduate Researcher
+      institution: Allegheny College Mathematics Department Meadville, PA
+      year: May 2022 - Jul 2022
+      description:
+        - Studied mathematics under the supervision of Professor Caryn Werner.
+        - Explored systems of algebraic curves in the projective plane, a topic in algebraic geometry.
+        - Solved equations and visualized graphs using Wolfram Mathematica and the Wolfram Language.
+        - Presented my work to students and faculty of Allegheny College, as part of the ACRoSS seminar series.
+
+- title: Software Projects
+  type: list_map
+  contents:
+    - title: Fertility Rates Case Study (Tableau, GitHub)
+      description:
+        - Conducted a study to explore the trends of average total fertility rates across large geographical regions from 1960 to 2021.
+        - Concluded that a significant decline in average total fertility rates has been observed in nearly every country.
+        - Utilized R, Tableau, Excel, Git, GitHub
+
+    - title: Deep Work Tracker (GitHub)
+      description:
+        - Developed a Python project to track and record focused work activities, known as “deep work”, to improve my productivity.
+        - Implemented a CSV file-based system for logging daily accomplishments and a Python script for generating visualizations and a daily/monthly summary.
+        - Utilized Python, Pandas, Matplotlib, Seaborn, Git, GitHub
+
+    - title: Pathfinding Visualizer (Website, GitHub)
+      description:
+        - Developed an immersive JavaScript web application to visualize various search algorithms.
+        - Implemented Depth-First Search, Breadth-First Search, A* Search, Greedy Best-First Search, and Dijkstra’s algorithm.
+        - Utilized JavaScript, HTML, CSS, Git, GitHub
+
+    - title: Sorting Visualizer (Website, GitHub)
+      description:
+        - Built an interactive JavaScript web application to visualize a range of sorting algorithms.
+        - Implemented Bubble Sort, Heap Sort, Insertion Sort, Quick Sort, and Selection Sort.
+        - Utilized JavaScript, HTML, CSS, Git, GitHub
+
+- title: Technical Skills
+  type: map_list_map
+  contents:
+    proficiency:
+      proficient:
+        languages:
+          Python R SQL Tableau Git GitHub RStudio Jupyter Microsoft Excel Google Sheets Wolfram Mathematica Wolfram Language LaTeX HTML5 CSS3
+
+      familiar:
+        languages:
+          JavaScript (ES6) ReactJS C++
+
+- title: Soft Skills
+  type: list
+  contents:
+    - Communication
+    - Collaboration
+    - Attention to detail
+    - Perseverance
+    - Adaptability
