@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Deep Work Tracker
-description: A playable sudoku board that can generate any random board's solution.
+description: A productivity tool designed to help you track a state of peak concentration known as "deep work."
 img: assets/img/deep_work_tracker.png
 redirect: https://github.com/BMCARDONA/deep_work_tracker
 importance: 2
