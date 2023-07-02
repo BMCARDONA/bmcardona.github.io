@@ -4,8 +4,8 @@ title:  An Infrastructure Cheatsheet
 date:   2023-04-04 12:44:16
 categories: ["Productivity"]
 related_posts: false
-img: assets/img/gears.jpg
 ---
+
 
 This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/).
 
