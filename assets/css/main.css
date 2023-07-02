@@ -250,6 +250,7 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-wolfram-nav-bar-color);
   opacity: 0.95;
+  max-height: 60px;
 }
 
 .navbar .dropdown-menu {
@@ -297,7 +298,7 @@ blockquote {
 .navbar.navbar-light .navbar-brand.social {
   padding-bottom: 0;
   padding-top: 0;
-  font-size: 1.7rem;
+  font-size: 35px;
 }
 .navbar.navbar-light .navbar-brand.social a i::before {
   transition-property: all 0.2s ease-in-out;
