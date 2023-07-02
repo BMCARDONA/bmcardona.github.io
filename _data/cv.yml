@@ -19,18 +19,18 @@
       institution: Allegheny College Meadville, PA
       year: Aug 2019 - May 2023
       description:
-        - GPA: 3.55 (Cum Laude)
-        - Selected Coursework: Linear Algebra, Introduction to Real Analysis, Vector Calculus and Variables, Probability/Statistic Inferences I, Probability/Statistic Inferences II, Optimization and Approximation, Complex Variables
+        - GPA - 3.55 (Cum Laude)
+        - Selected Coursework - Linear Algebra, Introduction to Real Analysis, Vector Calculus and Variables, Probability/Statistic Inferences I, Probability/Statistic Inferences II, Optimization and Approximation, Complex Variables
 
 - title: Certificates
   type: list
   contents:
     - Google Data Analytics Professional Certificate
-    - Supervised Machine Learning: Regression and Classification
+    - Supervised Machine Learning - Regression and Classification
     - Advanced Learning Algorithms
 
 - title: Internships
-  type: time_table
+  type: time_table  
   contents:
     - title: Undergraduate Researcher
       institution: Allegheny College Mathematics Department Meadville, PA
@@ -42,43 +42,55 @@
         - Presented my work to students and faculty of Allegheny College, as part of the ACRoSS seminar series.
 
 - title: Software Projects
-  type: list_map
+  type: time_table
   contents:
     - title: Fertility Rates Case Study (Tableau, GitHub)
+      year: 2023
       description:
         - Conducted a study to explore the trends of average total fertility rates across large geographical regions from 1960 to 2021.
         - Concluded that a significant decline in average total fertility rates has been observed in nearly every country.
         - Utilized R, Tableau, Excel, Git, GitHub
 
     - title: Deep Work Tracker (GitHub)
+      year: 2023
       description:
         - Developed a Python project to track and record focused work activities, known as “deep work”, to improve my productivity.
         - Implemented a CSV file-based system for logging daily accomplishments and a Python script for generating visualizations and a daily/monthly summary.
         - Utilized Python, Pandas, Matplotlib, Seaborn, Git, GitHub
 
     - title: Pathfinding Visualizer (Website, GitHub)
+      year: 2022
       description:
         - Developed an immersive JavaScript web application to visualize various search algorithms.
         - Implemented Depth-First Search, Breadth-First Search, A* Search, Greedy Best-First Search, and Dijkstra’s algorithm.
         - Utilized JavaScript, HTML, CSS, Git, GitHub
 
     - title: Sorting Visualizer (Website, GitHub)
+      year: 2022
       description:
         - Built an interactive JavaScript web application to visualize a range of sorting algorithms.
         - Implemented Bubble Sort, Heap Sort, Insertion Sort, Quick Sort, and Selection Sort.
         - Utilized JavaScript, HTML, CSS, Git, GitHub
 
 - title: Technical Skills
-  type: map_list_map
+  type: list
   contents:
-    proficiency:
-      proficient:
-        languages:
-          Python R SQL Tableau Git GitHub RStudio Jupyter Microsoft Excel Google Sheets Wolfram Mathematica Wolfram Language LaTeX HTML5 CSS3
+    - Python
+    - R
+    - SQL
+    - Tableau
+    - Git
+    - GitHub
+    - RStudio
+    - Jupyter
+    - Microsoft Excel
+    - Google Sheets
+    - Wolfram Mathematica
+    - Wolfram Language
+    - LaTeX
+    - HTML5
+    - CSS3
 
-      familiar:
-        languages:
-          JavaScript (ES6) ReactJS C++
 
 - title: Soft Skills
   type: list
