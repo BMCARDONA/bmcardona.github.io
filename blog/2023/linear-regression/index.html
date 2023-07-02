@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Reading | Bradley Cardona  </title>
+    <title>A Brief Note on Linear Regression | Bradley Cardona  </title>
     <meta name="author" content="Bradley Cardona  ">
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -34,7 +34,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%97%BB&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://bcardona.com/blog/category/reading/">
+    <link rel="canonical" href="https://bcardona.com/blog/2023/linear-regression/">
     
     <!-- Dark Mode -->
     
@@ -98,35 +98,54 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-tag fa-sm"></i> Reading </h1>
-    <p class="post-description"> An archive of posts in this category. </p>
+    <h1 class="post-title">A Brief Note on Linear Regression</h1>
+    <p class="post-meta">Posted: April 11, 2023</p>
+
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/category/machine-learning">
+          <i class="fas fa-tag fa-sm"></i> Machine Learning</a>  
+          
+
+    
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Apr 7, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/reading-list/">Reading List (Books)</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 7, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/research-papers-reading-list/">Reading List (Books)</a>
-          </td>
-        </tr>
-      
-      </table>
-    </div>
-  </article>
+  <article class="post-content">
+    <p>Linear Regression can be used in supervised machine learning to find a mathematical function that describes the relationship between the input features and the output variables in a training set.</p>
 
+<p>To create such a function, we need a training set composed of (say) two columns: one for the input features and one for the output variables. (We actually would have several columns if we had several input features; for simplicity, though, we will assume in this article that we are dealing with just one input feature.)</p>
+
+<p>Let’s suppose that in our training set our input feature is “house size” and our output variable is “house price.” (Hence, each row or “training instance” of our training set corresponds to a single house). Our goal then is to find a mathematical function that describes the relationship between house sizes and house prices.</p>
+
+<p>If we were to plot each training instance on a graph in the form (house size, house price), then there should exist a best-fit line which minimizes the distance between itself and each point. Such a line can be derived from a “cost function”, which provides a cumulative measure of how well each “prediction” matches its respective “target.” (A prediction is the value that results from our function when we “feed it” an input feature. Its respective target is the output variable in our training set associated with that given input feature.) This measure is called the “cost”. The lower the cost, the better the fit of our line.</p>
+
+<p>We can use linear regression to find the best-fit line; this involves finding the lowest cost associated with the following cost function J:</p>
+
+\[\begin{align*}
+J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2},
+\end{align*}\]
+
+<p>where</p>
+<ul>
+  <li>\(w\) and \(b\) are “weights” (coefficients whose values can be freely manipulated);</li>
+  <li>\(m\) is the “number of training instances”;</li>
+  <li>\(i\) is the “\(i^{th}\) training instance”;</li>
+  <li>\(x^{(i)}\) is the “\(i^{th}\) input feature”;</li>
+  <li>\(y^{(i)}\) is the “\(i^{th}\) output variable” (sometimes called the “\(i^{th}\) target”);</li>
+  <li>and \(\hat{y}^{(i)}\) (sometimes written as \(f_{w, b}(x^{(i)})\) or \(w\cdot x^{(i)} + b\)) is the “\(i^{th}\) prediction”.</li>
+</ul>
+
+<p>Our goal is to minimize \(J(w, b)\), which requires that we find the “optimal” values of \(w\) and \(b\).</p>
+
+<p>Note: The difference \(\hat{y}^{(i)} - y^{(i)}\) is sometimes referred to as the “loss”. The fact that the cost function squares the loss ensures that the “error surface” is convex like a bowl. Hence, the error surface will always have a minimum that can be reached by following the gradient in all dimensions. By finding the minimum of the error surface, we will have found the values of \(w\) and \(b\) that minimize \(J(w, b)\), thus giving us the best-fit line.</p>
+
+
+  </article>
 </div>
 
     </div>
