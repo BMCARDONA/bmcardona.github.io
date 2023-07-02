@@ -4,7 +4,6 @@ title:  Reading List (Books)
 date:   2023-04-07 12:44:16
 categories: ["Reading", "Books"]
 related_posts: false
-img: assets/img/books.jpg
 ---
 
 #### To Read:

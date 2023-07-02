@@ -2,10 +2,8 @@
 layout: post
 title: Linear Algebra in a Neural Network Layer
 date: 2023-06-09 16:42:00-0400
-last_edited: 2023-06-12 12:00:00-0400
 categories: ["Machine Learning", "Deep Learning"]
 related_posts: false
-img: assets/img/neural_network.jpeg
 ---
 
 It can be difficult to wrap one's mind around what is happening computationally inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. Let's go through an example to see exactly how to calculate the dot product between an input matrix $$\mathbf{\hat{X}}$$ and a weight matrix $$\mathbf{\hat{W}}$$, how broadcasting is used to add the bias vector $$\mathbf{\hat{b}}$$ to the resulting dot product, and why the dimensions of the resulting matrices and vectors make sense. 
