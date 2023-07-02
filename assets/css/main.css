@@ -177,7 +177,7 @@ blockquote {
   width: 100%;
 }
 .card .card-title {
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
 }
 .card .card-item {
   width: auto;
