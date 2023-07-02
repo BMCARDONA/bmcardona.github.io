@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Math graduate of Allegheny College.
+Math Graduate of Allegheny College
 
 **Interests**: Data Analytics, Data Science. *Interested in collaborating? [Contact me](mailto:bcardona300@gmail.com).*
 
