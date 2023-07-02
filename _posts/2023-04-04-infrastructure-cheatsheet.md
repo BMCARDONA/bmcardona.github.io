@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  An Infrastructure Cheatsheet
-date: 2023-04-04 12:44:16
-description: this is what included images could look like
-tags: formatting images
-categories: Productivity
-thumbnail: assets/img/gears.jpg
+date:   2023-04-04 12:44:16
+categories: ["Productivity"]
+related_posts: false
+img: assets/img/gears.jpg
 ---
 
 This post was inspired by [Stephen Wolfram's 2019 post](https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/).
