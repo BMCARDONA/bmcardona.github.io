@@ -5,7 +5,7 @@ permalink: /projects/
 description: A portfolio of my latest projects.
 nav: true
 nav_order: 1
-display_categories: [Visualizers, Games, Templates]
+display_categories: 
 horizontal: false
 ---
 

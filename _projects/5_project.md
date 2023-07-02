@@ -5,7 +5,7 @@ description: A neat toy that's something between a sketchpad and an Etch-A-Sketc
 img: assets/img/etch_a_sketch.png
 redirect: https://bcardona.com/etch-a-sketch/
 importance: 2
-category: Games
+category: 
 ---
 <!-- Don't forget to update categories in projects.md file! -->
 Every project has a beautiful feature showcase page.

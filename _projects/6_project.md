@@ -5,7 +5,7 @@ description: A template website that showcases your work as a software developer
 img: assets/img/portfolio_template.png
 redirect: https://bcardona.com/personal-website-js/
 importance: 2
-category: Templates
+category:
 ---
 <!-- Don't forget to update categories in projects.md file! -->
 Every project has a beautiful feature showcase page.

@@ -5,7 +5,7 @@ description: A playable sudoku board that can generate any random board's soluti
 img: assets/img/sudoku.png
 redirect: https://bcardona.com/sudoku-solver/
 importance: 2
-category: Games
+category: 
 ---
 <!-- Don't forget to update categories in projects.md file! -->
 Every project has a beautiful feature showcase page.

@@ -5,7 +5,7 @@ description: A no-frills game of tic-tac-toe.
 img: assets/img/tic_tac_toe.png
 redirect: https://bcardona.com/tic-tac-toe/
 importance: 2
-category: Games
+category: 
 ---
 <!-- Don't forget to update categories in projects.md file! -->
 Every project has a beautiful feature showcase page.
