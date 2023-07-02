@@ -4,7 +4,6 @@ title:  Reading List (Research Papers)
 date:   2023-04-12 19:35:00
 categories: ["Reading", "Research Papers", "Machine Learning"]
 related_posts: false
-img: assets/img/research-papers.jpg
 ---
 
 # Reading:
