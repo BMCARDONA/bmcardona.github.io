@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Sudoku
+title: Deep Work Tracker
 description: A playable sudoku board that can generate any random board's solution.
-img: assets/img/sudoku.png
-redirect: https://bcardona.com/sudoku-solver/
+img: assets/img/deep_work_tracker.png
+redirect: https://github.com/BMCARDONA/deep_work_tracker
 importance: 2
 category: 
 ---
