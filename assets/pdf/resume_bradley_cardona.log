@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.20)  4 JUL 2023 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.20)  4 JUL 2023 15:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,17 +294,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 114.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 128.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 127.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 147.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 147.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 148.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 148.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 149.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 149.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 149.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 160.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 166.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 166.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 172.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 172.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 148.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 159.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 165.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 165.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 171.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 171.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -325,7 +325,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,530b,339s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on resume_bradley_cardona.pdf (1 page, 145560 bytes).
+Output written on resume_bradley_cardona.pdf (1 page, 145546 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
