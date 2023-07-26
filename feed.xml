@@ -1,5 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-26T16:13:21+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Linear Algebra in a Neural Network Layer</title><link href="https://bcardona.com/blog/2023/vectors-and-matrices/" rel="alternate" type="text/html" title="Linear Algebra in a Neural Network Layer" /><published>2023-06-09T20:42:00+00:00</published><updated>2023-06-09T20:42:00+00:00</updated><id>https://bcardona.com/blog/2023/vectors-and-matrices</id><content type="html" xml:base="https://bcardona.com/blog/2023/vectors-and-matrices/"><![CDATA[<p>It can be difficult to wrap one’s mind around what is happening computationally inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. Let’s go through an example to see exactly how to calculate the dot product between an input matrix \(\mathbf{\hat{X}}\) and a weight matrix \(\mathbf{\hat{W}}\), how broadcasting is used to add the bias vector \(\mathbf{\hat{b}}\) to the resulting dot product, and why the dimensions of the resulting matrices and vectors make sense.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-26T20:43:07+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Deep Learning Specialization Solutions</title><link href="https://bcardona.com/blog/2023/deep-learning-specialization/" rel="alternate" type="text/html" title="Deep Learning Specialization Solutions" /><published>2023-07-26T16:42:16+00:00</published><updated>2023-07-26T16:42:16+00:00</updated><id>https://bcardona.com/blog/2023/deep-learning-specialization</id><content type="html" xml:base="https://bcardona.com/blog/2023/deep-learning-specialization/"><![CDATA[<p>As I am nearly finished with the Deep Learning specialization, I thought I would create a comprehensive post showing my completed assignments. Happy learning! :)</p>
+
+<h1 id="programming-assignments">Programming Assignments</h1>
+
+<h2 id="course-1-neural-networks-and-deep-learning">Course 1: Neural Networks and Deep Learning</h2>
+
+<ul>
+  <li><a href="https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/1%20-%20Neural%20Networks%20and%20Deep%20Learning/week_2/logistic_regression_with_a_neural_network_mindset">W2A1 - Logistic Regression with a Neural Network mindset</a></li>
+  <li>W2A2 - Python Basics with Numpy</li>
+  <li>W3A1 - Planar data classification with one hidden layer</li>
+  <li>W3A1 - Building your Deep Neural Network: Step by Step</li>
+  <li>W3A2 - Deep Neural Network for Image Classification: Application</li>
+</ul>
+
+<h2 id="course-2-improving-deep-neural-networks-hyperparameter-tuning-regularization-and-optimization">Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</h2>
+
+<ul>
+  <li>W1A1 - Initialization</li>
+  <li>W1A2 - Regularization</li>
+  <li>W1A3 - Gradient Checking</li>
+  <li>W2A1 - Optimization Methods</li>
+  <li>W3A1 - Introduction to TensorFlow</li>
+</ul>
+
+<h2 id="course-3-structuring-machine-learning-projects">Course 3: Structuring Machine Learning Projects</h2>
+
+<p>There were no programming assignments in the third course.</p>
+
+<h2 id="course-4-convolutional-neural-networks">Course 4: Convolutional Neural Networks</h2>
+
+<ul>
+  <li>W1A1 - Convolutional Model: step by step</li>
+  <li>W1A2 - Convolutional Model: application</li>
+  <li>W2A1 - Residual Networks</li>
+  <li>W2A2 - Transfer Learning with MobileNet</li>
+  <li>W3A1 - Autonomous Driving - Car Detection</li>
+  <li>W3A2 - Image Segmentation - U-net</li>
+  <li>W4A1 - Face Recognition</li>
+  <li>W4A2 - Neural Style transfer</li>
+</ul>
+
+<h2 id="course-5-sequence-models">Course 5: Sequence Models</h2>
+
+<ul>
+  <li>W1A1 - Building a Recurrent Neural Network - Step by Step</li>
+  <li>W1A2 - Character level language model - Dinosaurus land</li>
+  <li>W1A3 - Improvise A Jazz Solo with an LSTM Network</li>
+  <li>W2A1 - Operations on word vectors</li>
+  <li>W2A2 - Emojify</li>
+  <li>W3A1 - Neural Machine Translation With Attention</li>
+  <li>W3A2 - Trigger Word Detection</li>
+  <li>W4A1 - Transformer Network</li>
+  <li>W4A2 - Named Entity Recognition - Transformer Application</li>
+  <li>W4A3 - Extractive Question Answering - Transformer Application</li>
+</ul>
+
+<h3 id="disclaimer">Disclaimer</h3>
+
+<p>If you are yourself currently completing the Deep Learning Specialization, I would highly discourage you from copying any of these solutions. By completing each assignment in the specialization on your own, you will learn <em>much</em> more both about the subjects themselves, as well as any possible knowledge gaps that you still have. These assignments are a treasure trove – don’t take them for granted! :)</p>]]></content><author><name></name></author><category term="deep-learning" /><category term="formatting" /><category term="links" /><summary type="html"><![CDATA[As I am nearly finished with the Deep Learning specialization, I thought I would create a comprehensive post showing my completed assignments. Happy learning! :)]]></summary></entry><entry><title type="html">Linear Algebra in a Neural Network Layer</title><link href="https://bcardona.com/blog/2023/vectors-and-matrices/" rel="alternate" type="text/html" title="Linear Algebra in a Neural Network Layer" /><published>2023-06-09T20:42:00+00:00</published><updated>2023-06-09T20:42:00+00:00</updated><id>https://bcardona.com/blog/2023/vectors-and-matrices</id><content type="html" xml:base="https://bcardona.com/blog/2023/vectors-and-matrices/"><![CDATA[<p>It can be difficult to wrap one’s mind around what is happening computationally inside the layer of a neural network between an input matrix, a weight matrix, and a bias vector. Let’s go through an example to see exactly how to calculate the dot product between an input matrix \(\mathbf{\hat{X}}\) and a weight matrix \(\mathbf{\hat{W}}\), how broadcasting is used to add the bias vector \(\mathbf{\hat{b}}\) to the resulting dot product, and why the dimensions of the resulting matrices and vectors make sense.</p>
 
 <p>Suppose we have an \(2 \times 2\) input matrix \(\mathbf{\hat{X}}\), which represents a batch of 2 training examples, with 2 features each:</p>
 
