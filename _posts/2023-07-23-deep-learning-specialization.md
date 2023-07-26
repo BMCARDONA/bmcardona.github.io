@@ -3,8 +3,8 @@ layout: post
 title:  Deep Learning Specialization Solutions
 date:   2023-07-26 16:42:16
 description: 
-tags: formatting links
-categories: deep-learning
+tags: 
+categories: ["Machine Learning", "Deep Learning"]
 ---
 
 As I am nearly finished with the Deep Learning specialization, I thought I would create a comprehensive post showing my completed assignments. Happy learning! :) 
