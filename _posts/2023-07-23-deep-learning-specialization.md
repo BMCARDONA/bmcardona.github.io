@@ -29,7 +29,7 @@ As I am nearly finished with the Deep Learning specialization, I thought I would
 
 #### Course 3: Structuring Machine Learning Projects
 
-There were no programming assignments in the third course. 
+There are no programming assignments in the third course. 
 
 #### Course 4: Convolutional Neural Networks
 
