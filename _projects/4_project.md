@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hot Dog / Not Hot Dog Classifier
+title: Hot Dog, Not Hot Dog Classifier
 description: A binary classifier to test whether an image belongs to the "hot dog" class or the "not hot dog" class, as seen on HBO's Silicon Valley.
 img: assets/img/hot_dog.png
 redirect: https://github.com/BMCARDONA/Hot-dog-Not-hot-dog-Classifier
