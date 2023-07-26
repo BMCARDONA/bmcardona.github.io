@@ -8,7 +8,7 @@ categories: ["Machine Learning", "Deep Learning"]
 ---
 
 
-As I am nearly finished with Andrew Ng's [Deep Learning specialization](https://www.coursera.org/specializations/deep-learning), I thought I would create a comprehensive post showing my completed assignments. Happy learning! :) 
+As I am nearly finished with Andrew Ng's [Deep Learning specialization](https://www.coursera.org/specializations/deep-learning), I thought I would create a comprehensive post to show my completed assignments. Happy learning! :) 
 
 ## Programming Assignments
 
