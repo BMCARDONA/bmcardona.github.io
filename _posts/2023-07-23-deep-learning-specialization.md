@@ -38,6 +38,7 @@ There are no programming assignments in the third course.
 - [W1A2 - Convolutional Model: application](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_1/2_convolutional_model_application)
 - [W2A1 - Residual Networks](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_2/residual_neural_networks)
 - [W2A2 - Transfer Learning with MobileNet](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_2/transfer_learning_with_Mobile_Net)
+- [W3A1 - Autonomous Driving - Car Detection](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_3/1_car_detection_with_yolo)
 
 ### Disclaimer
 

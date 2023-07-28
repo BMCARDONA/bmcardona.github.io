@@ -1,4 +1,4 @@
-<!-- - [W3A1 - Autonomous Driving - Car Detection]()
+<!-- 
 - [W3A2 - Image Segmentation - U-net]()
 - [W4A1 - Face Recognition]()
 - [W4A2 - Neural Style transfer]()
@@ -15,3 +15,5 @@
 - [W4A1 - Transformer Network]()
 - [W4A2 - Named Entity Recognition - Transformer Application]()
 - [W4A3 - Extractive Question Answering - Transformer Application]() -->
+
+ADD HAND-WRITTEN NOTES TO POST! 
