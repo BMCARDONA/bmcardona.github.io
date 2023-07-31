@@ -39,6 +39,9 @@ There are no programming assignments in the third course.
 - [W2A1 - Residual Networks](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_2/residual_neural_networks)
 - [W2A2 - Transfer Learning with MobileNet](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_2/transfer_learning_with_Mobile_Net)
 - [W3A1 - Autonomous Driving - Car Detection](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_3/1_car_detection_with_yolo)
+- [W3A2 - Image Segmentation - U-net](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_3/2_image_segmentation_with_u_net)
+- [W4A1 - Face Recognition](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_4/1_face_recognition)
+- [W4A2 - Neural Style transfer](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_4/2_art_generation_with_neural_style_transfer)
 
 ### Disclaimer
 

@@ -1,7 +1,4 @@
 <!-- 
-- [W3A2 - Image Segmentation - U-net]()
-- [W4A1 - Face Recognition]()
-- [W4A2 - Neural Style transfer]()
 
 #### Course 5: Sequence Models
 
