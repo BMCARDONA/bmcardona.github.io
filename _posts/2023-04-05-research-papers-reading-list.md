@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Reading List (Deep Learning)
-date:   2023-04-12 19:35:00
+date:   2023-7-31 20:01:00
 categories: ["Reading", "Deep Learning"]
 related_posts: false
 ---
