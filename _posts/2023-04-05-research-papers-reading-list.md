@@ -15,7 +15,7 @@ ___
 
 ### Reading List
 
-- [Imagenet classification with deep convolutional neural networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)(2012)
+- [Imagenet classification with deep convolutional neural networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (2012)
 
 - [Very deep convolutional networks for large-scale image recognition](https://arxiv.org/pdf/1409.1556.pdf) (2014)
 
