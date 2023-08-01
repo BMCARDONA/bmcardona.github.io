@@ -1,8 +1,5 @@
 <!-- 
 
-#### Course 5: Sequence Models
-
-- [W1A1 - Building a Recurrent Neural Network - Step by Step]()
 - [W1A2 - Character level language model - Dinosaurus land]()
 - [W1A3 - Improvise A Jazz Solo with an LSTM Network]()
 - [W2A1 - Operations on word vectors]()

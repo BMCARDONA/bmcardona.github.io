@@ -12,7 +12,7 @@ As I am nearly finished with Andrew Ng's [Deep Learning specialization](https://
 
 ## Programming Assignments
 
-#### Course 1: Neural Networks and Deep Learning
+##### Course 1: Neural Networks and Deep Learning
 
 - [W2A1 - Logistic Regression with a Neural Network mindset](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/1%20-%20Neural%20Networks%20and%20Deep%20Learning/week_2/logistic_regression_with_a_neural_network_mindset)
 - [W2A2 - Python Basics with Numpy](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/1%20-%20Neural%20Networks%20and%20Deep%20Learning/week_2/python_basics_with_numpy)
@@ -20,7 +20,7 @@ As I am nearly finished with Andrew Ng's [Deep Learning specialization](https://
 - [W4A1 - Building your Deep Neural Network: Step by Step](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/1%20-%20Neural%20Networks%20and%20Deep%20Learning/week_4/building_your_deep_neural_network)
 - [W4A2 - Deep Neural Network for Image Classification: Application](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/1%20-%20Neural%20Networks%20and%20Deep%20Learning/week_4/deep_neural_network_application)
 
-#### Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+##### Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 
 - [W1A1 - Initialization](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/2%20-%20Improving%20Deep%20Neural%20Networks%3A%20Hyperparameter%20Tuning%2C%20Regularization%2C%20and%20Optimization/week_1/1_initialization)
 - [W1A2 - Regularization](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/2%20-%20Improving%20Deep%20Neural%20Networks%3A%20Hyperparameter%20Tuning%2C%20Regularization%2C%20and%20Optimization/week_1/2_regularization)
@@ -28,11 +28,11 @@ As I am nearly finished with Andrew Ng's [Deep Learning specialization](https://
 - [W2A1 - Optimization Methods](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/2%20-%20Improving%20Deep%20Neural%20Networks%3A%20Hyperparameter%20Tuning%2C%20Regularization%2C%20and%20Optimization/week_2/optimization_methods/graded_functions)
 - [W3A1 - Introduction to TensorFlow](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/2%20-%20Improving%20Deep%20Neural%20Networks%3A%20Hyperparameter%20Tuning%2C%20Regularization%2C%20and%20Optimization/week_3/tensorflow_introduction)
 
-#### Course 3: Structuring Machine Learning Projects
+##### Course 3: Structuring Machine Learning Projects
 
 There are no programming assignments in the third course. 
 
-#### Course 4: Convolutional Neural Networks
+##### Course 4: Convolutional Neural Networks
 
 - [W1A1 - Convolutional Model: step by step](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_1/1_convolutional_model_step_by_step)
 - [W1A2 - Convolutional Model: application](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_1/2_convolutional_model_application)
@@ -43,6 +43,10 @@ There are no programming assignments in the third course.
 - [W4A1 - Face Recognition](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_4/1_face_recognition)
 - [W4A2 - Neural Style transfer](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/4%20-%20Convolutional%20Neural%20Networks/week_4/2_art_generation_with_neural_style_transfer)
 
+##### Course 5: Sequence Models
+
+- [W1A1 - Building a Recurrent Neural Network - Step by Step](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_1/1_building_your_recurrent_neural_network_step_by_step)
+
 ### Disclaimer
 
-If you are yourself currently completing the Deep Learning Specialization, I would highly discourage you from copying any of these solutions. This specialization is a treasure trove of information, and any hard work you put into it will doubtless be rewarded -- so please don't take it for granted! :)
+If you are currently completing the Deep Learning Specialization, I would highly encourage you not to copy to any of these solutions! This specialization is a treasure trove of information, and any hard work you put into it will doubtless be rewarded -- please don't take it for granted!
