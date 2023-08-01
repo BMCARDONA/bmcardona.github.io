@@ -6,7 +6,7 @@ categories: ["Reading", "Deep Learning"]
 related_posts: false
 ---
 
-My reading list of Deep Learning (DL) research papers, books, and articles. These resources were gathered primarily from [this](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) GitHub roadmap, in addition to Andrew Ng's [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning).  
+My reading list of Deep Learning (DL) research papers, books, and articles. These resources were collected primarily from [this GitHub roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap), in addition to Andrew Ng's [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning).  
 
 Here's the key: 
 - ✅ = Read
