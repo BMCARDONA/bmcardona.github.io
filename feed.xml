@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-01T00:01:58+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-01T00:04:15+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Reading List (Deep Learning)</title><link href="https://bcardona.com/blog/2023/research-papers-reading-list/" rel="alternate" type="text/html" title="Reading List (Deep Learning)" /><published>2023-07-31T20:01:00+00:00</published><updated>2023-07-31T20:01:00+00:00</updated><id>https://bcardona.com/blog/2023/research-papers-reading-list</id><content type="html" xml:base="https://bcardona.com/blog/2023/research-papers-reading-list/"><![CDATA[<p>My reading list of Deep Learning (DL) research papers, books, and articles. These resources were gathered primarily from <a href="https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap">this</a> GitHub roadmap, in addition to Andrew Ng’s <a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a>.</p>
 
 <p>Here’s the key:</p>
@@ -12,7 +12,7 @@
 
 <ul>
   <li>
-    <p><a href="http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">Imagenet classification with deep convolutional neural networks</a>(2012)</p>
+    <p><a href="http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">Imagenet classification with deep convolutional neural networks</a> (2012)</p>
   </li>
   <li>
     <p><a href="https://arxiv.org/pdf/1409.1556.pdf">Very deep convolutional networks for large-scale image recognition</a> (2014)</p>
