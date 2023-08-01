@@ -48,4 +48,4 @@ There are no programming assignments in the third course.
 
 ### Disclaimer
 
-If you are currently completing the Deep Learning Specialization, I would highly encourage you not to copy to any of these solutions! This specialization is a treasure trove of information, and any hard work you put into it will doubtless be rewarded -- please don't take it for granted!
+If you are currently completing the Deep Learning Specialization, I would highly encourage you not to copy any of these solutions! This specialization is a treasure trove of information, and any hard work you put into it will doubtless be rewarded -- please don't take it for granted!
