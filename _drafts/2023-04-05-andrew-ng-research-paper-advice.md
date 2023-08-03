@@ -41,7 +41,7 @@ A helpful [lecture](https://crossminds.ai/video/andrew-ng-how-to-read-research-p
 - Read each paper in four passes: 
     - Read title, abstract, figures.
     - Read introduction, conclusion, figures, skip rest.
-    - Read but skip (or skim) the math.
+    - Read but skip (or skim) the math (don't get bogged down by too many details!)
     - Read entire paper but skip parts you don't understand.
 
 #### Questions to consider:
