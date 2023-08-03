@@ -46,6 +46,7 @@ There are no programming assignments in the third course.
 
 - [W1A1 - Building a Recurrent Neural Network - Step by Step](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_1/1_building_your_recurrent_neural_network_step_by_step)
 - [W1A2 - Character level language model - Dinosaurus land](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_1/2_dinosaur_island_character_level_language_modeling)
+- [W1A3 - Improvise A Jazz Solo with an LSTM Network](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_1/3_jazz_improvisation_with_LSTM)
 
 ### Disclaimer
 
