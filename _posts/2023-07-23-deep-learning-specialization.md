@@ -4,10 +4,10 @@ title:  Deep Learning Specialization Solutions
 date:   2023-07-26 16:42:16
 description: 
 tags: 
-categories: ["Machine Learning", "Deep Learning"]
+categories: ["Deep Learning"]
 ---
 
-I am nearly finished with Andrew Ng's [Deep Learning specialization](https://www.coursera.org/specializations/deep-learning), so I thought I would create a comprehensive post to show my completed assignments. Happy learning! 
+As I am nearly finished with Andrew Ng's [Deep Learning specialization](https://www.coursera.org/specializations/deep-learning), I thought I would create a comprehensive post listing my completed assignments. This course has taught me a very great deal about deep learning and its capabilities, and I encourage anyone interested in the subject to take Ng's course. Enjoy! :)
 
 ## Programming Assignments
 
@@ -50,4 +50,4 @@ There are no programming assignments in the third course.
 
 ### Disclaimer
 
-If you are currently completing the Deep Learning Specialization, I would highly encourage you not to copy any of these solutions! This specialization is a treasure trove of information, and any hard work you put into it will doubtless be rewarded -- please don't take it for granted!
+If you are currently completing this specialization, I would strongly encourage you *not* to copy any of these solutions. This specialization is a treasure trove of information, and any hard work you put into it will doubtless be rewarded -- please don't take it for granted!
