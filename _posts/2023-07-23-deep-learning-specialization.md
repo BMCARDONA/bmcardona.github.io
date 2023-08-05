@@ -7,7 +7,7 @@ tags:
 categories: ["Deep Learning"]
 ---
 
-As I am nearly finished with Andrew Ng's [Deep Learning specialization](https://www.coursera.org/specializations/deep-learning), I thought I would create a comprehensive post listing my completed assignments. This course has taught me a very great deal about deep learning and its capabilities, and I encourage anyone interested in the subject to take Ng's course. Enjoy! :)
+As I am nearly finished with Andrew Ng's [Deep Learning specialization](https://www.coursera.org/specializations/deep-learning), I thought I would create a comprehensive post listing my completed assignments. This course has taught me a great deal about deep learning and its capabilities; I encourage anyone interested in the subject to take Ng's course. Enjoy! :)
 
 ## Programming Assignments
 
@@ -47,6 +47,8 @@ There are no programming assignments in the third course.
 - [W1A1 - Building a Recurrent Neural Network - Step by Step](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_1/1_building_your_recurrent_neural_network_step_by_step)
 - [W1A2 - Character level language model - Dinosaurus land](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_1/2_dinosaur_island_character_level_language_modeling)
 - [W1A3 - Improvise A Jazz Solo with an LSTM Network](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_1/3_jazz_improvisation_with_LSTM)
+- [W2A1 - Operations on word vectors](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_2/1_operations_on_word_vectors_debiasing)
+- [W2A2 - Emojify](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_2/2_emojify)
 
 ### Disclaimer
 
