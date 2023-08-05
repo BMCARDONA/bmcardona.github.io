@@ -6,7 +6,7 @@ categories: ["Reading", "Books"]
 related_posts: false
 ---
 
-#### To Read:
+#### Want to Read:
 - *[Rebooting AI](https://www.amazon.com/Rebooting-AI-Building-Artificial-Intelligence/dp/052556604X/ref=sr_1_1?crid=3IBVCF0P01SV0&keywords=Rebooting+AI&qid=1681313177&sprefix=rebooting+ai%2Caps%2C99&sr=8-1)* by Gary Marcus and Ernest Davis.
 - *[Viral: The Search for the Origin of COVID-19](https://www.amazon.com/Audible-Viral-Search-Origin-COVID-19/dp/B097CLV3QP/ref=sr_1_1?keywords=viral+the+search+for+the+origin+of+covid-19&qid=1681313204&sprefix=Viral%3A+The+Se%2Caps%2C249&sr=8-1)* by Matt Ridley and Alina Chan.
 - *[In Love with the World: A Monk's Journey Through the Bardos of Living and Dying](https://www.amazon.com/Love-World-Journey-Through-Bardos/dp/0525512535)* by Yongey Mingyur Rinpoche and Helen Tworkov.
@@ -19,7 +19,7 @@ ___
 
 ___
 
-#### Read:
+#### Have Read:
 - *[Alexander Hamilton](https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758)* by Ron Chernow.
 - *[American Prometheus](https://www.amazon.com/American-Prometheus-Triumph-Tragedy-Oppenheimer/dp/0375726268)* by Kai Bird and Martin J. Sherwin.
 - *[The Aquariums of Pyongyang](https://www.amazon.com/Aquariums-Pyongyang-Years-North-Korean/dp/0465011047)* by Chol-hwan Kang and Pierre Rigoulot.
