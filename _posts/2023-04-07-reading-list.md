@@ -15,7 +15,8 @@ ___
 
 #### Reading:
 - [Build a Career in Data Science](https://www.amazon.com/Build-Career-Science-Jacqueline-Nolis/dp/1617296244/ref=sr_1_13_sspa?crid=38XVJNCF79VTC&keywords=AI+book&qid=1691203969&sprefix=ai+book%2Caps%2C114&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1) by Emily Robinson and Jacqueline Nolis.
-<!-- - *[Deep Learning with Python](https://www.amazon.com/Learning-Python-Second-Fran-C3-A7ois-Chollet-dp-1617296864/dp/1617296864/ref=dp_ob_title_bk)* by Francois Chollet. -->
+- [Deep Learning for Coders with Fastai and PyTorch: AI Applications Without a PhD](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)
+    - On page 16/566
 
 ___
 
