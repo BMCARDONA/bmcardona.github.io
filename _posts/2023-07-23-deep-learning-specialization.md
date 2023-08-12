@@ -49,7 +49,9 @@ There are no programming assignments in the third course.
 - [W1A3 - Improvise A Jazz Solo with an LSTM Network](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_1/3_jazz_improvisation_with_LSTM)
 - [W2A1 - Operations on word vectors](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_2/1_operations_on_word_vectors_debiasing)
 - [W2A2 - Emojify](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_2/2_emojify)
+- [W3A1 - Neural Machine Translation With Attention](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_3/1_neural_machine_translation)
+- [W3A2 - Trigger Word Detection](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_3/2_trigger_word_detection)
 
 ### Disclaimer
 
-If you are currently completing this specialization, I would strongly encourage you *not* to copy any of these solutions. This specialization is a treasure trove of information, and any hard work you put into it will doubtless be rewarded -- please don't take it for granted!
+If you are currently completing this specialization, I would strongly encourage you *not* to copy any of these solutions. This specialization is a treasure trove of information, and any hard work you put into it will doubtless be rewarded -- please don't take it for granted.
