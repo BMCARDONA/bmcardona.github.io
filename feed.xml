@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-12T15:06:29+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bcardona.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bcardona.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-13T20:16:23+00:00</updated><id>https://bcardona.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Reading List (Deep Learning)</title><link href="https://bcardona.com/blog/2023/research-papers-reading-list/" rel="alternate" type="text/html" title="Reading List (Deep Learning)" /><published>2023-07-31T20:01:00+00:00</published><updated>2023-07-31T20:01:00+00:00</updated><id>https://bcardona.com/blog/2023/research-papers-reading-list</id><content type="html" xml:base="https://bcardona.com/blog/2023/research-papers-reading-list/"><![CDATA[<p>My reading list of Deep Learning (DL) research papers, books, and articles. These resources were collected primarily from <a href="https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap">this GitHub roadmap</a>, in addition to Andrew Ng’s <a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a>.</p>
 
 <p>Here’s the key:</p>
@@ -200,7 +200,7 @@ J(w, b) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^{2},
   <li><a href="https://www.amazon.com/Build-Career-Science-Jacqueline-Nolis/dp/1617296244/ref=sr_1_13_sspa?crid=38XVJNCF79VTC&amp;keywords=AI+book&amp;qid=1691203969&amp;sprefix=ai+book%2Caps%2C114&amp;sr=8-13-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&amp;psc=1">Build a Career in Data Science</a> by Emily Robinson and Jacqueline Nolis.</li>
   <li><a href="https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527">Deep Learning for Coders with Fastai and PyTorch: AI Applications Without a PhD</a>
     <ul>
-      <li>On page: 16/566</li>
+      <li>On page: 57/566</li>
     </ul>
   </li>
 </ul>
