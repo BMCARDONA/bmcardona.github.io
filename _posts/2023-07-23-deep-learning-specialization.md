@@ -7,7 +7,7 @@ tags:
 categories: ["Deep Learning"]
 ---
 
-As I am nearly finished with Andrew Ng's [Deep Learning specialization](https://www.coursera.org/specializations/deep-learning), I thought I would create a comprehensive post listing my completed assignments. This course has taught me a great deal about deep learning and its capabilities; I encourage anyone interested in the subject to take Ng's course. Enjoy! :)
+As I am nearly finished with Andrew Ng's [Deep Learning specialization](https://www.coursera.org/specializations/deep-learning), I thought I would create a comprehensive post listing my completed assignments. This course has taught me much about deep learning and its capabilities, and I strongly encourage anyone interested in the subject to take this course. Enjoy! :)
 
 ## Programming Assignments
 
@@ -51,6 +51,7 @@ There are no programming assignments in the third course.
 - [W2A2 - Emojify](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_2/2_emojify)
 - [W3A1 - Neural Machine Translation With Attention](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_3/1_neural_machine_translation)
 - [W3A2 - Trigger Word Detection](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_3/2_trigger_word_detection)
+- [W4A1 - Transformer Architecture with TensorFlow](https://github.com/BMCARDONA/Deep-Learning-Specialization-Solutions/tree/main/5%20-%20Sequence%20Models/week_4/3_transformers_architecture_with_tensorflow)
 
 ### Disclaimer
 
