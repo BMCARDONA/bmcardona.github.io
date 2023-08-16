@@ -12,7 +12,7 @@ For anyone who has taken both courses, the DL specialization and the PDLC course
 
 But Andrew Ng is out-and-out a *phenomenal* instructor. And one reason I enjoyed so much taking the DL specialization is that Ng does not exhibit any of the symptoms of the [curse of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge). Although Ng clearly has a strong grasp on deep learning concepts, he is able to convey his thoughts carefully at the level of a beginner, without neglecting material that is ostensibly trivial. ([This conversation](https://www.youtube.com/watch?v=0jspaMLxBig) between Ng and Lex Fridman speaks to Ng's sincerity in his approach to teaching his students. My favorite moment of the conversation is when Andrew emphasizes his intent to do what was is best for his *students*.) Ng's pedigree appears in no way to interfere with what he expects his students to understand; and, for that reason, he is able to gradually give one the confidence to transition from (say) vectorized implementations of neural networks, to, among other things, convolutional neural networks, recurrent neural networks, and transformers -- for which I am extremely grateful. 
 
-Hence, the DL specialization and the PDLC course are seemingly each other's complements. Where Andrew provides the *foundational* skills one needs to *understand* the underpinnings of deep learning, Jeremy provides the *practical* skills one needs to implement deep learning models.
+The DL specialization and the PDLC course are seemingly each other's complements. Where Andrew provides the *foundational* skills one needs to *understand* the underpinnings of deep learning, Jeremy provides the *practical* skills one needs to implement deep learning models.
 
 ~ B.C. 
 
