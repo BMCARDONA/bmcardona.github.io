@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 
 Math Graduate of Allegheny College
 
-I started a deep learning blog! For the time being, you can find it [here](bcardona.com/deep-learning-blog). 
+I started a deep learning blog! For the time being, you can find it [here](deep-learning-blog). 
 
 **Interests**: Data Analytics, Data Science. *Interested in collaborating? [Contact me](mailto:bcardona300@gmail.com).*
 
