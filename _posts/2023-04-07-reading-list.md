@@ -10,14 +10,15 @@ related_posts: false
 - *[Rebooting AI](https://www.amazon.com/Rebooting-AI-Building-Artificial-Intelligence/dp/052556604X/ref=sr_1_1?crid=3IBVCF0P01SV0&keywords=Rebooting+AI&qid=1681313177&sprefix=rebooting+ai%2Caps%2C99&sr=8-1)* by Gary Marcus and Ernest Davis.
 - *[Viral: The Search for the Origin of COVID-19](https://www.amazon.com/Audible-Viral-Search-Origin-COVID-19/dp/B097CLV3QP/ref=sr_1_1?keywords=viral+the+search+for+the+origin+of+covid-19&qid=1681313204&sprefix=Viral%3A+The+Se%2Caps%2C249&sr=8-1)* by Matt Ridley and Alina Chan.
 - *[In Love with the World: A Monk's Journey Through the Bardos of Living and Dying](https://www.amazon.com/Love-World-Journey-Through-Bardos/dp/0525512535)* by Yongey Mingyur Rinpoche and Helen Tworkov.
+- [Build a Career in Data Science](https://www.amazon.com/Build-Career-Science-Jacqueline-Nolis/dp/1617296244/ref=sr_1_13_sspa?crid=38XVJNCF79VTC&keywords=AI+book&qid=1691203969&sprefix=ai+book%2Caps%2C114&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1) by Emily Robinson and Jacqueline Nolis.
+- [An Introduction to Statistical Learning](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370) by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani
 
 ___
 
 #### Reading:
-- [Build a Career in Data Science](https://www.amazon.com/Build-Career-Science-Jacqueline-Nolis/dp/1617296244/ref=sr_1_13_sspa?crid=38XVJNCF79VTC&keywords=AI+book&qid=1691203969&sprefix=ai+book%2Caps%2C114&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1) by Emily Robinson and Jacqueline Nolis.
 - [Deep Learning for Coders with Fastai and PyTorch: AI Applications Without a PhD](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)
     - On page: 57/566
-
+    
 ___
 
 #### Have Read:
